@@ -124,7 +124,7 @@ export default function Zip89102Page() {
             How Dr. Jan Helps Zip Code 89102 Homes Sell
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Zip code 89102 real estate requires understanding of urban positioning and entertainment district benefits. Dr. Janet Duffy brings specialized 89102 knowledge to help your property achieve successful sale on relisting.
+            Zip code 89102 real estate requires understanding of urban positioning and entertainment district benefits. Dr. Jan Duffy brings specialized 89102 knowledge to help your property achieve successful sale on relisting.
           </p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div>

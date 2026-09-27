@@ -8,7 +8,7 @@ export default function WhitneyPage() {
     <div className="min-h-screen bg-white">
       <section className="bg-gradient-to-r from-amber-900 to-orange-700 text-white py-20 px-4">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">Whitney, NV Real Estate Expert - Dr. Janet Duffy</h1>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6">Whitney, NV Real Estate Expert - Dr. Jan Duffy</h1>
           <p className="text-xl md:text-2xl text-amber-100 max-w-3xl mx-auto">Specialized help for Whitney homes that didn't sell. Expert guidance for successful home sales in this diverse East Las Vegas community.</p>
         </div>
       </section>
@@ -47,7 +47,7 @@ export default function WhitneyPage() {
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold mb-6 text-gray-900">How Dr. Jan Helps Whitney Homes Sell</h2>
-          <p className="text-lg text-gray-700 mb-8 max-w-3xl">Whitney real estate requires family-focused marketing and positioning against newer East Las Vegas developments. Dr. Janet Duffy brings specialized Whitney knowledge to help your home achieve successful sale on relisting.</p>
+          <p className="text-lg text-gray-700 mb-8 max-w-3xl">Whitney real estate requires family-focused marketing and positioning against newer East Las Vegas developments. Dr. Jan Duffy brings specialized Whitney knowledge to help your home achieve successful sale on relisting.</p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div><h3 className="text-2xl font-bold mb-4 text-gray-900">Whitney Family Market Expertise</h3><p className="text-gray-700 mb-3">Dr. Jan understands Whitney families' priorities: safety, schools, parks, and community character. She creates marketing emphasizing Whitney benefits families specifically seek in East Las Vegas living.</p><p className="text-gray-700 mb-3">She tracks Whitney comps specifically, watching how family-focused properties, established neighborhoods, and community character homes perform against newer developments. This Whitney-specific expertise ensures accurate pricing and effective family-focused marketing.</p><p className="text-gray-700">Her marketing strategy targets Whitney families specifically with messaging about safety, schools, and community character that families want when choosing Whitney over other Las Vegas neighborhoods.</p></div>
             <div><h3 className="text-2xl font-bold mb-4 text-gray-900">Family Advantage Positioning</h3><p className="text-gray-700 mb-3">Your Whitney home offers advantages newer developments can't replicate: established safety records, proven schools, mature neighborhoods, and community character that Whitney families specifically value. Generic listings don't communicate these benefits effectively.</p><p className="text-gray-700 mb-3">Dr. Jan's marketing showcases Whitney family advantages with professional photography and copy highlighting safety, schools, parks, and community character that Whitney families specifically appreciate when evaluating Whitney versus newer East Las Vegas areas.</p><p className="text-gray-700">Her approach positions your property against newer developments by emphasizing benefits only established Whitney neighborhoods offer: proven safety, quality schools, and community character that families value in Whitney specifically.</p></div>

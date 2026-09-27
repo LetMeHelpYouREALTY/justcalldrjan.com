@@ -2,9 +2,9 @@ export default function schema(): object {
   return {
     '@context': 'https://schema.org',
     '@type': 'RealEstateAgent',
-    name: 'Dr. Janet Duffy',
+    name: 'Dr. Jan Duffy',
     description: 'Las Vegas real estate agent specializing in helping homes that didn\'t sell get sold successfully',
-    url: 'https://www.calldrduffy.com',
+    url: 'https://www.justcalldrjan.com',
     telephone: '+17022221964',
     email: 'HomeSales@CallDrDuffy.com',
     address: {
@@ -23,7 +23,7 @@ export default function schema(): object {
     jobTitle: 'Real Estate Agent',
     worksFor: {
       '@type': 'RealEstateAgent',
-      name: 'Dr. Janet Duffy Real Estate'
+      name: 'Dr. Jan Duffy Real Estate'
     },
     knowsAbout: [
       'Las Vegas Real Estate',

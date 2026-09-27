@@ -254,7 +254,7 @@ export default function NeighborhoodsPage() {
             Find Your Perfect Las Vegas Neighborhood
           </h2>
           <p className="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
-            With so many neighborhoods and communities to choose from, having a local expert guide you makes all the difference. Dr. Janet Duffy specializes in helping buyers and sellers navigate Las Vegas real estate, focusing on understanding your lifestyle needs and matching you with the perfect community.
+            With so many neighborhoods and communities to choose from, having a local expert guide you makes all the difference. Dr. Jan Duffy specializes in helping buyers and sellers navigate Las Vegas real estate, focusing on understanding your lifestyle needs and matching you with the perfect community.
           </p>
           
           <div className="grid md:grid-cols-3 gap-8 mb-12">

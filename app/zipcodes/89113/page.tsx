@@ -124,7 +124,7 @@ export default function Zip89113Page() {
             How Dr. Jan Helps Zip Code 89113 Homes Sell
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Zip code 89113 real estate requires understanding of established community positioning and mature neighborhood benefits. Dr. Janet Duffy brings specialized 89113 knowledge to help your home achieve successful sale on relisting.
+            Zip code 89113 real estate requires understanding of established community positioning and mature neighborhood benefits. Dr. Jan Duffy brings specialized 89113 knowledge to help your home achieve successful sale on relisting.
           </p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div>

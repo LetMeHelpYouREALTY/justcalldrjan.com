@@ -12,7 +12,7 @@ import { getServiceSchemaForPage } from '@/lib/services'
 export default function SellerConsultationPage() {
   const articleSchema = getArticleSchema({
     headline: 'Free Seller Consultation - Expert Help for Homes That Didn\'t Sell',
-    description: 'Schedule your free consultation with Dr. Janet Duffy to analyze why your home didn\'t sell and create a proven strategy for successful relisting.',
+    description: 'Schedule your free consultation with Dr. Jan Duffy to analyze why your home didn\'t sell and create a proven strategy for successful relisting.',
     datePublished: '2024-03-01',
     dateModified: '2024-12-01',
     author: getPersonSchema()
@@ -96,7 +96,7 @@ export default function SellerConsultationPage() {
       <section className="bg-gradient-to-r from-blue-800 to-cyan-700 text-white py-20 px-4">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">Free Seller Consultation - Expert Help for Homes That Didn't Sell</h1>
-          <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto">Schedule your free consultation with Dr. Janet Duffy to analyze why your home didn't sell and create a proven strategy for successful relisting.</p>
+          <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto">Schedule your free consultation with Dr. Jan Duffy to analyze why your home didn't sell and create a proven strategy for successful relisting.</p>
         </div>
       </section>
 
@@ -110,7 +110,7 @@ export default function SellerConsultationPage() {
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold mb-6 text-gray-900">What Your Free Consultation Includes</h2>
-          <p className="text-lg text-gray-700 mb-8 max-w-3xl">Your free consultation with Dr. Janet Duffy provides comprehensive analysis of why your home didn't sell and a proven strategy for successful relisting. This diagnostic approach identifies specific issues and creates targeted solutions.</p>
+          <p className="text-lg text-gray-700 mb-8 max-w-3xl">Your free consultation with Dr. Jan Duffy provides comprehensive analysis of why your home didn't sell and a proven strategy for successful relisting. This diagnostic approach identifies specific issues and creates targeted solutions.</p>
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
               <h3 className="text-xl font-bold mb-4 text-gray-900">Diagnostic Analysis</h3>

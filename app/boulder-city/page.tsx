@@ -9,7 +9,7 @@ export default function BoulderCityPage() {
       <section className="bg-gradient-to-r from-blue-800 to-cyan-700 text-white py-20 px-4">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            Boulder City, NV Real Estate Expert - Dr. Janet Duffy
+            Boulder City, NV Real Estate Expert - Dr. Jan Duffy
           </h1>
           <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto">
             Specialized help for Boulder City homes that didn't sell. Expert guidance for successful home sales near Lake Mead and Hoover Dam.
@@ -86,7 +86,7 @@ export default function BoulderCityPage() {
             How Dr. Jan Helps Boulder City Homes Sell
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Boulder City real estate requires understanding of outdoor recreation buyers, retiree motivations, and lifestyle marketing. Dr. Janet Duffy brings specialized knowledge to help your Boulder City home achieve successful sale on relisting.
+            Boulder City real estate requires understanding of outdoor recreation buyers, retiree motivations, and lifestyle marketing. Dr. Jan Duffy brings specialized knowledge to help your Boulder City home achieve successful sale on relisting.
           </p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div>

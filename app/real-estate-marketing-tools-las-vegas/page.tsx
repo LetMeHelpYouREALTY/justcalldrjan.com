@@ -146,7 +146,7 @@ export default function RealEstateMarketingToolsLasVegasPage() {
             Why Choose Dr. Jan's Marketing Approach
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Dr. Janet Duffy combines professional marketing tools with Las Vegas market expertise to create results where generic approaches failed.
+            Dr. Jan Duffy combines professional marketing tools with Las Vegas market expertise to create results where generic approaches failed.
           </p>
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div className="bg-teal-50 p-6 rounded-lg border border-teal-200">

@@ -10,7 +10,7 @@ export default function AuthorBadge() {
       </div>
       <div>
         <p className="text-sm text-gray-600">
-          By <Link href="/about" className="font-semibold text-blue-600 hover:text-blue-700">Dr. Janet Duffy</Link>
+          By <Link href="/about" className="font-semibold text-blue-600 hover:text-blue-700">Dr. Jan Duffy</Link>
         </p>
         <p className="text-xs text-gray-500">
           Licensed Real Estate Professional | Berkshire Hathaway HomeServices | Las Vegas, NV | License #S.0197614

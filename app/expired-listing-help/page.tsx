@@ -10,7 +10,7 @@ import { getServiceSchemaForPage } from '@/lib/services'
 
 export default function ExpiredListingHelpPage() {
   const articleSchema = getArticleSchema({
-    headline: 'Free Help for Expired Listings - Dr. Janet Duffy',
+    headline: 'Free Help for Expired Listings - Dr. Jan Duffy',
     description: 'Your listing expired. What happens next? Get expert guidance and a proven plan to sell your home successfully.',
     datePublished: '2024-01-25',
     dateModified: '2024-12-01',
@@ -54,7 +54,7 @@ export default function ExpiredListingHelpPage() {
       <div className="min-h-screen bg-white">
       <section className="bg-gradient-to-r from-red-800 to-pink-700 text-white py-20 px-4">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">Free Help for Expired Listings - Dr. Janet Duffy</h1>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6">Free Help for Expired Listings - Dr. Jan Duffy</h1>
           <p className="text-xl md:text-2xl text-red-100 max-w-3xl mx-auto">Your listing expired. What happens next? Get expert guidance and a proven plan to sell your home successfully.</p>
         </div>
       </section>
@@ -93,7 +93,7 @@ export default function ExpiredListingHelpPage() {
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold mb-6 text-gray-900">How Dr. Jan Helps Expired Listings Sell Successfully</h2>
-          <p className="text-lg text-gray-700 mb-8 max-w-3xl">Successful expired listing relisting requires systematic approach: diagnostic analysis, targeted improvements, and strategic marketing. Dr. Janet Duffy brings proven expertise to help your expired listing achieve successful sale.</p>
+          <p className="text-lg text-gray-700 mb-8 max-w-3xl">Successful expired listing relisting requires systematic approach: diagnostic analysis, targeted improvements, and strategic marketing. Dr. Jan Duffy brings proven expertise to help your expired listing achieve successful sale.</p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div><h3 className="text-2xl font-bold mb-4 text-gray-900">Diagnostic Analysis Process</h3><p className="text-gray-700 mb-3">Dr. Jan reviews your expired listing comprehensively: showing activity patterns, buyer feedback received, price adjustments attempted, competitive analysis, and market conditions during listing period. This diagnostic analysis identifies specific issues.</p><p className="text-gray-700 mb-3">Her analysis looks at data that generic agents miss: showing activity quality versus quantity, buyer feedback themes, competition performance comparison, and market timing issues that affected your listing specifically.</p><p className="text-gray-700">This diagnostic approach creates targeted improvement plan addressing actual issues rather than guessing what went wrong. Understanding what prevented sale enables systematic fixes with clear expected results.</p></div>
             <div><h3 className="text-2xl font-bold mb-4 text-gray-900">Strategic Relisting Plan</h3><p className="text-gray-700 mb-3">Based on diagnostic analysis, Dr. Jan creates strategic relisting plan addressing identified issues: pricing strategy based on current market data, marketing improvements targeting right buyers, and presentation enhancements creating competitive advantage.</p><p className="text-gray-700 mb-3">Her relisting strategy includes timeline, costs, expected improvements, and anticipated results. This transparency helps you make informed decisions about investing in staging, photography, or marketing to maximize both sale price and speed to closing.</p><p className="text-gray-700">The strategic plan targets specific improvements with expected impact rather than generic changes hoping something works. This precision approach creates results while managing costs effectively.</p></div>

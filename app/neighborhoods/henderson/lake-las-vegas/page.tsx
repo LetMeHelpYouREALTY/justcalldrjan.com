@@ -124,7 +124,7 @@ export default function LakeLasVegasPage() {
             How Dr. Jan Helps Lake Las Vegas Homes Sell
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Lake Las Vegas real estate requires understanding of waterfront premium and luxury buyer positioning. Dr. Janet Duffy brings specialized Lake Las Vegas knowledge to help your home achieve successful sale on relisting.
+            Lake Las Vegas real estate requires understanding of waterfront premium and luxury buyer positioning. Dr. Jan Duffy brings specialized Lake Las Vegas knowledge to help your home achieve successful sale on relisting.
           </p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div>

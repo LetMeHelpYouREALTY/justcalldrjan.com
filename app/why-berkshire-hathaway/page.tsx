@@ -44,7 +44,7 @@ export default function WhyBerkshireHathawayPage() {
             The Truth About Why Your Home Didn't Sell
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            After analyzing hundreds of expired listings, three critical failures emerge: insufficient marketing exposure beyond basic MLS, overpricing by 5-15%, and poor agent communication. Dr. Janet Duffy with Berkshire Hathaway HomeServices addresses all three with institutional power that boutique firms simply can't match.
+            After analyzing hundreds of expired listings, three critical failures emerge: insufficient marketing exposure beyond basic MLS, overpricing by 5-15%, and poor agent communication. Dr. Jan Duffy with Berkshire Hathaway HomeServices addresses all three with institutional power that boutique firms simply can't match.
           </p>
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div className="bg-red-50 p-6 rounded-lg border border-red-200">

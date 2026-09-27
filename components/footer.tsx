@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto text-center space-y-2">
         <p>
           © 2025{' '}
-          <span itemProp="name">Dr. Janet Duffy</span>
+          <span itemProp="name">Dr. Jan Duffy</span>
           {' '}-{' '}
           <span itemProp="description">Las Vegas's Trusted Expert for Hard-to-Sell Homes</span>.
           {' '}All rights reserved.
@@ -21,7 +21,7 @@ export default function Footer() {
         
         {/* Hidden schema data */}
         <meta itemProp="priceRange" content="$$" />
-        <meta itemProp="image" content="https://www.calldrduffy.com/og-image.png" />
+        <meta itemProp="image" content="https://www.justcalldrjan.com/og-image.png" />
         <meta itemProp="telephone" content="+17022221964" />
         <div itemProp="address" itemScope itemType="https://schema.org/PostalAddress" className="hidden">
           <meta itemProp="addressLocality" content="Las Vegas" />

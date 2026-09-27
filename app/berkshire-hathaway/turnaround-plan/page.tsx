@@ -8,7 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function TurnaroundPlanPage() {
   const articleSchema = getArticleSchema({
-    headline: 'The Expired Listing Turnaround Plan: From Failed to Sold in 30 Days',
+    headline: 'The Expired Listing Turnaround Plan: A 30-Day Relisting Plan',
     description: 'When you switch to Dr. Jan after an expired listing, here\'s exactly what changes immediately - a systematic 4-week plan that addresses every failure from your previous listing.',
     datePublished: '2024-06-20',
     dateModified: '2024-12-01',
@@ -23,7 +23,7 @@ export default function TurnaroundPlanPage() {
       <section className="bg-gradient-to-r from-orange-600 to-red-600 text-white py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            The Expired Listing Turnaround Plan: From Failed to Sold in 30 Days
+            The Expired Listing Turnaround Plan: A 30-Day Relisting Plan
           </h1>
           <p className="text-xl md:text-2xl text-orange-100 max-w-3xl">
             When you switch to Dr. Jan after an expired listing, here's exactly what changes immediately - a systematic 4-week plan that addresses every failure from your previous listing.

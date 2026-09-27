@@ -13,6 +13,7 @@ import {
   getWebSiteSchema
 } from '../lib/schema'
 import { getMultiLocationBusinessSchema } from '../lib/hyperlocal-schema'
+import { SITE_URL } from '@/lib/site-url'
 import './globals.css'
 
 const geistSans = Geist({
@@ -29,25 +30,34 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Dr. Janet Duffy | Licensed Real Estate Professional | Berkshire Hathaway HomeServices',
-  description: 'Licensed Real Estate Professional with Berkshire Hathaway HomeServices. Las Vegas, NV. License #S.0197614. Expert help for homes that didn\'t sell.',
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: 'Las Vegas Expired Listing Help | Dr. Jan Duffy',
+    template: '%s | Dr. Jan Duffy',
+  },
+  description:
+    'Las Vegas REALTOR® Dr. Jan Duffy helps homeowners relist expired and withdrawn properties. Nevada License S.0197614.LLC.',
   openGraph: {
-    title: 'Dr. Janet Duffy | Licensed Real Estate Professional | Berkshire Hathaway HomeServices',
-    description: 'Licensed Real Estate Professional with Berkshire Hathaway HomeServices. Las Vegas, NV. License #S.0197614.',
+    title: 'Las Vegas Expired Listing Help | Dr. Jan Duffy',
+    description:
+      'Relisting plans for expired and withdrawn Las Vegas homes. Dr. Jan Duffy, REALTOR®.',
     images: ['/og-image.png'],
-    url: 'https://www.calldrduffy.com',
+    url: SITE_URL,
     siteName: 'Just Call Dr. Jan',
     type: 'website',
     locale: 'en_US',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Dr. Janet Duffy - Las Vegas Real Estate',
-    description: 'Your trusted Las Vegas real estate expert. Find your dream home or sell with confidence.',
+    title: 'Dr. Jan Duffy - Las Vegas Real Estate',
+    description: 'Las Vegas REALTOR® focused on expired and withdrawn listings.',
     images: ['/og-image.png'],
   },
-  keywords: ['Las Vegas real estate', 'Nevada homes', 'real estate agent', 'Dr. Janet Duffy', 'Las Vegas realtor', 'property search', 'home buying', 'home selling'],
-  authors: [{ name: 'Dr. Janet Duffy' }],
+  keywords: ['Las Vegas real estate', 'expired listing', 'withdrawn listing', 'Dr. Jan Duffy', 'Las Vegas REALTOR', 'home relisting'],
+  authors: [{ name: 'Dr. Jan Duffy' }],
+  alternates: {
+    canonical: SITE_URL,
+  },
   robots: {
     index: true,
     follow: true,

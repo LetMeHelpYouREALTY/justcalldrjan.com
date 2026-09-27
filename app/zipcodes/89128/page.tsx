@@ -81,7 +81,7 @@ export default function Zip89128Page() {
             How Dr. Jan Helps 89128 Homes Sell Successfully
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Zip code 89128 real estate requires understanding of established Summerlin South positioning and mature community advantages. Dr. Janet Duffy brings specialized 89128 knowledge to help your home achieve successful sale on relisting.
+            Zip code 89128 real estate requires understanding of established Summerlin South positioning and mature community advantages. Dr. Jan Duffy brings specialized 89128 knowledge to help your home achieve successful sale on relisting.
           </p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div>

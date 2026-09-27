@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next'
+import { SITE_URL } from '@/lib/site-url'
 
 export default function robots(): MetadataRoute.Robots {
   return {
@@ -9,10 +10,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/admin/', '/api/'],
       },
     ],
-    sitemap: [
-      'https://www.calldrduffy.com/sitemap.xml',
-      'https://justcalldrjan.com/sitemap.xml',
-    ],
+    sitemap: `${SITE_URL}/sitemap.xml`,
   }
 }
 

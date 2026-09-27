@@ -10,7 +10,7 @@ export default function ParadisePage() {
       <section className="bg-gradient-to-r from-green-900 to-teal-700 text-white py-20 px-4">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            Paradise, NV Real Estate Expert - Dr. Janet Duffy
+            Paradise, NV Real Estate Expert - Dr. Jan Duffy
           </h1>
           <p className="text-xl md:text-2xl text-green-100 max-w-3xl mx-auto">
             Helping Paradise homes that didn't sell achieve successful relisting. Expert guidance for Las Vegas neighborhoods near the Strip.
@@ -123,7 +123,7 @@ export default function ParadisePage() {
           </h2>
           
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Paradise real estate requires expertise in luxury markets, investor sentiment, and Strip-adjacent properties. Dr. Janet Duffy brings specialized knowledge to help your Paradise home achieve successful sale on relisting.
+            Paradise real estate requires expertise in luxury markets, investor sentiment, and Strip-adjacent properties. Dr. Jan Duffy brings specialized knowledge to help your Paradise home achieve successful sale on relisting.
           </p>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
@@ -177,7 +177,7 @@ export default function ParadisePage() {
           </h2>
           
           <p className="text-xl mb-8 text-green-100">
-            Expert help for Paradise homes that didn't sell. Dr. Janet Duffy specializes in Paradise real estate and can help you achieve successful relisting.
+            Expert help for Paradise homes that didn't sell. Dr. Jan Duffy specializes in Paradise real estate and can help you achieve successful relisting.
           </p>
 
           <div className="flex flex-col md:flex-row gap-4 justify-center">

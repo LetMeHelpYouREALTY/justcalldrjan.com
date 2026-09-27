@@ -13,7 +13,7 @@ export default function SiteNavigation() {
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <Link href="/" className="flex items-center space-x-2">
-              <span className="text-2xl font-bold text-blue-600">Dr. Janet Duffy</span>
+              <span className="text-2xl font-bold text-blue-600">Dr. Jan Duffy</span>
               <span className="hidden md:inline text-sm text-gray-600">| Las Vegas Real Estate</span>
             </Link>
 

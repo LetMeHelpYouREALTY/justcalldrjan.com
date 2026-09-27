@@ -8,7 +8,7 @@ export default function WinchesterPage() {
     <div className="min-h-screen bg-white">
       <section className="bg-gradient-to-r from-slate-800 to-gray-700 text-white py-20 px-4">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">Winchester, NV Real Estate Expert - Dr. Janet Duffy</h1>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6">Winchester, NV Real Estate Expert - Dr. Jan Duffy</h1>
           <p className="text-xl md:text-2xl text-slate-100 max-w-3xl mx-auto">Specialized help for Winchester homes that didn't sell. Expert guidance for successful home sales in this diverse Las Vegas community.</p>
         </div>
       </section>
@@ -47,7 +47,7 @@ export default function WinchesterPage() {
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold mb-6 text-gray-900">How Dr. Jan Helps Winchester Homes Sell</h2>
-          <p className="text-lg text-gray-700 mb-8 max-w-3xl">Winchester real estate requires micro-location understanding and specific positioning strategies. Dr. Janet Duffy brings specialized Winchester knowledge to help your home achieve successful sale on relisting.</p>
+          <p className="text-lg text-gray-700 mb-8 max-w-3xl">Winchester real estate requires micro-location understanding and specific positioning strategies. Dr. Jan Duffy brings specialized Winchester knowledge to help your home achieve successful sale on relisting.</p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div><h3 className="text-2xl font-bold mb-4 text-gray-900">Winchester Location Expertise</h3><p className="text-gray-700 mb-3">Dr. Jan understands Winchester's diverse areas and positions your property based on specific neighborhood characteristics. Her approach accounts for residential versus commercial-adjacent positioning and highlights location advantages relevant to your Winchester micro-location.</p><p className="text-gray-700 mb-3">She tracks Winchester comps by sub-area, watching how proximity to McCarran, employment centers, and commercial versus residential positioning affects pricing and buyer appeal. This Winchester-specific expertise ensures accurate positioning.</p><p className="text-gray-700">Her marketing strategy targets Winchester buyers by micro-location: emphasizing convenience for commercial-adjacent properties, residential character for neighborhoods, or hybrid advantages depending on Winchester location-specific benefits.</p></div>
             <div><h3 className="text-2xl font-bold mb-4 text-gray-900">Highlighting Winchester Advantages</h3><p className="text-gray-700 mb-3">Your Winchester home offers specific location advantages: McCarran proximity, employment center access, transportation links, or quiet residential character depending on neighborhood. Generic listings don't communicate these Winchester-specific benefits effectively.</p><p className="text-gray-700 mb-3">Dr. Jan's marketing showcases Winchester location advantages with professional photography and copy highlighting specific neighborhood benefits: convenience, access, or residential character that Winchester buyers in your specific sub-area value.</p><p className="text-gray-700">Her approach positions your property based on Winchester micro-location strengths, whether emphasizing convenient airport access, employment proximity, or quiet residential character depending on Winchester neighborhood-specific advantages.</p></div>

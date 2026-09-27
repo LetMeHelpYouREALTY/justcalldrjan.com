@@ -146,7 +146,7 @@ export default function HendersonPage() {
                 Property styles range from starter homes and condos under $300k to luxury estates over $1 million. Most Henderson neighborhoods feature master-planned community benefits: parks, trails, community centers, and active HOAs maintaining property values.
               </p>
               <p className="text-gray-700">
-                Working with a Henderson specialist like Dr. Janet Duffy helps navigate the options and identify which area best fits your lifestyle and budget. Her expertise ensures you understand school zones, HOA requirements, and neighborhood characteristics before buying.
+                Working with a Henderson specialist like Dr. Jan Duffy helps navigate the options and identify which area best fits your lifestyle and budget. Her expertise ensures you understand school zones, HOA requirements, and neighborhood characteristics before buying.
               </p>
             </div>
             
@@ -159,7 +159,7 @@ export default function HendersonPage() {
                 Master-planned communities like Green Valley and Anthem typically sell faster and at higher prices due to amenities and HOA-maintained quality. Newer developments like Inspirada attract buyers seeking modern floor plans and energy-efficient features.
               </p>
               <p className="text-gray-700">
-                Dr. Janet Duffy's Henderson expertise includes understanding market dynamics across different neighborhoods. She helps sellers position properties effectively whether in established Green Valley or newer Cadence, maximizing both sale price and speed to closing.
+                Dr. Jan Duffy's Henderson expertise includes understanding market dynamics across different neighborhoods. She helps sellers position properties effectively whether in established Green Valley or newer Cadence, maximizing both sale price and speed to closing.
               </p>
             </div>
           </div>
@@ -228,7 +228,7 @@ export default function HendersonPage() {
           </h2>
           
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Henderson's diverse neighborhoods, master-planned communities, and variety of property types require local expertise to navigate successfully. Dr. Janet Duffy's Henderson experience helps both buyers and sellers achieve their goals in this dynamic market.
+            Henderson's diverse neighborhoods, master-planned communities, and variety of property types require local expertise to navigate successfully. Dr. Jan Duffy's Henderson experience helps both buyers and sellers achieve their goals in this dynamic market.
           </p>
 
           <div className="bg-white p-8 rounded-lg mb-8 shadow-md">
@@ -275,7 +275,7 @@ export default function HendersonPage() {
             Interested in Henderson Real Estate?
           </h2>
           <p className="text-lg mb-8 text-green-100">
-            Let Dr. Janet Duffy help you buy or sell successfully in Henderson.
+            Let Dr. Jan Duffy help you buy or sell successfully in Henderson.
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <a

@@ -8,7 +8,7 @@ export default function EnterprisePage() {
     <div className="min-h-screen bg-white">
       <section className="bg-gradient-to-r from-indigo-900 to-purple-700 text-white py-20 px-4">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">Enterprise, NV Real Estate Expert - Dr. Janet Duffy</h1>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6">Enterprise, NV Real Estate Expert - Dr. Jan Duffy</h1>
           <p className="text-xl md:text-2xl text-indigo-100 max-w-3xl mx-auto">Specialized help for Enterprise homes that didn't sell. Expert guidance for successful home sales in this growing Las Vegas community.</p>
         </div>
       </section>
@@ -47,7 +47,7 @@ export default function EnterprisePage() {
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold mb-6 text-gray-900">How Dr. Jan Helps Enterprise Homes Sell</h2>
-          <p className="text-lg text-gray-700 mb-8 max-w-3xl">Enterprise real estate requires family-focused marketing and positioning against new construction. Dr. Janet Duffy brings specialized Enterprise knowledge to help your home achieve successful sale on relisting.</p>
+          <p className="text-lg text-gray-700 mb-8 max-w-3xl">Enterprise real estate requires family-focused marketing and positioning against new construction. Dr. Jan Duffy brings specialized Enterprise knowledge to help your home achieve successful sale on relisting.</p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div><h3 className="text-2xl font-bold mb-4 text-gray-900">Enterprise Family Market Expertise</h3><p className="text-gray-700 mb-3">Dr. Jan understands Enterprise families' priorities: quality schools, safe neighborhoods, recreational amenities, and community character. She creates marketing emphasizing Enterprise benefits families specifically seek in suburban Las Vegas living.</p><p className="text-gray-700 mb-3">She tracks Enterprise comps specifically, watching how family-focused properties, established neighborhoods, and community character homes perform against new construction. This Enterprise-specific expertise ensures accurate pricing and effective family-focused marketing.</p><p className="text-gray-700">Her marketing strategy targets Enterprise families specifically with messaging about schools, safety, parks, and community character that families want when choosing between Enterprise and other Las Vegas areas.</p></div>
             <div><h3 className="text-2xl font-bold mb-4 text-gray-900">Established Home Positioning</h3><p className="text-gray-700 mb-3">Your Enterprise home offers advantages new construction can't replicate: mature landscaping, proven quality, established community character, and neighborhood stability. Generic listings don't communicate these benefits effectively to Enterprise families.</p><p className="text-gray-700 mb-3">Dr. Jan's marketing showcases these Enterprise advantages with professional photography and copy highlighting mature neighborhoods, established quality, and community character that Enterprise families specifically appreciate when evaluating properties.</p><p className="text-gray-700">Her approach positions your property against new construction by emphasizing benefits only established Enterprise neighborhoods offer: mature landscaping, proven durability, and community character families value in Enterprise specifically.</p></div>

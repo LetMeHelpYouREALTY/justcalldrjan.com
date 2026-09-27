@@ -4,18 +4,16 @@ import Link from 'next/link'
 import AuthorBadge from '@/components/author-badge'
 import StructuredDataScript from '@/components/structured-data-script'
 import Breadcrumbs from '@/components/breadcrumbs'
-import { getArticleSchema, getPersonSchema, getReviewSchema, getAggregateRatingSchema, BASE_URL } from '@/lib/schema'
+import { getArticleSchema, getPersonSchema, getReviewSchema, BASE_URL } from '@/lib/schema'
 
 export default function SuccessStoriesPage() {
   const articleSchema = getArticleSchema({
     headline: 'Success Stories: Homes That Didn\'t Sell, Then Sold Successfully',
-    description: 'Real results from homeowners whose properties didn\'t sell initially. Learn how Dr. Janet Duffy helped them sell successfully.',
+    description: 'Real results from homeowners whose properties didn\'t sell initially. Learn how Dr. Jan Duffy helped them sell successfully.',
     datePublished: '2024-01-20',
     dateModified: '2024-12-01',
     author: getPersonSchema()
   })
-
-  const aggregateRating = getAggregateRatingSchema(5, 3)
 
   const stories = [
     {
@@ -58,7 +56,6 @@ export default function SuccessStoriesPage() {
   return (
     <>
       <StructuredDataScript data={articleSchema} id="article-schema" />
-      <StructuredDataScript data={aggregateRating} id="aggregate-rating-schema" />
       {reviewSchemas.map((review, index) => (
         <StructuredDataScript key={index} data={review} id={`review-schema-${index}`} />
       ))}
@@ -71,7 +68,7 @@ export default function SuccessStoriesPage() {
             Success Stories: Homes That Didn't Sell, Then Sold Successfully
           </h1>
           <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto">
-            Real results from homeowners whose properties didn't sell initially. Learn how Dr. Janet Duffy helped them sell successfully.
+            Real results from homeowners whose properties didn't sell initially. Learn how Dr. Jan Duffy helped them sell successfully.
           </p>
         </div>
       </section>
@@ -91,7 +88,7 @@ export default function SuccessStoriesPage() {
           </h2>
           
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            These are real homeowners with real homes that didn't sell initially. Dr. Janet Duffy helped them identify what went wrong and created winning strategies that resulted in successful sales. Their stories show that homes that don't sell can absolutely be sold with the right approach.
+            These are real homeowners with real homes that didn't sell initially. Dr. Jan Duffy helped them identify what went wrong and created winning strategies that resulted in successful sales. Their stories show that homes that don't sell can absolutely be sold with the right approach.
           </p>
 
           <div className="space-y-12">
@@ -150,7 +147,7 @@ export default function SuccessStoriesPage() {
           </h2>
           
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            The process starts with understanding what went wrong, then systematically fixing those issues to position your home for successful sale. Here's how Dr. Janet Duffy approaches homes that didn't sell.
+            The process starts with understanding what went wrong, then systematically fixing those issues to position your home for successful sale. Here's how Dr. Jan Duffy approaches homes that didn't sell.
           </p>
 
           <div className="grid md:grid-cols-4 gap-6 mb-12">
@@ -217,7 +214,7 @@ export default function SuccessStoriesPage() {
           </h2>
           
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Your home didn't sell for specific reasons. Those reasons are fixable. Dr. Janet Duffy has made this her specialty, and her success rate proves the approach works.
+            Your home didn't sell for specific reasons. Those reasons are fixable. Dr. Jan Duffy has made this her specialty, and her success rate proves the approach works.
           </p>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
@@ -264,7 +261,7 @@ export default function SuccessStoriesPage() {
             Ready to Create Your Own Success Story?
           </h2>
           <p className="text-lg mb-8 text-blue-100">
-            Let Dr. Janet Duffy help transform your home that didn't sell into a successful sale. Schedule your free consultation today.
+            Let Dr. Jan Duffy help transform your home that didn't sell into a successful sale. Schedule your free consultation today.
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <a
