@@ -1,4 +1,5 @@
 import type { PageSeoInput } from '@/lib/create-page-metadata'
+import { isPublicRoute, normalizePathname } from '@/lib/public-routes'
 
 const DEFAULT_DESCRIPTION =
   'Las Vegas REALTOR® Dr. Jan Duffy helps homeowners relist expired and withdrawn properties. Nevada License S.0197614.LLC.'
@@ -219,18 +220,8 @@ export const ROUTE_SEO: Record<string, PageSeoInput> = {
   '/zipcodes/89139': entry('Las Vegas 89139 Homes', 'Zip 89139 Enterprise South relisting guidance.'),
 }
 
-function titleFromSlug(slug: string): string {
-  return slug
-    .split('-')
-    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
-    .join(' ')
-}
-
 export function resolveRouteSeo(pathname: string): PageSeoInput {
-  const normalized =
-    pathname.length > 1 && pathname.endsWith('/')
-      ? pathname.slice(0, -1)
-      : pathname
+  const normalized = normalizePathname(pathname)
 
   if (
     normalized.startsWith('/admin') ||
@@ -245,33 +236,18 @@ export function resolveRouteSeo(pathname: string): PageSeoInput {
     }
   }
 
+  if (!isPublicRoute(normalized)) {
+    return {
+      title: 'Page Not Found',
+      description: DEFAULT_DESCRIPTION,
+      noIndex: true,
+      absoluteTitle: true,
+    }
+  }
+
   const exact = ROUTE_SEO[normalized]
   if (exact) {
     return exact
-  }
-
-  if (normalized.startsWith('/zipcodes/')) {
-    const zip = normalized.split('/').pop() ?? ''
-    return entry(
-      `Las Vegas ${zip} Homes`,
-      `Zip ${zip} expired listing and relisting help from Dr. Jan Duffy, REALTOR®.`,
-    )
-  }
-
-  if (normalized.startsWith('/neighborhoods/')) {
-    const slug = normalized.split('/').pop() ?? 'neighborhood'
-    return entry(
-      `${titleFromSlug(slug)} Las Vegas`,
-      `${titleFromSlug(slug)} relisting help for Las Vegas homes that did not sell.`,
-    )
-  }
-
-  if (normalized.startsWith('/berkshire-hathaway/')) {
-    const slug = normalized.split('/').pop() ?? 'resources'
-    return entry(
-      titleFromSlug(slug),
-      'Relisting resources for Las Vegas expired listings from Dr. Jan Duffy, REALTOR®.',
-    )
   }
 
   return entry('Las Vegas Real Estate', DEFAULT_DESCRIPTION)

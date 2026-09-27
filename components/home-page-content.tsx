@@ -204,7 +204,7 @@ export default function HomePageContent() {
                 <h3 className="text-2xl font-bold text-white">Henderson</h3>
               </div>
             </Link>
-            <Link href="/neighborhoods/downtown" className="group">
+            <Link href="/downtown-las-vegas" className="group">
               <div className="bg-gradient-to-br from-orange-500 to-red-500 h-64 rounded-lg flex items-center justify-center transition-transform group-hover:scale-105">
                 <h3 className="text-2xl font-bold text-white">Downtown</h3>
               </div>
@@ -279,10 +279,10 @@ export default function HomePageContent() {
           <div>
             <h3 className="text-xl font-bold mb-4">Services</h3>
             <ul className="space-y-2">
-              <li><Link href="/buy" className="hover:underline">Buy a Home</Link></li>
-              <li><Link href="/sell" className="hover:underline">Sell Your Home</Link></li>
-              <li><Link href="/expired-listings" className="hover:underline">Expired Listings</Link></li>
-              <li><Link href="/contact" className="hover:underline">Get Home Value</Link></li>
+              <li><Link href="/las-vegas-homes" className="hover:underline">Las Vegas Homes</Link></li>
+              <li><Link href="/seller-consultation" className="hover:underline">Seller Consultation</Link></li>
+              <li><Link href="/expired-listing-help" className="hover:underline">Expired Listing Help</Link></li>
+              <li><Link href="/home-valuation" className="hover:underline">Get Home Value</Link></li>
             </ul>
           </div>
         </div>
