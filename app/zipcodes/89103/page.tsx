@@ -81,7 +81,7 @@ export default function Zip89103Page() {
             How Dr. Jan Helps 89103 Homes Sell Successfully
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Zip code 89103 real estate requires understanding of Summerlin West premium positioning, newer construction versus established communities, and Red Rock Canyon proximity advantages. Dr. Janet Duffy brings specialized 89103 knowledge to help your home achieve successful sale on relisting.
+            Zip code 89103 real estate requires understanding of Summerlin West premium positioning, newer construction versus established communities, and Red Rock Canyon proximity advantages. Dr. Jan Duffy brings specialized 89103 knowledge to help your home achieve successful sale on relisting.
           </p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div>

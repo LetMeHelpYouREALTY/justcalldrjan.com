@@ -10,7 +10,7 @@ export default function DowntownLasVegasPage() {
       <section className="bg-gradient-to-r from-purple-900 to-blue-900 text-white py-20 px-4">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            Downtown Las Vegas Real Estate Expert - Dr. Janet Duffy
+            Downtown Las Vegas Real Estate Expert - Dr. Jan Duffy
           </h1>
           <p className="text-xl md:text-2xl text-purple-100 max-w-3xl mx-auto">
             Specialized help for homes that didn't sell in Downtown Las Vegas. Expert guidance for successful home sales in the heart of Sin City.
@@ -123,7 +123,7 @@ export default function DowntownLasVegasPage() {
           </h2>
           
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Downtown Las Vegas requires specialized understanding of its unique market. Dr. Janet Duffy brings extensive Downtown expertise to help your home that didn't sell achieve successful sale on relisting.
+            Downtown Las Vegas requires specialized understanding of its unique market. Dr. Jan Duffy brings extensive Downtown expertise to help your home that didn't sell achieve successful sale on relisting.
           </p>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
@@ -177,7 +177,7 @@ export default function DowntownLasVegasPage() {
           </h2>
           
           <p className="text-xl mb-8 text-purple-100">
-            Get expert help for your Downtown home that didn't sell. Dr. Janet Duffy specializes in Downtown Las Vegas real estate and can help you achieve successful sale.
+            Get expert help for your Downtown home that didn't sell. Dr. Jan Duffy specializes in Downtown Las Vegas real estate and can help you achieve successful sale.
           </p>
 
           <div className="flex flex-col md:flex-row gap-4 justify-center">

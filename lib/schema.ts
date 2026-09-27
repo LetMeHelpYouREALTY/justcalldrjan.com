@@ -1,10 +1,12 @@
 // Schema.org structured data utilities
 
-export const BASE_URL = 'https://www.calldrduffy.com'
+import { SITE_URL } from './site-url'
+
+export const BASE_URL = SITE_URL
 
 export const DR_JAN_INFO = {
-  name: 'Dr. Janet Duffy',
-  fullTitle: 'Dr. Janet Duffy | Licensed Real Estate Professional',
+  name: 'Dr. Jan Duffy',
+  fullTitle: 'Dr. Jan Duffy | Las Vegas REALTOR®',
   telephone: '+17022221964',
   email: 'HomeSales@CallDrDuffy.com',
   licenseNumber: 'S.0197614',
@@ -82,8 +84,8 @@ export function getOrganizationSchema() {
   return {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'Dr. Janet Duffy Real Estate',
-    legalName: 'Dr. Janet Duffy',
+    name: 'Dr. Jan Duffy Real Estate',
+    legalName: 'Dr. Jan Duffy',
     url: BASE_URL,
     logo: `${BASE_URL}/og-image.png`,
     contactPoint: {
@@ -295,17 +297,6 @@ export function getReviewSchema({
     },
     reviewBody,
     datePublished
-  }
-}
-
-export function getAggregateRatingSchema(ratingValue: number, reviewCount: number) {
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'AggregateRating',
-    ratingValue,
-    reviewCount,
-    bestRating: 5,
-    worstRating: 1
   }
 }
 

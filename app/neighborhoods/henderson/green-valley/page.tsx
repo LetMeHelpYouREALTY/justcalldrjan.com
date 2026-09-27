@@ -124,7 +124,7 @@ export default function GreenValleyPage() {
             How Dr. Jan Helps Green Valley Homes Sell
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Green Valley real estate requires understanding of master-planned community benefits and family buyer positioning. Dr. Janet Duffy brings specialized Green Valley knowledge to help your home achieve successful sale on relisting.
+            Green Valley real estate requires understanding of master-planned community benefits and family buyer positioning. Dr. Jan Duffy brings specialized Green Valley knowledge to help your home achieve successful sale on relisting.
           </p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div>

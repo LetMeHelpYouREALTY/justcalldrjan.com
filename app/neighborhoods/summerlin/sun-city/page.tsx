@@ -124,7 +124,7 @@ export default function SunCityPage() {
             How Dr. Jan Helps Sun City Homes Sell
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Sun City real estate requires understanding of active adult positioning and maintenance-free lifestyle benefits. Dr. Janet Duffy brings specialized Sun City knowledge to help your home achieve successful sale on relisting.
+            Sun City real estate requires understanding of active adult positioning and maintenance-free lifestyle benefits. Dr. Jan Duffy brings specialized Sun City knowledge to help your home achieve successful sale on relisting.
           </p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div>

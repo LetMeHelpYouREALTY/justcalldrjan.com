@@ -81,7 +81,7 @@ export default function Zip89129Page() {
             How Dr. Jan Helps 89129 Homes Sell Successfully
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Zip code 89129 real estate requires understanding of Centennial Hills growth positioning and value advantages over new construction. Dr. Janet Duffy brings specialized 89129 knowledge to help your home achieve successful sale on relisting.
+            Zip code 89129 real estate requires understanding of Centennial Hills growth positioning and value advantages over new construction. Dr. Jan Duffy brings specialized 89129 knowledge to help your home achieve successful sale on relisting.
           </p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div>

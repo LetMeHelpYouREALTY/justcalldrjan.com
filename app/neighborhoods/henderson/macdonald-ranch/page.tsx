@@ -124,7 +124,7 @@ export default function MacDonaldRanchPage() {
             How Dr. Jan Helps MacDonald Ranch Homes Sell
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            MacDonald Ranch real estate requires understanding of golf course premium and master-planned community positioning. Dr. Janet Duffy brings specialized MacDonald Ranch knowledge to help your home achieve successful sale on relisting.
+            MacDonald Ranch real estate requires understanding of golf course premium and master-planned community positioning. Dr. Jan Duffy brings specialized MacDonald Ranch knowledge to help your home achieve successful sale on relisting.
           </p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div>

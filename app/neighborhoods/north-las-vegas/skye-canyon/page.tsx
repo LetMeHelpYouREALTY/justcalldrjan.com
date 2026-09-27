@@ -124,7 +124,7 @@ export default function SkyeCanyonPage() {
             How Dr. Jan Helps Skye Canyon Homes Sell
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Skye Canyon real estate requires understanding of new construction positioning and master-planned community benefits. Dr. Janet Duffy brings specialized Skye Canyon knowledge to help your home achieve successful sale on relisting.
+            Skye Canyon real estate requires understanding of new construction positioning and master-planned community benefits. Dr. Jan Duffy brings specialized Skye Canyon knowledge to help your home achieve successful sale on relisting.
           </p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div>

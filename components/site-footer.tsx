@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { SITE_URL } from '@/lib/site-url'
 
 export default function SiteFooter() {
   const currentYear = new Date().getFullYear()
@@ -13,9 +14,9 @@ export default function SiteFooter() {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Business Info */}
           <div>
-            <h3 className="text-lg font-bold mb-4">Dr. Janet Duffy</h3>
+            <h3 className="text-lg font-bold mb-4">Dr. Jan Duffy</h3>
             <p className="text-gray-300 mb-2">
-              <span itemProp="name">Dr. Janet Duffy</span> | Licensed Real Estate Professional
+              <span itemProp="name">Dr. Jan Duffy</span> | Licensed Real Estate Professional
             </p>
             <p className="text-gray-300 mb-2">
               <span itemProp="brand">Berkshire Hathaway HomeServices</span> | Las Vegas, NV
@@ -32,7 +33,7 @@ export default function SiteFooter() {
             
             {/* Hidden schema metadata */}
             <meta itemProp="priceRange" content="$$" />
-            <meta itemProp="image" content="https://www.calldrduffy.com/og-image.png" />
+            <meta itemProp="image" content={`${SITE_URL}/og-image.png`} />
             <meta itemProp="telephone" content="+17022221964" />
             <div itemProp="address" itemScope itemType="https://schema.org/PostalAddress" className="hidden">
               <meta itemProp="addressLocality" content="Las Vegas" />
@@ -90,9 +91,18 @@ export default function SiteFooter() {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 pt-8 text-center text-gray-400 text-sm">
+        <div className="border-t border-gray-800 pt-8 text-center text-gray-400 text-sm space-y-2">
           <p>
-            Dr. Janet Duffy is a licensed real estate agent with Berkshire Hathaway HomeServices.
+            <a
+              href="https://calldrduffy.com"
+              className="hover:text-white transition-colors"
+              rel="noopener noreferrer"
+            >
+              Selling a Las Vegas rental with tenants
+            </a>
+          </p>
+          <p>
+            Dr. Jan Duffy is a licensed real estate agent with Berkshire Hathaway HomeServices.
           </p>
         </div>
       </div>

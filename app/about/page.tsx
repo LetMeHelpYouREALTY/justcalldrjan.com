@@ -9,7 +9,7 @@ export default function AboutPage() {
       <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            About Dr. Janet Duffy: Las Vegas Real Estate Expert Helping Homes Sell When They Didn't Before
+            About Dr. Jan Duffy: Las Vegas Real Estate Expert Helping Homes Sell When They Didn't Before
           </h1>
           <p className="text-xl md:text-2xl text-blue-100 max-w-3xl">
             Transforming frustrated homeowners into successful sellers. Specializing in helping Las Vegas homes that didn't sell get sold.
@@ -17,17 +17,17 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* H2 #1: Who is Dr. Janet Duffy */}
+      {/* H2 #1: Who is Dr. Jan Duffy */}
       <section className="py-16 px-4">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold mb-6 text-gray-900">
-            Who is Dr. Janet Duffy?
+            Who is Dr. Jan Duffy?
           </h2>
           
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div>
               <p className="text-lg text-gray-700 mb-4">
-                Dr. Janet Duffy is a Las Vegas real estate agent who specializes in helping homeowners whose properties didn't sell the first time around. With over a decade of experience in the Las Vegas real estate market, she has built a reputation for turning challenging situations into successful home sales.
+                Dr. Jan Duffy is a Las Vegas real estate agent who specializes in helping homeowners whose properties didn't sell the first time around. With over a decade of experience in the Las Vegas real estate market, she has built a reputation for turning challenging situations into successful home sales.
               </p>
               <p className="text-lg text-gray-700 mb-4">
                 What makes Dr. Jan unique is her focus on expired listings - properties that came off the market because they didn't sell. While many agents pursue new listings, fewer actively work with homeowners who had unsuccessful first attempts. This specialization makes her exceptionally effective at diagnosing problems and creating winning strategies.
@@ -124,7 +124,7 @@ export default function AboutPage() {
           </h2>
           
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Dr. Janet Duffy isn't just another Las Vegas real estate agent. She brings deep local market knowledge, systematic problem-solving skills, and proven strategies specifically designed for the Las Vegas market's unique characteristics.
+            Dr. Jan Duffy isn't just another Las Vegas real estate agent. She brings deep local market knowledge, systematic problem-solving skills, and proven strategies specifically designed for the Las Vegas market's unique characteristics.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -193,7 +193,7 @@ export default function AboutPage() {
       <section className="py-16 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold mb-6 text-gray-900">
-            What It's Like Working with Dr. Janet Duffy
+            What It's Like Working with Dr. Jan Duffy
           </h2>
           
           <div className="grid md:grid-cols-2 gap-8 mb-12">
@@ -246,7 +246,7 @@ export default function AboutPage() {
             Ready to Sell Your Home That Didn't Sell Before?
           </h2>
           <p className="text-lg mb-8 text-blue-100">
-            Let Dr. Janet Duffy show you how strategic approach and proven expertise can turn your unsold property into a successful sale.
+            Let Dr. Jan Duffy show you how strategic approach and proven expertise can turn your unsold property into a successful sale.
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <a

@@ -124,7 +124,7 @@ export default function Zip89131Page() {
             How Dr. Jan Helps Zip Code 89131 Homes Sell
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Zip code 89131 real estate requires understanding of new construction positioning and master-planned community benefits. Dr. Janet Duffy brings specialized 89131 knowledge to help your home achieve successful sale on relisting.
+            Zip code 89131 real estate requires understanding of new construction positioning and master-planned community benefits. Dr. Jan Duffy brings specialized 89131 knowledge to help your home achieve successful sale on relisting.
           </p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div>

@@ -133,7 +133,7 @@ export default function Zip89117Page() {
             How Dr. Jan Helps Zip Code 89117 Homes Sell
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Zip code 89117 real estate requires understanding of Summerlin positioning and master-planned community benefits. Dr. Janet Duffy brings specialized 89117 knowledge to help your home achieve successful sale on relisting.
+            Zip code 89117 real estate requires understanding of Summerlin positioning and master-planned community benefits. Dr. Jan Duffy brings specialized 89117 knowledge to help your home achieve successful sale on relisting.
           </p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div>

@@ -8,8 +8,8 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 import { getServiceSchemaForPage } from '@/lib/services'
 
 export const metadata: Metadata = {
-  title: 'Why Didn\'t Your Home Sell? | Dr. Janet Duffy - Las Vegas Real Estate',
-  description: 'Discover the three main reasons homes don\'t sell: pricing, presentation, and marketing. Learn how Dr. Janet Duffy helps Las Vegas homes that didn\'t sell get sold successfully.',
+  title: 'Why Didn\'t Your Home Sell? | Dr. Jan Duffy - Las Vegas Real Estate',
+  description: 'Discover the three main reasons homes don\'t sell: pricing, presentation, and marketing. Learn how Dr. Jan Duffy helps Las Vegas homes that didn\'t sell get sold successfully.',
   openGraph: {
     title: 'Why Didn\'t Your Home Sell? Common Reasons Explained',
     description: 'Understanding why your home didn\'t sell is the first step to selling it successfully. Learn the three main reasons and proven solutions.',
@@ -50,7 +50,7 @@ export default function WhyDidntItSellPage() {
       answer: 'Modern marketing requires professional photography and videography, virtual tours, social media promotion, targeted digital advertising, neighborhood marketing, email campaigns, and agent network activation. Simply listing on MLS isn\'t enough in competitive markets.'
     },
     {
-      question: 'How long does it take Dr. Janet Duffy to sell homes that didn\'t sell before?',
+      question: 'How long does it take Dr. Jan Duffy to sell homes that didn\'t sell before?',
       answer: 'Results vary based on specific issues, but Dr. Jan\'s average is 32 days from relisting to sale. Her systematic approach of diagnosing specific problems and creating targeted solutions typically results in homes that sat for months selling in weeks.'
     },
     {
@@ -92,7 +92,7 @@ export default function WhyDidntItSellPage() {
           </h2>
           
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            In her experience working with over 100 homes that didn't sell initially, Dr. Janet Duffy has identified three primary causes: pricing, presentation, and promotion. Understanding which affected your home is the first step toward successfully selling it.
+            In her experience working with over 100 homes that didn't sell initially, Dr. Jan Duffy has identified three primary causes: pricing, presentation, and promotion. Understanding which affected your home is the first step toward successfully selling it.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -200,7 +200,7 @@ export default function WhyDidntItSellPage() {
           </h2>
           
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Dr. Janet Duffy's systematic approach addresses each problem area with proven strategies that consistently work. Her success rate with expired listings comes from diagnosing specific issues and creating targeted solutions.
+            Dr. Jan Duffy's systematic approach addresses each problem area with proven strategies that consistently work. Her success rate with expired listings comes from diagnosing specific issues and creating targeted solutions.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -258,7 +258,7 @@ export default function WhyDidntItSellPage() {
           </h2>
           
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Here are actual examples of homes that didn't sell initially, what the problems were, and how Dr. Janet Duffy successfully sold them.
+            Here are actual examples of homes that didn't sell initially, what the problems were, and how Dr. Jan Duffy successfully sold them.
           </p>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
@@ -298,7 +298,7 @@ export default function WhyDidntItSellPage() {
             Ready to Sell Your Home Successfully?
           </h2>
           <p className="text-lg mb-8 text-blue-100">
-            Dr. Janet Duffy specializes in helping homes that didn't sell get sold. Schedule a free consultation to discuss your specific situation and create a winning sales strategy.
+            Dr. Jan Duffy specializes in helping homes that didn't sell get sold. Schedule a free consultation to discuss your specific situation and create a winning sales strategy.
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <a

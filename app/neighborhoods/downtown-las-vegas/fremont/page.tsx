@@ -124,7 +124,7 @@ export default function FremontPage() {
             How Dr. Jan Helps Fremont Street Homes Sell
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Fremont Street real estate requires understanding of urban positioning and entertainment district benefits. Dr. Janet Duffy brings specialized Fremont Street knowledge to help your property achieve successful sale on relisting.
+            Fremont Street real estate requires understanding of urban positioning and entertainment district benefits. Dr. Jan Duffy brings specialized Fremont Street knowledge to help your property achieve successful sale on relisting.
           </p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div>

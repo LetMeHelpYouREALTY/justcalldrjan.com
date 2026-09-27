@@ -124,7 +124,7 @@ export default function TheFoothillsPage() {
             How Dr. Jan Helps The Foothills Homes Sell
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            The Foothills real estate requires understanding of mountain view premium and upscale buyer positioning. Dr. Janet Duffy brings specialized The Foothills knowledge to help your home achieve successful sale on relisting.
+            The Foothills real estate requires understanding of mountain view premium and upscale buyer positioning. Dr. Jan Duffy brings specialized The Foothills knowledge to help your home achieve successful sale on relisting.
           </p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div>

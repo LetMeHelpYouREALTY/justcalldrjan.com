@@ -124,7 +124,7 @@ export default function TheTrailsPage() {
             How Dr. Jan Helps The Trails Homes Sell
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            The Trails real estate requires understanding of trail access premium and active lifestyle buyer positioning. Dr. Janet Duffy brings specialized The Trails knowledge to help your home achieve successful sale on relisting.
+            The Trails real estate requires understanding of trail access premium and active lifestyle buyer positioning. Dr. Jan Duffy brings specialized The Trails knowledge to help your home achieve successful sale on relisting.
           </p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div>

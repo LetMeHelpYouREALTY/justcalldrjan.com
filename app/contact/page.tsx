@@ -53,7 +53,7 @@ export default function ContactPage() {
       <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            Contact Dr. Janet Duffy: Let's Talk About Selling Your Home
+            Contact Dr. Jan Duffy: Let's Talk About Selling Your Home
           </h1>
           <p className="text-xl md:text-2xl text-blue-100 max-w-3xl">
             Your home didn't sell? Let's change that. Reach out today for a free consultation.
@@ -69,7 +69,7 @@ export default function ContactPage() {
               Get In Touch Today
             </h2>
             <p className="text-lg text-gray-700 mb-8">
-              Fill out the form or call directly. Dr. Janet Duffy responds quickly to help homeowners whose properties didn't sell successfully.
+              Fill out the form or call directly. Dr. Jan Duffy responds quickly to help homeowners whose properties didn't sell successfully.
             </p>
 
             <form onSubmit={handleSubmit} className="space-y-6">

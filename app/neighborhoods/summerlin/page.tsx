@@ -169,7 +169,7 @@ export default function SummerlinPage() {
                 Understanding your sub-community's market dynamics is crucial. Some areas like The Paseos and The Willows with water features command premium pricing. Golf course homes, particularly those with course views, can sell significantly above neighborhood medians.
               </p>
               <p className="text-gray-700">
-                Working with a Summerlin specialist like Dr. Janet Duffy provides valuable insights into pricing strategy, buyer expectations, and negotiating position. Her track record with expired listings shows she understands how to position properties that didn't sell previously for successful relisting.
+                Working with a Summerlin specialist like Dr. Jan Duffy provides valuable insights into pricing strategy, buyer expectations, and negotiating position. Her track record with expired listings shows she understands how to position properties that didn't sell previously for successful relisting.
               </p>
             </div>
           </div>
@@ -258,15 +258,15 @@ export default function SummerlinPage() {
         </div>
       </section>
 
-      {/* H2 #4: Working with Dr. Janet Duffy in Summerlin */}
+      {/* H2 #4: Working with Dr. Jan Duffy in Summerlin */}
       <section className="py-16 px-4 bg-blue-50">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold mb-6 text-gray-900">
-            Expert Summerlin Real Estate Guidance from Dr. Janet Duffy
+            Expert Summerlin Real Estate Guidance from Dr. Jan Duffy
           </h2>
           
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Navigating Summerlin real estate requires deep local knowledge. With dozens of sub-communities, varying HOA requirements, school zone intricacies, and market nuances, having an experienced Summerlin specialist makes all the difference. Dr. Janet Duffy provides this expertise.
+            Navigating Summerlin real estate requires deep local knowledge. With dozens of sub-communities, varying HOA requirements, school zone intricacies, and market nuances, having an experienced Summerlin specialist makes all the difference. Dr. Jan Duffy provides this expertise.
           </p>
 
           <div className="bg-white p-8 rounded-lg mb-8 shadow-md">
@@ -319,7 +319,7 @@ export default function SummerlinPage() {
             Ready to Buy or Sell in Summerlin?
           </h2>
           <p className="text-lg mb-8 text-blue-100">
-            Let Dr. Janet Duffy help you navigate Summerlin real estate with expertise, dedication, and proven results.
+            Let Dr. Jan Duffy help you navigate Summerlin real estate with expertise, dedication, and proven results.
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <a

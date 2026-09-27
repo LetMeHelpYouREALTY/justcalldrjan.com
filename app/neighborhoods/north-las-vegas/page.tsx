@@ -146,7 +146,7 @@ export default function NorthLasVegasPage() {
                 Property types include single-family homes, townhomes, and condos across various price points from $250k to $600k. The abundance of new construction means buyers can choose move-in ready homes or customize during the building process with new communities regularly adding phases.
               </p>
               <p className="text-gray-700">
-                Working with a North Las Vegas specialist helps navigate new construction contracts, understand builder reputations, identify established neighborhoods with value, and ensure you're getting maximum value for your budget. Dr. Janet Duffy provides this expertise.
+                Working with a North Las Vegas specialist helps navigate new construction contracts, understand builder reputations, identify established neighborhoods with value, and ensure you're getting maximum value for your budget. Dr. Jan Duffy provides this expertise.
               </p>
             </div>
             
@@ -159,7 +159,7 @@ export default function NorthLasVegasPage() {
                 Understanding buyer motivations in North Las Vegas - seeking value, new construction alternatives, family-friendly neighborhoods - helps sellers position properties effectively. Pricing competitively relative to new homes, highlighting improvements, and emphasizing neighborhood maturity all matter.
               </p>
               <p className="text-gray-700">
-                Dr. Janet Duffy's expertise with expired listings includes understanding why North Las Vegas homes don't sell initially and how to reposition them for success. Her systematic approach addresses pricing relative to new construction, professional presentation, and targeted marketing to value-seeking buyers.
+                Dr. Jan Duffy's expertise with expired listings includes understanding why North Las Vegas homes don't sell initially and how to reposition them for success. Her systematic approach addresses pricing relative to new construction, professional presentation, and targeted marketing to value-seeking buyers.
               </p>
             </div>
           </div>
@@ -228,7 +228,7 @@ export default function NorthLasVegasPage() {
           </h2>
           
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            North Las Vegas real estate requires understanding new construction dynamics, value-conscious buyer profiles, and positioning properties competitively in a market with abundant new-home options. Dr. Janet Duffy provides specialized North Las Vegas expertise.
+            North Las Vegas real estate requires understanding new construction dynamics, value-conscious buyer profiles, and positioning properties competitively in a market with abundant new-home options. Dr. Jan Duffy provides specialized North Las Vegas expertise.
           </p>
 
           <div className="bg-white p-8 rounded-lg mb-8 shadow-md">
@@ -240,7 +240,7 @@ export default function NorthLasVegasPage() {
               Presentation becomes crucial since new construction has inherent appeal. Existing homes need professional staging and photography demonstrating move-in ready quality, modern updates, or potential for customization. Marketing must reach buyers actively comparing new vs existing options.
             </p>
             <p className="text-gray-700">
-              Dr. Janet Duffy's approach understands these dynamics. She positions North Las Vegas properties to compete effectively by emphasizing value advantages: established neighborhoods, mature landscaping, proven construction quality, and often lower purchase prices with potential for improvements that add equity.
+              Dr. Jan Duffy's approach understands these dynamics. She positions North Las Vegas properties to compete effectively by emphasizing value advantages: established neighborhoods, mature landscaping, proven construction quality, and often lower purchase prices with potential for improvements that add equity.
             </p>
           </div>
 
@@ -275,7 +275,7 @@ export default function NorthLasVegasPage() {
             Ready to Buy or Sell in North Las Vegas?
           </h2>
           <p className="text-lg mb-8 text-pink-100">
-            Let Dr. Janet Duffy help you navigate North Las Vegas real estate with expertise and proven results.
+            Let Dr. Jan Duffy help you navigate North Las Vegas real estate with expertise and proven results.
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <a

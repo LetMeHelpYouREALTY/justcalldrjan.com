@@ -89,7 +89,7 @@ export default function RealEstateScriptsLasVegasPage() {
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Script 1: Initial Expired Listing Contact</h3>
               <div className="bg-blue-50 p-6 rounded-lg mb-4">
                 <p className="text-gray-700 italic mb-3">
-                  "Hi [Name], this is Dr. Janet Duffy with Berkshire Hathaway HomeServices. I noticed your home at [Address] in [Neighborhood] came off the market. I specialize in helping Las Vegas homes that didn't sell get sold successfully."
+                  "Hi [Name], this is Dr. Jan Duffy with Berkshire Hathaway HomeServices. I noticed your home at [Address] in [Neighborhood] came off the market. I specialize in helping Las Vegas homes that didn't sell get sold successfully."
                 </p>
                 <p className="text-gray-700 italic mb-3">
                   "I'd like to offer you free analysis of what happened with your listing - no obligation, just honest assessment. I've helped dozens of Las Vegas homeowners in [Neighborhood] successfully relist and sell after expiration."
@@ -206,7 +206,7 @@ export default function RealEstateScriptsLasVegasPage() {
       <section className="py-16 px-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-6">Need Help with Las Vegas Expired Listings?</h2>
-          <p className="text-xl mb-8 text-blue-100">Dr. Janet Duffy specializes in helping Las Vegas homes that didn't sell get sold successfully.</p>
+          <p className="text-xl mb-8 text-blue-100">Dr. Jan Duffy specializes in helping Las Vegas homes that didn't sell get sold successfully.</p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <a href="tel:+17022221964" className="bg-white text-blue-600 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition-colors">Call: (702) 222-1964</a>
             <Link href="/contact" className="bg-blue-800 text-white font-bold py-4 px-8 rounded-lg hover:bg-blue-900 transition-colors">Schedule Consultation</Link>

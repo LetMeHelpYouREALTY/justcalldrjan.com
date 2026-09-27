@@ -81,7 +81,7 @@ export default function Zip89134Page() {
             How Dr. Jan Helps 89134 Homes Sell Successfully
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Zip code 89134 real estate requires understanding of Southwest Las Vegas value positioning and diverse buyer needs. Dr. Janet Duffy brings specialized 89134 knowledge to help your home achieve successful sale on relisting.
+            Zip code 89134 real estate requires understanding of Southwest Las Vegas value positioning and diverse buyer needs. Dr. Jan Duffy brings specialized 89134 knowledge to help your home achieve successful sale on relisting.
           </p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div>

@@ -1,4 +1,4 @@
-# robots.txt for www.calldrduffy.com and justcalldrjan.com
+# robots.txt for www.justcalldrjan.com
 
 User-agent: *
 Allow: /
@@ -7,7 +7,5 @@ Allow: /
 Disallow: /admin/
 Disallow: /api/
 
-# Sitemaps
-Sitemap: https://www.calldrduffy.com/sitemap.xml
-Sitemap: https://justcalldrjan.com/sitemap.xml
-
+# Sitemap
+Sitemap: https://www.justcalldrjan.com/sitemap.xml

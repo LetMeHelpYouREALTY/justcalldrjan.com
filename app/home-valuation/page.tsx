@@ -58,7 +58,7 @@ export default function HomeValuationPage() {
       <div className="min-h-screen bg-white">
       <section className="bg-gradient-to-r from-blue-800 to-cyan-700 text-white py-20 px-4">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">Free Home Value Analysis - Dr. Janet Duffy</h1>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6">Free Home Value Analysis - Dr. Jan Duffy</h1>
           <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto">Get accurate home value analysis for Las Vegas properties. Expert valuation insights to help you price competitively and sell successfully.</p>
         </div>
       </section>
@@ -97,7 +97,7 @@ export default function HomeValuationPage() {
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold mb-6 text-gray-900">Get Your Free Home Value Analysis</h2>
-          <p className="text-lg text-gray-700 mb-8 max-w-3xl">Professional home valuation helps you understand your property's true market value, price competitively, and make informed selling decisions. Get your free Las Vegas home value analysis from Dr. Janet Duffy today.</p>
+          <p className="text-lg text-gray-700 mb-8 max-w-3xl">Professional home valuation helps you understand your property's true market value, price competitively, and make informed selling decisions. Get your free Las Vegas home value analysis from Dr. Jan Duffy today.</p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div><h3 className="text-2xl font-bold mb-4 text-gray-900">Quick and Easy Process</h3><p className="text-gray-700 mb-3">Getting your free home valuation is simple: provide basic property information including address, square footage, bedrooms, bathrooms, condition, and any unique features. This information enables comprehensive market analysis for accurate valuation.</p><p className="text-gray-700 mb-3">Dr. Jan conducts thorough research including comparable sales, market trends, competition analysis, and neighborhood dynamics affecting your property value. This comprehensive approach provides accurate valuation reflecting current Las Vegas market.</p><p className="text-gray-700">Your valuation report includes specific price recommendations, comparable sales data, competition analysis, and strategic pricing strategies. This detailed information helps you make informed decisions about pricing, timing, and selling strategy for your home.</p></div>
             <div><h3 className="text-2xl font-bold mb-4 text-gray-900">No Obligation Analysis</h3><p className="text-gray-700 mb-3">Your free home valuation comes with no obligation to list your property. This professional analysis helps you understand market value whether you're ready to sell now, planning to sell soon, or just curious about your property's worth.</p><p className="text-gray-700 mb-3">Many homeowners use free valuations to time their sale, plan improvements that add value, or simply understand equity for financial planning. This valuable information comes at no cost and with no pressure to hire services.</p><p className="text-gray-700">Dr. Jan provides honest, accurate valuations without obligation because she believes informed sellers make better decisions. Whether you're ready to list today or months away, understanding your property's true market value is valuable information worth having.</p></div>
