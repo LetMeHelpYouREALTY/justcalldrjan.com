@@ -7,7 +7,7 @@ import StructuredDataScript from '@/components/structured-data-script'
 import FAQSection from '@/components/faq-section'
 import Breadcrumbs from '@/components/breadcrumbs'
 import { getServiceSchemaForPage } from '@/lib/services'
-import { BASE_URL } from '@/lib/schema'
+import LeadHoneypotField from '@/components/lead-honeypot-field'
 
 export default function HomeValuationPage() {
   const serviceSchema = getServiceSchemaForPage('HOME_VALUATION')
@@ -47,7 +47,8 @@ export default function HomeValuationPage() {
     bedrooms: '',
     bathrooms: '',
     squareFeet: '',
-    yearBuilt: ''
+    yearBuilt: '',
+    companyWebsite: '',
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle')
@@ -123,13 +124,14 @@ export default function HomeValuationPage() {
                 body: JSON.stringify({
                   ...formData,
                   message: `Home Valuation Request: ${formData.bedrooms}BR/${formData.bathrooms}BA, ${formData.squareFeet} sq ft, Built ${formData.yearBuilt}`,
-                  source: 'Home Valuation Page'
+                  source: 'Home Valuation Page',
+                  inquiryType: 'Seller Inquiry',
                 })
               })
 
               if (response.ok) {
                 setSubmitStatus('success')
-                setFormData({ address: '', name: '', email: '', phone: '', bedrooms: '', bathrooms: '', squareFeet: '', yearBuilt: '' })
+                setFormData({ address: '', name: '', email: '', phone: '', bedrooms: '', bathrooms: '', squareFeet: '', yearBuilt: '', companyWebsite: '' })
               } else {
                 setSubmitStatus('error')
               }
@@ -138,7 +140,11 @@ export default function HomeValuationPage() {
             } finally {
               setIsSubmitting(false)
             }
-          }} className="space-y-6 bg-gray-50 p-8 rounded-lg">
+          }} className="relative space-y-6 bg-gray-50 p-8 rounded-lg">
+            <LeadHoneypotField
+              value={formData.companyWebsite}
+              onChange={(value) => setFormData({ ...formData, companyWebsite: value })}
+            />
             <div className="grid md:grid-cols-2 gap-6">
               <div>
                 <label htmlFor="val-address" className="block text-sm font-semibold mb-2 text-gray-900">Property Address *</label>

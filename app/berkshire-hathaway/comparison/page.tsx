@@ -8,7 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function ComparisonPage() {
   const articleSchema = getArticleSchema({
-    headline: 'Brokerage Comparison: Why BHHS + Dr. Jan Beats the Competition',
+    headline: 'Brokerage Comparison: Why Dr. Jan Duffy Beats the Competition',
     description: 'Side-by-side comparison of what each major Las Vegas brokerage delivers - and why Berkshire Hathaway HomeServices with Dr. Jan Duffy is the clear choice for expired listings.',
     datePublished: '2024-06-25',
     dateModified: '2024-12-01',
@@ -23,7 +23,7 @@ export default function ComparisonPage() {
       <section className="bg-gradient-to-r from-indigo-900 to-purple-900 text-white py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            Brokerage Comparison: Why BHHS + Dr. Jan Beats the Competition
+            Brokerage Comparison: Why Dr. Jan Duffy Beats the Competition
           </h1>
           <p className="text-xl md:text-2xl text-indigo-100 max-w-3xl">
             Side-by-side comparison of what each major Las Vegas brokerage delivers - and why Berkshire Hathaway HomeServices with Dr. Jan Duffy is the clear choice for expired listings.

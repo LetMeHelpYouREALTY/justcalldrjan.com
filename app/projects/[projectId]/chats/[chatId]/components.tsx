@@ -8,6 +8,7 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from '@/components/ui/popover'
+import { adminFetchInit } from '@/lib/admin-fetch'
 import {
   Drawer,
   DrawerContent,
@@ -256,6 +257,7 @@ export function ChatDropdown({
 
       // Fork the chat using v0 SDK
       const response = await fetch('/api/chats/fork', {
+        ...adminFetchInit,
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

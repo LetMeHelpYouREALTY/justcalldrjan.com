@@ -8,7 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function WhyBerkshireHathawayPage() {
   const articleSchema = getArticleSchema({
-    headline: 'Why Berkshire Hathaway HomeServices + Dr. Jan Duffy Wins When Your Home Doesn\'t Sell',
+    headline: 'Why Dr. Jan Duffy Wins When Your Las Vegas Home Doesn\'t Sell',
     description: 'Three critical advantages that turn expired listings into sold properties. Institutional marketing power, pricing mastery, and proactive communication that boutique firms simply can\'t match.',
     datePublished: '2024-07-01',
     dateModified: '2024-12-01',
@@ -23,7 +23,7 @@ export default function WhyBerkshireHathawayPage() {
       <section className="bg-gradient-to-r from-blue-900 to-indigo-900 text-white py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            Why Berkshire Hathaway HomeServices + Dr. Jan Duffy Wins When Your Home Doesn't Sell
+            Why Dr. Jan Duffy Wins When Your Las Vegas Home Doesn&apos;t Sell
           </h1>
           <p className="text-xl md:text-2xl text-blue-100 max-w-3xl">
             Three critical advantages that turn expired listings into sold properties. Institutional marketing power, pricing mastery, and proactive communication that boutique firms simply can't match.

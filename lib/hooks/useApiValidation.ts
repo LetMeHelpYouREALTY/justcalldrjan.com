@@ -21,6 +21,7 @@ export function useApiValidation(): ApiValidationResult {
         setIsValidating(true)
 
         const response = await fetch('/api/validate', {
+          credentials: 'include',
           method: 'GET',
           cache: 'no-store', // Always check fresh, don't cache API key validation
         })

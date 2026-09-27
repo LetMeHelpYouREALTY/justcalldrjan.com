@@ -4,6 +4,7 @@ import { useEffect } from 'react'
 import { useParams, useRouter } from 'next/navigation'
 import { useApiValidation } from '@/lib/hooks/useApiValidation'
 import ApiKeyError from '@/app/components/api-key-error'
+import { adminFetchInit } from '@/lib/admin-fetch'
 
 export default function ProjectPage() {
   const params = useParams()
@@ -22,7 +23,7 @@ export default function ProjectPage() {
   const getLatestChatAndRedirect = async (projectId: string) => {
     try {
       // Load project with chats using the API endpoint
-      const response = await fetch(`/api/projects/${projectId}`)
+      const response = await fetch(`/api/projects/${projectId}`, adminFetchInit)
 
       if (!response.ok) {
         // If project not found or other error, redirect to new chat

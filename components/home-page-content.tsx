@@ -2,12 +2,14 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import LeadHoneypotField from '@/components/lead-honeypot-field'
 
 export default function HomePageContent() {
   const [address, setAddress] = useState('')
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [phone, setPhone] = useState('')
+  const [companyWebsite, setCompanyWebsite] = useState('')
 
   const [isSubmitting, setIsSubmitting] = useState(false)
 
@@ -26,7 +28,9 @@ export default function HomePageContent() {
           email,
           phone,
           address,
-          source: 'Homepage Lead Form'
+          companyWebsite,
+          source: 'Homepage Lead Form',
+          inquiryType: 'Seller Inquiry',
         })
       })
 
@@ -56,7 +60,8 @@ export default function HomePageContent() {
             Expired or withdrawn listing? Dr. Jan Duffy, REALTOR®, builds a focused relisting approach—including a 30-day relisting plan tailored to your property.
           </p>
 
-          <form onSubmit={handleSubmit} className="max-w-2xl mx-auto bg-white rounded-lg shadow-2xl p-8">
+          <form onSubmit={handleSubmit} className="relative max-w-2xl mx-auto bg-white rounded-lg shadow-2xl p-8">
+            <LeadHoneypotField value={companyWebsite} onChange={setCompanyWebsite} />
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Get Your Free Home Analysis</h2>
             <div className="space-y-4">
               <div>

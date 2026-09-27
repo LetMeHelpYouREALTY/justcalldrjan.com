@@ -1,25 +1,10 @@
 import Link from 'next/link'
-import type { Metadata } from 'next'
 import AuthorBadge from '@/components/author-badge'
 import StructuredData from '@/components/structured-data'
 import FAQSection from '@/components/faq-section'
 import Breadcrumbs from '@/components/breadcrumbs'
 import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 import { getServiceSchemaForPage } from '@/lib/services'
-
-export const metadata: Metadata = {
-  title: 'Why Didn\'t Your Home Sell? | Dr. Jan Duffy - Las Vegas Real Estate',
-  description: 'Discover the three main reasons homes don\'t sell: pricing, presentation, and marketing. Learn how Dr. Jan Duffy helps Las Vegas homes that didn\'t sell get sold successfully.',
-  openGraph: {
-    title: 'Why Didn\'t Your Home Sell? Common Reasons Explained',
-    description: 'Understanding why your home didn\'t sell is the first step to selling it successfully. Learn the three main reasons and proven solutions.',
-    images: [{ url: '/og-image.png', width: 1200, height: 630 }],
-    url: `${BASE_URL}/didnt-sell`
-  },
-  alternates: {
-    canonical: `${BASE_URL}/didnt-sell`
-  }
-}
 
 export default function WhyDidntItSellPage() {
   const articleSchema = getArticleSchema({

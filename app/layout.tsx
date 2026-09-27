@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { headers } from 'next/headers'
 import { Geist, Geist_Mono } from 'next/font/google'
 import { ThemeProvider } from 'next-themes'
 import DeployBanner from '../components/deploy-banner'
@@ -14,6 +15,8 @@ import {
 } from '../lib/schema'
 import { getMultiLocationBusinessSchema } from '../lib/hyperlocal-schema'
 import { SITE_URL } from '@/lib/site-url'
+import { createPageMetadata } from '@/lib/create-page-metadata'
+import { resolveRouteSeo } from '@/lib/route-seo'
 import './globals.css'
 
 const geistSans = Geist({
@@ -29,39 +32,24 @@ const geistMono = Geist_Mono({
   display: 'swap',
 })
 
-export const metadata: Metadata = {
-  metadataBase: new URL(SITE_URL),
-  title: {
-    default: 'Las Vegas Expired Listing Help | Dr. Jan Duffy',
-    template: '%s | Dr. Jan Duffy',
-  },
-  description:
-    'Las Vegas REALTOR® Dr. Jan Duffy helps homeowners relist expired and withdrawn properties. Nevada License S.0197614.LLC.',
-  openGraph: {
-    title: 'Las Vegas Expired Listing Help | Dr. Jan Duffy',
-    description:
-      'Relisting plans for expired and withdrawn Las Vegas homes. Dr. Jan Duffy, REALTOR®.',
-    images: ['/og-image.png'],
-    url: SITE_URL,
-    siteName: 'Just Call Dr. Jan',
-    type: 'website',
-    locale: 'en_US',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Dr. Jan Duffy - Las Vegas Real Estate',
-    description: 'Las Vegas REALTOR® focused on expired and withdrawn listings.',
-    images: ['/og-image.png'],
-  },
-  keywords: ['Las Vegas real estate', 'expired listing', 'withdrawn listing', 'Dr. Jan Duffy', 'Las Vegas REALTOR', 'home relisting'],
-  authors: [{ name: 'Dr. Jan Duffy' }],
-  alternates: {
-    canonical: SITE_URL,
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
+export async function generateMetadata(): Promise<Metadata> {
+  const headersList = await headers()
+  const pathname = headersList.get('x-pathname') ?? '/'
+  const seo = resolveRouteSeo(pathname)
+
+  return {
+    metadataBase: new URL(SITE_URL),
+    authors: [{ name: 'Dr. Jan Duffy' }],
+    keywords: [
+      'Las Vegas real estate',
+      'expired listing',
+      'withdrawn listing',
+      'Dr. Jan Duffy',
+      'Las Vegas REALTOR',
+      'home relisting',
+    ],
+    ...createPageMetadata(pathname, seo),
+  }
 }
 
 export default function RootLayout({

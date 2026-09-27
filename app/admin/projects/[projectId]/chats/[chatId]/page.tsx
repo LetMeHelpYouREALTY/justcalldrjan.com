@@ -8,6 +8,7 @@ import ApiKeyError from '@/app/components/api-key-error'
 import RateLimitDialog from '@/app/components/rate-limit-dialog'
 import ErrorDialog from '@/app/components/error-dialog'
 import { useApiValidation } from '@/lib/hooks/useApiValidation'
+import { adminFetchInit } from '@/lib/admin-fetch'
 
 export default function ChatPage() {
   const params = useParams()
@@ -70,7 +71,7 @@ export default function ChatPage() {
 
   const loadProjectChats = async () => {
     try {
-      const response = await fetch(`/api/projects/${projectId}`)
+      const response = await fetch(`/api/projects/${projectId}`, adminFetchInit)
       if (response.ok) {
         const data = await response.json()
         const chatsData = data.chats || []
@@ -114,7 +115,7 @@ export default function ChatPage() {
 
   const loadProjects = async () => {
     try {
-      const response = await fetch('/api/projects')
+      const response = await fetch('/api/projects', adminFetchInit)
       if (response.ok) {
         const data = await response.json()
         const projectsData = data.data || data || []
@@ -166,7 +167,7 @@ export default function ChatPage() {
 
     // Then fetch fresh data in the background
     try {
-      const response = await fetch(`/api/projects/${projectId}`)
+      const response = await fetch(`/api/projects/${projectId}`, adminFetchInit)
       if (response.ok) {
         const data = await response.json()
         const chatsData = data.chats || []
@@ -204,6 +205,7 @@ export default function ChatPage() {
   const handleDeleteChat = async () => {
     try {
       const response = await fetch(`/api/chats/${chatId}`, {
+        ...adminFetchInit,
         method: 'DELETE',
       })
 
@@ -228,6 +230,7 @@ export default function ChatPage() {
   const handleRenameChat = async (newName: string) => {
     try {
       const response = await fetch(`/api/chats/${chatId}`, {
+        ...adminFetchInit,
         method: 'PATCH',
         headers: {
           'Content-Type': 'application/json',
@@ -260,6 +263,7 @@ export default function ChatPage() {
   const loadChatData = async () => {
     try {
       const response = await fetch(`/api/chats/${encodeURIComponent(chatId)}`, {
+        ...adminFetchInit,
         method: 'GET',
       })
 
@@ -289,6 +293,7 @@ export default function ChatPage() {
 
     try {
       const response = await fetch('/api/generate', {
+        ...adminFetchInit,
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
