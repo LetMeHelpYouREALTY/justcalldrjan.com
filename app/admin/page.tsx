@@ -7,6 +7,7 @@ import ApiKeyError from '../components/api-key-error'
 import RateLimitDialog from '../components/rate-limit-dialog'
 import ErrorDialog from '../components/error-dialog'
 import { useApiValidation } from '@/lib/hooks/useApiValidation'
+import { adminFetchInit } from '@/lib/admin-fetch'
 
 export default function AdminPage() {
   const router = useRouter()
@@ -54,7 +55,7 @@ export default function AdminPage() {
 
   const loadProjects = async () => {
     try {
-      const response = await fetch('/api/projects')
+      const response = await fetch('/api/projects', adminFetchInit)
       if (response.ok) {
         const data = await response.json()
         const projectsData = data.data || data || []
@@ -96,7 +97,7 @@ export default function AdminPage() {
 
     // Then fetch fresh data in the background
     try {
-      const response = await fetch(`/api/projects/${projectId}`)
+      const response = await fetch(`/api/projects/${projectId}`, adminFetchInit)
       if (response.ok) {
         const data = await response.json()
         const chatsData = data.chats || []
@@ -143,6 +144,7 @@ export default function AdminPage() {
 
     try {
       const response = await fetch('/api/generate', {
+        ...adminFetchInit,
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

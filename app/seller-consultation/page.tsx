@@ -8,6 +8,7 @@ import FAQSection from '@/components/faq-section'
 import Breadcrumbs from '@/components/breadcrumbs'
 import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 import { getServiceSchemaForPage } from '@/lib/services'
+import LeadHoneypotField from '@/components/lead-honeypot-field'
 
 export default function SellerConsultationPage() {
   const articleSchema = getArticleSchema({
@@ -53,7 +54,8 @@ export default function SellerConsultationPage() {
     phone: '',
     address: '',
     preferredTime: '',
-    consultationType: 'virtual'
+    consultationType: 'virtual',
+    companyWebsite: '',
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle')
@@ -70,13 +72,14 @@ export default function SellerConsultationPage() {
         body: JSON.stringify({
           ...formData,
           message: `Consultation Request: ${formData.consultationType}, Preferred Time: ${formData.preferredTime}`,
-          source: 'Seller Consultation Page'
+          source: 'Seller Consultation Page',
+          inquiryType: 'Seller Inquiry',
         })
       })
 
       if (response.ok) {
         setSubmitStatus('success')
-        setFormData({ name: '', email: '', phone: '', address: '', preferredTime: '', consultationType: 'virtual' })
+        setFormData({ name: '', email: '', phone: '', address: '', preferredTime: '', consultationType: 'virtual', companyWebsite: '' })
       } else {
         setSubmitStatus('error')
       }
@@ -166,7 +169,11 @@ export default function SellerConsultationPage() {
           <h2 className="text-4xl font-bold mb-6 text-gray-900 text-center">Schedule Your Free Consultation</h2>
           <p className="text-xl mb-8 text-gray-700 text-center">Get expert analysis of why your home didn't sell and a proven strategy for successful relisting.</p>
 
-          <form onSubmit={handleSubmit} className="space-y-6 bg-gray-50 p-8 rounded-lg">
+          <form onSubmit={handleSubmit} className="relative space-y-6 bg-gray-50 p-8 rounded-lg">
+            <LeadHoneypotField
+              value={formData.companyWebsite}
+              onChange={(value) => setFormData({ ...formData, companyWebsite: value })}
+            />
             <div className="grid md:grid-cols-2 gap-6">
               <div>
                 <label htmlFor="consult-name" className="block text-sm font-semibold mb-2 text-gray-900">Your Name *</label>

@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import LeadHoneypotField from '@/components/lead-honeypot-field'
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -9,7 +10,8 @@ export default function ContactPage() {
     email: '',
     phone: '',
     address: '',
-    message: ''
+    message: '',
+    companyWebsite: '',
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle')
@@ -27,7 +29,8 @@ export default function ContactPage() {
         },
         body: JSON.stringify({
           ...formData,
-          source: 'Contact Page'
+          source: 'Contact Page',
+          inquiryType: 'General Inquiry',
         })
       })
 
@@ -35,7 +38,7 @@ export default function ContactPage() {
 
       if (response.ok) {
         setSubmitStatus('success')
-        setFormData({ name: '', email: '', phone: '', address: '', message: '' })
+        setFormData({ name: '', email: '', phone: '', address: '', message: '', companyWebsite: '' })
       } else {
         setSubmitStatus('error')
       }
@@ -72,7 +75,11 @@ export default function ContactPage() {
               Fill out the form or call directly. Dr. Jan Duffy responds quickly to help homeowners whose properties didn't sell successfully.
             </p>
 
-            <form onSubmit={handleSubmit} className="space-y-6">
+            <form onSubmit={handleSubmit} className="relative space-y-6">
+              <LeadHoneypotField
+                value={formData.companyWebsite}
+                onChange={(value) => setFormData({ ...formData, companyWebsite: value })}
+              />
               <div>
                 <label htmlFor="contact-name" className="block text-sm font-semibold mb-2 text-gray-900">Your Name</label>
                 <input
