@@ -61,6 +61,7 @@ export default function OfficePanel() {
           src={OFFICE_MAP_EMBED_URL}
           className="h-80 w-full border border-[#d9d0c3] bg-[#efe8dc] lg:h-full lg:min-h-[420px]"
           loading="lazy"
+          allowFullScreen
           referrerPolicy="no-referrer-when-downgrade"
         />
       </div>
