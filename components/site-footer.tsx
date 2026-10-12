@@ -1,112 +1,119 @@
 import Link from 'next/link'
 import { SITE_URL } from '@/lib/site-url'
+import { OFFICE, OFFICE_DIRECTIONS_URL, OFFICE_REVIEWS_URL } from '@/lib/office'
 
 export default function SiteFooter() {
   const currentYear = new Date().getFullYear()
 
   return (
-    <footer 
-      itemScope 
-      itemType="https://schema.org/LocalBusiness"
-      className="bg-gray-900 text-white py-12 px-4"
-    >
-      <div className="max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-3 gap-8 mb-8">
-          {/* Business Info */}
-          <div>
-            <h3 className="text-lg font-bold mb-4">Dr. Jan Duffy</h3>
-            <p className="text-gray-300 mb-2">
-              <span itemProp="name">Dr. Jan Duffy</span> | Licensed Real Estate Professional
-            </p>
-            <p className="text-gray-300 mb-2">
-              <span itemProp="brand">Berkshire Hathaway HomeServices</span> | Las Vegas, NV
-            </p>
-            <p className="text-gray-300 mb-2">
-              NV RE License #<span itemProp="licenseNumber">S.0197614</span>
-            </p>
-            <p className="text-gray-300 mt-2">
-              © {currentYear} <span itemProp="description">Las Vegas&apos;s Trusted Expert for Hard-to-Sell Homes</span>. All rights reserved.
-            </p>
-            <p className="text-gray-300 mt-2">
-              Specializing in getting top dollar for homes that didn&apos;t sell the first time around.
-            </p>
-            
-            {/* Hidden schema metadata */}
-            <meta itemProp="priceRange" content="$$" />
-            <meta itemProp="image" content={`${SITE_URL}/og-image.png`} />
-            <meta itemProp="telephone" content="+17022221964" />
-            <div itemProp="address" itemScope itemType="https://schema.org/PostalAddress" className="hidden">
-              <meta itemProp="addressLocality" content="Las Vegas" />
-              <meta itemProp="addressRegion" content="NV" />
-              <meta itemProp="postalCode" content="89109" />
-              <meta itemProp="addressCountry" content="US" />
-            </div>
-          </div>
-
-          {/* Quick Links */}
-          <div>
-            <h3 className="text-lg font-bold mb-4">Quick Links</h3>
-            <ul className="space-y-2 text-gray-300">
-              <li>
-                <Link href="/" className="hover:text-white transition-colors">Home</Link>
-              </li>
-              <li>
-                <Link href="/didnt-sell" className="hover:text-white transition-colors">Why Didn&apos;t My Home Sell?</Link>
-              </li>
-              <li>
-                <Link href="/success-stories" className="hover:text-white transition-colors">Success Stories</Link>
-              </li>
-              <li>
-                <Link href="/how-it-works" className="hover:text-white transition-colors">How It Works</Link>
-              </li>
-              <li>
-                <Link href="/about" className="hover:text-white transition-colors">About Dr. Jan</Link>
-              </li>
-              <li>
-                <Link href="/contact" className="hover:text-white transition-colors">Contact</Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Contact */}
-          <div>
-            <h3 className="text-lg font-bold mb-4">Get In Touch</h3>
-            <ul className="space-y-2 text-gray-300">
-              <li>
-                <a href="tel:+17022221964" className="hover:text-white transition-colors">
-                  Phone: (702) 222-1964
-                </a>
-              </li>
-              <li>
-                <a href="mailto:HomeSales@CallDrDuffy.com" className="hover:text-white transition-colors">
-                  Email: HomeSales@CallDrDuffy.com
-                </a>
-              </li>
-              <li className="mt-4">
-                <p className="text-sm text-gray-400">
-                  Serving all of Las Vegas, Henderson, Summerlin, and surrounding areas
-                </p>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div className="border-t border-gray-800 pt-8 text-center text-gray-400 text-sm space-y-2">
-          <p>
-            <a
-              href="https://calldrduffy.com"
-              className="hover:text-white transition-colors"
-              rel="noopener noreferrer"
-            >
-              Selling a Las Vegas rental with tenants
+    <footer itemScope itemType="https://schema.org/RealEstateAgent" className="bg-[#14110e] px-4 py-14 text-[#f7f3ec]">
+      <div className="mx-auto grid max-w-6xl gap-10 md:grid-cols-3">
+        <div>
+          <h2 className="font-display text-3xl" itemProp="name">
+            {OFFICE.agentName}
+          </h2>
+          <p className="mt-3 text-sm text-[#e6dccb]" itemProp="brand">
+            {OFFICE.brokerage}
+          </p>
+          <address
+            className="mt-4 not-italic text-sm leading-relaxed text-[#e6dccb]"
+            itemProp="address"
+            itemScope
+            itemType="https://schema.org/PostalAddress"
+          >
+            <span itemProp="streetAddress">{OFFICE.streetAddress}</span>
+            <br />
+            <span itemProp="addressLocality">{OFFICE.locality}</span>,{' '}
+            <span itemProp="addressRegion">{OFFICE.region}</span>{' '}
+            <span itemProp="postalCode">{OFFICE.postalCode}</span>
+          </address>
+          <p className="mt-4 text-sm">
+            <a itemProp="telephone" href={`tel:${OFFICE.ctaPhoneTel}`} className="underline decoration-[#c4a574] underline-offset-4">
+              {OFFICE.ctaPhoneDisplay}
             </a>
           </p>
-          <p>
-            Dr. Jan Duffy is a licensed real estate agent with Berkshire Hathaway HomeServices.
+          <p className="mt-2 text-sm text-[#c4a574]">Office {OFFICE.officePhoneDisplay}</p>
+          <p className="mt-2 text-sm">
+            <a itemProp="email" href={`mailto:${OFFICE.email}`} className="underline decoration-[#c4a574] underline-offset-4">
+              {OFFICE.email}
+            </a>
           </p>
+          <p className="mt-4 text-sm text-[#a3988c]">
+            Nevada license <span itemProp="licenseNumber">{OFFICE.license}</span>
+          </p>
+          <meta itemProp="priceRange" content="$$$" />
+          <meta itemProp="image" content={`${SITE_URL}/og-image.png`} />
+          <meta itemProp="url" content={SITE_URL} />
         </div>
+
+        <div>
+          <h2 className="text-xs tracking-[0.2em] text-[#c4a574] uppercase">Hours</h2>
+          <ul className="mt-4 space-y-2 text-sm text-[#e6dccb]">
+            {OFFICE.hours.map((row) => (
+              <li key={row.days}>
+                {row.days}: {row.hours}
+              </li>
+            ))}
+          </ul>
+          <div className="mt-6 flex flex-col items-start gap-3 text-sm">
+            <a href={`tel:${OFFICE.ctaPhoneTel}`} className="underline decoration-[#c4a574] underline-offset-4">
+              Call
+            </a>
+            <a href={OFFICE_DIRECTIONS_URL} className="underline decoration-[#c4a574] underline-offset-4" target="_blank" rel="noopener noreferrer">
+              Directions
+            </a>
+            <a href={OFFICE_REVIEWS_URL} className="underline decoration-[#c4a574] underline-offset-4" target="_blank" rel="noopener noreferrer">
+              View Google Reviews
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h2 className="text-xs tracking-[0.2em] text-[#c4a574] uppercase">The work</h2>
+          <ul className="mt-4 space-y-2 text-sm text-[#e6dccb]">
+            <li>
+              <Link href="/private-listing-review" className="hover:text-[#c4a574]">
+                Private listing review
+              </Link>
+            </li>
+            <li>
+              <Link href="/didnt-sell" className="hover:text-[#c4a574]">
+                Why the home did not sell
+              </Link>
+            </li>
+            <li>
+              <Link href="/how-it-works" className="hover:text-[#c4a574]">
+                The relist plan
+              </Link>
+            </li>
+            <li>
+              <Link href="/success-stories" className="hover:text-[#c4a574]">
+                Sold after the last agent
+              </Link>
+            </li>
+            <li>
+              <Link href="/las-vegas-luxury-homes" className="hover:text-[#c4a574]">
+                Las Vegas luxury homes
+              </Link>
+            </li>
+            <li>
+              <Link href="/about" className="hover:text-[#c4a574]">
+                About Dr. Jan Duffy
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="mx-auto mt-12 max-w-6xl border-t border-[#2a241e] pt-6 text-sm text-[#a3988c]">
+        <p>
+          © {currentYear} {OFFICE.agentName}. Luxury relisting for homes that did not sell with the previous agent.
+        </p>
+        <p className="mt-2">
+          <a href="https://calldrduffy.com" className="underline decoration-[#6e6254] underline-offset-4" rel="noopener noreferrer">
+            Selling a Las Vegas rental with tenants
+          </a>
+        </p>
       </div>
     </footer>
   )
 }
-

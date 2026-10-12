@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { headers } from 'next/headers'
-import { Geist, Geist_Mono } from 'next/font/google'
+import { Cormorant_Garamond, Geist, Geist_Mono, Outfit } from 'next/font/google'
 import { ThemeProvider } from 'next-themes'
 import DeployBanner from '../components/deploy-banner'
 import SiteNavigation from '../components/site-nav'
@@ -32,6 +32,19 @@ const geistMono = Geist_Mono({
   display: 'swap',
 })
 
+const cormorant = Cormorant_Garamond({
+  variable: '--font-cormorant',
+  subsets: ['latin'],
+  weight: ['500', '600', '700'],
+  display: 'swap',
+})
+
+const outfit = Outfit({
+  variable: '--font-outfit',
+  subsets: ['latin'],
+  display: 'swap',
+})
+
 export async function generateMetadata(): Promise<Metadata> {
   const headersList = await headers()
   const pathname = headersList.get('x-pathname') ?? '/'
@@ -41,12 +54,12 @@ export async function generateMetadata(): Promise<Metadata> {
     metadataBase: new URL(SITE_URL),
     authors: [{ name: 'Dr. Jan Duffy' }],
     keywords: [
-      'Las Vegas real estate',
-      'expired listing',
-      'withdrawn listing',
+      'Las Vegas luxury real estate',
+      'expired luxury listing',
+      'home did not sell',
       'Dr. Jan Duffy',
       'Las Vegas REALTOR',
-      'home relisting',
+      'luxury relisting',
     ],
     ...createPageMetadata(pathname, seo),
   }
@@ -68,7 +81,7 @@ export default function RootLayout({
                 <StructuredData data={getMultiLocationBusinessSchema()} id="multi-location-business-schema" />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${cormorant.variable} ${outfit.variable} antialiased`}
       >
         <ThemeProvider
           attribute="class"

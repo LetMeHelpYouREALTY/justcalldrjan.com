@@ -8,9 +8,10 @@ import { getBreadcrumbSchema, BASE_URL } from '@/lib/schema'
 interface BreadcrumbProps {
   items?: Array<{ name: string; path: string }>
   showHome?: boolean
+  tone?: 'default' | 'ink'
 }
 
-export default function Breadcrumbs({ items, showHome = true }: BreadcrumbProps) {
+export default function Breadcrumbs({ items, showHome = true, tone = 'default' }: BreadcrumbProps) {
   const pathname = usePathname()
   
   // Generate breadcrumbs from pathname if not provided
@@ -27,16 +28,24 @@ export default function Breadcrumbs({ items, showHome = true }: BreadcrumbProps)
   return (
     <>
       <StructuredData data={schemaData} id="breadcrumb-schema" />
-      <nav aria-label="Breadcrumb" className="py-4 px-4 bg-gray-50">
-        <div className="max-w-7xl mx-auto">
+      <nav
+        aria-label="Breadcrumb"
+        className={tone === 'ink' ? 'bg-[#14110e] px-4 py-4 text-[#e6dccb]' : 'bg-gray-50 px-4 py-4'}
+      >
+        <div className="mx-auto max-w-6xl">
           <ol className="flex flex-wrap items-center gap-2 text-sm">
             {breadcrumbItems.map((item, index) => (
               <li key={item.path} className="flex items-center">
-                {index > 0 && <span className="mx-2 text-gray-400">/</span>}
+                {index > 0 && <span className={tone === 'ink' ? 'mx-2 text-[#6e6254]' : 'mx-2 text-gray-400'}>/</span>}
                 {index === breadcrumbItems.length - 1 ? (
-                  <span className="text-gray-700 font-medium">{item.name}</span>
+                  <span className={tone === 'ink' ? 'font-medium text-[#f7f3ec]' : 'font-medium text-gray-700'}>
+                    {item.name}
+                  </span>
                 ) : (
-                  <Link href={item.path} className="text-blue-600 hover:text-blue-800">
+                  <Link
+                    href={item.path}
+                    className={tone === 'ink' ? 'text-[#c4a574] hover:text-[#f7f3ec]' : 'text-blue-600 hover:text-blue-800'}
+                  >
                     {item.name}
                   </Link>
                 )}

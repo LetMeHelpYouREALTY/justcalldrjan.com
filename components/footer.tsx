@@ -1,35 +1,33 @@
+import { OFFICE } from '@/lib/office'
+import { SITE_URL } from '@/lib/site-url'
+
 export default function Footer() {
+  const year = new Date().getFullYear()
+
   return (
-    <footer 
-      itemScope 
-      itemType="https://schema.org/LocalBusiness"
-      className="bg-gray-900 text-white py-8 px-4 border-t border-gray-800"
-    >
-      <div className="max-w-7xl mx-auto text-center space-y-2">
+    <footer itemScope itemType="https://schema.org/RealEstateAgent" className="border-t border-[#2a241e] bg-[#14110e] px-4 py-8 text-[#f7f3ec]">
+      <div className="mx-auto max-w-6xl space-y-2 text-center text-sm">
         <p>
-          © 2025{' '}
-          <span itemProp="name">Dr. Jan Duffy</span>
-          {' '}-{' '}
-          <span itemProp="description">Las Vegas's Trusted Expert for Hard-to-Sell Homes</span>.
-          {' '}All rights reserved.
+          © {year} <span itemProp="name">{OFFICE.agentName}</span>
+        </p>
+        <p itemProp="brand">{OFFICE.brokerage}</p>
+        <address className="not-italic" itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
+          <span itemProp="streetAddress">{OFFICE.streetAddress}</span>,{' '}
+          <span itemProp="addressLocality">{OFFICE.locality}</span>,{' '}
+          <span itemProp="addressRegion">{OFFICE.region}</span>{' '}
+          <span itemProp="postalCode">{OFFICE.postalCode}</span>
+        </address>
+        <p>
+          <a itemProp="telephone" href={`tel:${OFFICE.ctaPhoneTel}`}>
+            {OFFICE.ctaPhoneDisplay}
+          </a>
         </p>
         <p>
-          NV RE License #{' '}
-          <span itemProp="licenseNumber">S.0197614</span>
+          Nevada license <span itemProp="licenseNumber">{OFFICE.license}</span>
         </p>
-        <p>Specializing in getting top dollar for homes that didn't sell the first time around.</p>
-        
-        {/* Hidden schema data */}
-        <meta itemProp="priceRange" content="$$" />
-        <meta itemProp="image" content="https://www.justcalldrjan.com/og-image.png" />
-        <meta itemProp="telephone" content="+17022221964" />
-        <div itemProp="address" itemScope itemType="https://schema.org/PostalAddress" className="hidden">
-          <meta itemProp="addressLocality" content="Las Vegas" />
-          <meta itemProp="addressRegion" content="NV" />
-          <meta itemProp="postalCode" content="89109" />
-        </div>
+        <meta itemProp="priceRange" content="$$$" />
+        <meta itemProp="image" content={`${SITE_URL}/og-image.png`} />
       </div>
     </footer>
   )
 }
-

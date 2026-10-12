@@ -2,138 +2,83 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import { OFFICE } from '@/lib/office'
+
+const links = [
+  { href: '/private-listing-review', label: 'Private Review' },
+  { href: '/didnt-sell', label: "Didn't Sell" },
+  { href: '/how-it-works', label: 'The Plan' },
+  { href: '/neighborhoods', label: 'Neighborhoods' },
+  { href: '/las-vegas-luxury-homes', label: 'Luxury Homes' },
+  { href: '/contact', label: 'Contact' },
+]
 
 export default function SiteNavigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <>
-      <nav className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
-            {/* Logo */}
-            <Link href="/" className="flex items-center space-x-2">
-              <span className="text-2xl font-bold text-blue-600">Dr. Jan Duffy</span>
-              <span className="hidden md:inline text-sm text-gray-600">| Las Vegas Real Estate</span>
-            </Link>
+    <nav className="sticky top-0 z-50 border-b border-[#2a241e] bg-[#14110e] text-[#f7f3ec]">
+      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
+        <Link href="/" className="min-w-0">
+          <span className="font-display block text-2xl leading-none">{OFFICE.agentName}</span>
+          <span className="mt-1 hidden text-[10px] tracking-[0.18em] text-[#c4a574] uppercase sm:block">
+            Unsold luxury listings
+          </span>
+        </Link>
 
-            {/* Desktop Navigation */}
-            <div className="hidden md:flex items-center space-x-6">
-              <Link href="/" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
-                Home
-              </Link>
-              <Link href="/neighborhoods" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
-                Neighborhoods
-              </Link>
-              <Link href="/about" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
-                About
-              </Link>
-              <Link href="/contact" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
-                Contact
-              </Link>
-              <Link href="/didnt-sell" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
-                Didn't Sell?
-              </Link>
-              <Link href="/expired-listing-help" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
-                Expired Listing Help
-              </Link>
-              <Link href="/home-valuation" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
-                Home Value
-              </Link>
-              <a
-                href="tel:+17022221964"
-                className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors font-semibold flex items-center gap-2"
-              >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                </svg>
-                (702) 222-1964
-              </a>
-            </div>
-
-            {/* Mobile Menu Button */}
-            <button
-              className="md:hidden text-gray-700 p-2"
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
+        <div className="hidden items-center gap-5 lg:flex">
+          {links.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="text-xs tracking-[0.14em] text-[#e6dccb] uppercase hover:text-[#c4a574]"
             >
-              {isMenuOpen ? (
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              ) : (
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
-              )}
-            </button>
-          </div>
+              {link.label}
+            </Link>
+          ))}
+          <a
+            href={`tel:${OFFICE.ctaPhoneTel}`}
+            className="bg-[#c4a574] px-4 py-2 text-xs tracking-[0.14em] text-[#14110e] uppercase"
+          >
+            {OFFICE.ctaPhoneDisplay}
+          </a>
         </div>
 
-        {/* Mobile Menu */}
-        {isMenuOpen && (
-          <div className="md:hidden bg-white border-t border-gray-200">
-            <div className="px-2 pt-2 pb-3 space-y-1">
+        <button
+          type="button"
+          className="p-2 text-[#f7f3ec] lg:hidden"
+          aria-expanded={isMenuOpen}
+          aria-controls="mobile-nav"
+          onClick={() => setIsMenuOpen((open) => !open)}
+        >
+          <span className="sr-only">{isMenuOpen ? 'Close menu' : 'Open menu'}</span>
+          {isMenuOpen ? 'Close' : 'Menu'}
+        </button>
+      </div>
+
+      {isMenuOpen ? (
+        <div id="mobile-nav" className="border-t border-[#2a241e] px-4 py-4 lg:hidden">
+          <div className="flex flex-col gap-3">
+            {links.map((link) => (
               <Link
-                href="/"
-                className="block px-3 py-2 text-gray-700 hover:bg-gray-100 rounded-md font-medium"
+                key={link.href}
+                href={link.href}
+                className="py-2 text-sm tracking-[0.14em] uppercase"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Home
+                {link.label}
               </Link>
-              <Link
-                href="/neighborhoods"
-                className="block px-3 py-2 text-gray-700 hover:bg-gray-100 rounded-md font-medium"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Neighborhoods
-              </Link>
-              <Link
-                href="/about"
-                className="block px-3 py-2 text-gray-700 hover:bg-gray-100 rounded-md font-medium"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                About
-              </Link>
-              <Link
-                href="/contact"
-                className="block px-3 py-2 text-gray-700 hover:bg-gray-100 rounded-md font-medium"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Contact
-              </Link>
-              <Link
-                href="/didnt-sell"
-                className="block px-3 py-2 text-gray-700 hover:bg-gray-100 rounded-md font-medium"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Didn't Sell?
-              </Link>
-              <Link
-                href="/expired-listing-help"
-                className="block px-3 py-2 text-gray-700 hover:bg-gray-100 rounded-md font-medium"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Expired Listing Help
-              </Link>
-              <Link
-                href="/home-valuation"
-                className="block px-3 py-2 text-gray-700 hover:bg-gray-100 rounded-md font-medium"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Home Value
-              </Link>
-              <a
-                href="tel:+17022221964"
-                className="block px-3 py-2 bg-blue-600 text-white rounded-md font-semibold text-center"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Call (702) 222-1964
-              </a>
-            </div>
+            ))}
+            <a
+              href={`tel:${OFFICE.ctaPhoneTel}`}
+              className="mt-2 bg-[#c4a574] px-4 py-3 text-center text-sm tracking-[0.14em] text-[#14110e] uppercase"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Call {OFFICE.ctaPhoneDisplay}
+            </a>
           </div>
-        )}
-      </nav>
-    </>
+        </div>
+      ) : null}
+    </nav>
   )
 }
-
