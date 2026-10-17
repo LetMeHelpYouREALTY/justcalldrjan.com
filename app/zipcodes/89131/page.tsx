@@ -63,7 +63,7 @@ export default function Zip89131Page() {
             <div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Affordable Value Positioning</h3>
               <p className="text-gray-700 mb-3">
-                Zip code 89131 attracts first-time buyers and families seeking affordable new construction with modern features and quality schools. This value-focused market requires positioning emphasizing affordability and new home benefits.
+                Zip code 89131 attracts first-time buyers and buyers who want affordable new construction with modern features and nearby schools. This value-focused market requires positioning emphasizing affordability and new home benefits.
               </p>
               <p className="text-gray-700 mb-3">
                 Your expired listing likely positioned 89131 properties generically without highlighting new construction benefits, affordable value, or master-planned community advantages that define 89131 market.

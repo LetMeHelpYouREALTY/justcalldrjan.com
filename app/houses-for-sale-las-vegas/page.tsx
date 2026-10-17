@@ -51,10 +51,10 @@ export default function HousesForSaleLasVegasPage() {
             <div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Diverse Las Vegas Housing Options</h3>
               <p className="text-gray-700 mb-3">
-                Las Vegas houses for sale span wide range: single-family homes in master-planned communities, new construction developments, established neighborhoods, luxury estates, townhomes, and high-rise condominiums. Each category serves different buyers and requires specific marketing approaches.
+                Las Vegas houses for sale span wide range: single-family houses in master-planned communities, new construction developments, older neighborhoods, luxury estates, townhomes, and high-rise condominiums. Each category serves different buyers and requires specific marketing approaches.
               </p>
               <p className="text-gray-700 mb-3">
-                For houses that didn't sell, understanding category positioning matters: master-planned community benefits, new construction advantages, established neighborhood value, or luxury premium positioning. Generic marketing fails - category-specific strategies succeed.
+                For houses that didn't sell, understanding category positioning matters: master-planned community benefits, new construction advantages, older streets value, or luxury premium positioning. Generic marketing fails - category-specific strategies succeed.
               </p>
               <p className="text-gray-700">
                 Dr. Jan understands Las Vegas housing market diversity and positions houses for sale effectively based on category, neighborhood, and buyer demographics. Her specialized approach helps houses that didn't sell achieve successful sales through strategic positioning.
@@ -66,7 +66,7 @@ export default function HousesForSaleLasVegasPage() {
                 Las Vegas houses for sale exist in distinct neighborhood markets: Summerlin master-planned excellence, Henderson value positioning, North Las Vegas growth areas, Downtown urban living, and specialized communities each with unique buyer pools and pricing dynamics.
               </p>
               <p className="text-gray-700 mb-3">
-                Each neighborhood requires specific marketing approaches: Summerlin emphasizes master-planned benefits, Henderson highlights value and family-friendly features, North Las Vegas focuses on new construction and growth, Downtown targets urban lifestyle buyers.
+                Each neighborhood requires specific marketing approaches: Summerlin emphasizes master-planned benefits, Henderson highlights value and parks and residential streets, North Las Vegas focuses on new construction and growth, Downtown targets urban lifestyle buyers.
               </p>
               <p className="text-gray-700">
                 Dr. Jan's neighborhood expertise ensures houses for sale are positioned effectively within specific market contexts. For houses that didn't sell, neighborhood-specific positioning addresses issues that generic marketing missed.

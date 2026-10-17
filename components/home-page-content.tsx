@@ -2,7 +2,7 @@ import Link from 'next/link'
 import FAQSection from '@/components/faq-section'
 import InquiryForm from '@/components/luxury/inquiry-form'
 import OfficePanel from '@/components/luxury/office-panel'
-import { OFFICE } from '@/lib/office'
+import { OFFICE, OFFICE_ONE_LINE } from '@/lib/office'
 
 const reasons = [
   {
@@ -119,10 +119,14 @@ export default function HomePageContent() {
               Dr. Jan Duffy reads the old listing first. Price, photos, and who actually saw it.
               Then she writes a private relist plan.
             </p>
-            <p className="mt-8 text-sm tracking-wide text-[#c4a574]">
-              {OFFICE.brokerage}
-              <span className="mx-2 text-[#6e6254]">·</span>
-              License {OFFICE.license}
+            <p className="mt-8 max-w-xl text-sm leading-relaxed text-[#c4a574]">
+              {OFFICE.agentName} is a Las Vegas REALTOR® with {OFFICE.brokerage}, Nevada license{' '}
+              {OFFICE.license}, at {OFFICE_ONE_LINE}. She relists luxury homes that did not sell
+              with the previous agent. Call or text{' '}
+              <a href={`tel:${OFFICE.ctaPhoneTel}`} className="underline underline-offset-4">
+                {OFFICE.ctaPhoneDisplay}
+              </a>
+              .
             </p>
             <div className="mt-10 flex flex-col gap-3 sm:flex-row">
               <a

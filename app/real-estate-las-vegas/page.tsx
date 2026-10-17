@@ -45,7 +45,7 @@ export default function RealEstateLasVegasPage() {
             Las Vegas Real Estate Market Overview
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Las Vegas real estate market offers diverse opportunities: master-planned communities, new construction, established neighborhoods, luxury properties, and value-focused areas. Understanding Las Vegas real estate market dynamics helps buyers and sellers make informed decisions.
+            Las Vegas real estate market offers diverse opportunities: master-planned communities, new construction, older neighborhoods, luxury properties, and value-focused areas. Understanding Las Vegas real estate market dynamics helps buyers and sellers make informed decisions.
           </p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div>
@@ -125,11 +125,11 @@ export default function RealEstateLasVegasPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-600 mr-3 font-bold">•</span>
-                  <span><strong>Henderson:</strong> Value communities, family-friendly neighborhoods, growing amenities</span>
+                  <span><strong>Henderson:</strong> Value communities, residential streets, growing amenities</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-600 mr-3 font-bold">•</span>
-                  <span><strong>North Las Vegas:</strong> New construction, affordable options, family amenities</span>
+                  <span><strong>North Las Vegas:</strong> New construction, affordable options, parks</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-slate-600 mr-3 font-bold">•</span>

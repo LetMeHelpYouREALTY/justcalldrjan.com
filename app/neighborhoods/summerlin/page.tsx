@@ -5,26 +5,24 @@ import AuthorBadge from '@/components/author-badge'
 import StructuredDataScript from '@/components/structured-data-script'
 import Breadcrumbs from '@/components/breadcrumbs'
 import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
-import { getPlaceSchema, getCitySchema } from '@/lib/hyperlocal-schema'
+import { getPlaceSchema } from '@/lib/hyperlocal-schema'
 
 export default function SummerlinPage() {
   const articleSchema = getArticleSchema({
     path: '/neighborhoods/summerlin',
     headline: 'Summerlin Las Vegas: Master-Planned Living at Its Finest',
-    description: 'Discover why Summerlin is considered one of the best neighborhoods in Las Vegas. From world-class golf courses to top-rated schools and master-planned communities, find everything you need to know about living in Summerlin.',
+    description: 'Discover why Summerlin is considered one of the Las Vegas neighborhoods in Las Vegas. From world-class golf courses to nearby schools and master-planned communities, find everything you need to know about living in Summerlin.',
     datePublished: '2024-03-01',
     dateModified: '2024-12-01',
     author: getPersonSchema()
   })
 
   const placeSchema = getPlaceSchema('Summerlin', 'Neighborhood')
-  const citySchema = getCitySchema('Summerlin', 'Nevada')
 
   return (
     <>
       <StructuredDataScript data={articleSchema} id="article-schema" />
       <StructuredDataScript data={placeSchema} id="place-schema" />
-      <StructuredDataScript data={citySchema} id="city-schema" />
       <Breadcrumbs />
       <div className="min-h-screen bg-white">
       {/* Hero Section with H1 */}
@@ -34,7 +32,7 @@ export default function SummerlinPage() {
             Summerlin Las Vegas: Master-Planned Living at Its Finest
           </h1>
           <p className="text-xl md:text-2xl text-blue-100 max-w-3xl">
-            Discover why Summerlin is considered one of the best neighborhoods in Las Vegas. From world-class golf courses to top-rated schools and master-planned communities, find everything you need to know about living in Summerlin.
+            Discover why Summerlin is considered one of the Las Vegas neighborhoods in Las Vegas. From world-class golf courses to nearby schools and master-planned communities, find everything you need to know about living in Summerlin.
           </p>
         </div>
       </section>
@@ -59,10 +57,10 @@ export default function SummerlinPage() {
                 Summerlin stands out as Las Vegas's premier master-planned community, spanning over 22,500 acres in the foothills of the Red Rock Canyon National Conservation Area. Developed by The Howard Hughes Corporation since 1990, Summerlin represents the gold standard for master-planned living in the Las Vegas Valley.
               </p>
               <p className="text-lg text-gray-700 mb-4">
-                The community seamlessly blends residential neighborhoods with commercial centers, parks, schools, golf courses, and 150+ miles of trails. What sets Summerlin apart is its commitment to quality of life: carefully planned infrastructure, architectural guidelines that maintain property values, and an emphasis on community amenities that bring neighbors together.
+                The community seamlessly blends residential neighborhoods with commercial centers, parks, schools, golf courses, and 150+ miles of trails. What sets Summerlin apart is its commitment to the parks, trails, and commute: carefully planned infrastructure, architectural guidelines that maintain property values, and an emphasis on community amenities that bring neighbors together.
               </p>
               <p className="text-lg text-gray-700">
-                Unlike many Las Vegas areas that developed organically over time, Summerlin was planned from the ground up with the resident experience in mind. Every aspect - from traffic flow to park placement to school locations - was designed to create an ideal living environment. This intentional planning results in less crime, better property values, and a higher quality of life.
+                Unlike many Las Vegas areas that developed organically over time, Summerlin was planned from the ground up with the resident experience in mind. Every aspect - from traffic flow to park placement to school locations - was designed to create an ideal living environment. The plan put parks, trails, and school sites inside the villages before the houses were built.
               </p>
             </div>
             
@@ -75,7 +73,7 @@ export default function SummerlinPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="font-bold mr-2">• School District:</span>
-                  <span>Clark County (many A-rated schools)</span>
+                  <span>Clark County School District</span>
                 </li>
                 <li className="flex items-start">
                   <span className="font-bold mr-2">• Golf Courses:</span>
@@ -157,7 +155,7 @@ export default function SummerlinPage() {
                 Popular areas include The Trails with its extensive trail system, The Foothills offering mountain views, Sun City for active adults, and Highland Hills with its central location. Each sub-community has unique character, amenities, and price points ranging from entry-level condos to luxury estates.
               </p>
               <p className="text-gray-700">
-                Timing matters in Summerlin. Spring and fall typically see more inventory as families time their moves around school schedules. Winter sees fewer listings but also less competition. Summer can be slower due to heat, though motivated sellers often list during this time.
+                Timing matters in Summerlin. Spring and fall typically see more inventory when buyers move between school years. Winter sees fewer listings but also less competition. Summer can be slower due to heat, though motivated sellers often list during this time.
               </p>
             </div>
             
@@ -185,7 +183,7 @@ export default function SummerlinPage() {
           </h2>
           
           <p className="text-lg text-gray-700 mb-8">
-            Living in Summerlin means enjoying master-planned community benefits: well-maintained infrastructure, abundant amenities, safe neighborhoods, and strong community identity. Residents consistently rate quality of life highly, citing everything from the trail system to school quality to property value stability.
+            Living in Summerlin means enjoying master-planned community benefits: maintained streets, golf courses, and more than 150 miles of trails. Buyers ask about the trail system, which school an address is zoned to, and how prices have moved.
           </p>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
@@ -219,10 +217,10 @@ export default function SummerlinPage() {
           <div className="bg-gray-50 p-8 rounded-lg mb-8">
             <h3 className="text-2xl font-bold mb-4 text-gray-900">Schools and Education</h3>
             <p className="text-gray-700 mb-3">
-              Summerlin is home to many of Clark County's top-rated schools. Elementary schools like Givens and Garehime consistently receive A ratings, while Palo Verde High School is one of Nevada's highest-ranked high schools. Many families specifically choose Summerlin for the schools.
+              Summerlin addresses are zoned to Clark County schools, including Givens Elementary, Garehime Elementary, and Palo Verde High School. Buyers often ask which campus an address is zoned to.
             </p>
             <p className="text-gray-700 mb-3">
-              The community also hosts several charter schools and private schools, providing educational options. Schools are integrated into neighborhood planning, meaning most Summerlin children can walk to elementary school. This convenience and safety add significant value for families.
+              The community also hosts several charter schools and private schools, providing educational options. Elementary school sites were planned inside the villages, so many houses sit a short walk from a campus.
             </p>
             <p className="text-gray-700">
               Beyond K-12, Summerlin is close to multiple higher education institutions. University of Nevada Las Vegas (UNLV) is just 15 minutes away, and Nevada State College is also accessible. Summerlin's educated population and proximity to universities create a knowledge-based community culture.
@@ -233,13 +231,13 @@ export default function SummerlinPage() {
             <div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Safety and Security</h3>
               <p className="text-gray-700 mb-3">
-                Summerlin consistently reports lower crime rates than other Las Vegas neighborhoods. The master-planned nature, active HOAs, well-lit streets, and neighborhood watch programs all contribute to safety. Metropolitan Police Department presence is strong throughout the community.
+                Many Summerlin villages have an HOA, street lights, and a Metropolitan Police Department service area. Ask the HOA what the rules cover before you write an offer.
               </p>
               <p className="text-gray-700 mb-3">
-                Many Summerlin gated communities add an additional security layer. Security personnel monitor access, which not only prevents crime but also reduces solicitation and unwanted visitors. Gated communities typically see even better property values and appreciation.
+                Some Summerlin villages are gated and staff a gate. That changes guest access and HOA dues. It is a property feature, not a promise about who lives there.
               </p>
               <p className="text-gray-700">
-                The overall sense of safety makes Summerlin attractive to families, retirees, and professionals. Parents feel comfortable letting children play outside, walk to friends' houses, and use parks independently. This peace of mind is invaluable and contributes significantly to quality of life.
+                Summerlin has parks, trails, and golf. Commute times depend on whether the job is on the west side or on the Strip.
               </p>
             </div>
             
@@ -252,7 +250,7 @@ export default function SummerlinPage() {
                 Summerlin hosts community events throughout the year including farmers markets, concerts, festivals, and seasonal celebrations. These events at Downtown Summerlin and various parks create opportunities for connection and community engagement.
               </p>
               <p className="text-gray-700">
-                The community attracts residents who value quality of life, security, and amenities. This shared value system creates a certain culture where neighbors look out for each other, participate in community activities, and take pride in their neighborhoods. This community culture is difficult to quantify but significantly enhances the living experience.
+                Summerlin amenities include parks, trails, golf, and village centers. HOA rules differ by village.
               </p>
             </div>
           </div>
@@ -293,7 +291,7 @@ export default function SummerlinPage() {
                 She provides detailed comparative market analyses for specific sub-communities, helping buyers understand pricing ranges, typical days on market, and negotiating position. This knowledge enables confident decisions in competitive situations where quick action matters.
               </p>
               <p className="text-gray-700">
-                Beyond just finding properties, Dr. Jan ensures buyers understand what they're getting: HOA benefits and restrictions, school quality, nearby amenities, commute times, and future development that might affect value. This comprehensive approach prevents unpleasant surprises after purchase.
+                Beyond just finding properties, Dr. Jan ensures buyers understand what they're getting: HOA benefits and restrictions, the school zone for the address, nearby amenities, commute times, and future development that might affect value. This comprehensive approach prevents unpleasant surprises after purchase.
               </p>
             </div>
             
@@ -324,7 +322,7 @@ export default function SummerlinPage() {
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <a
-              href="tel:+17025667890"
+              href="tel:+17022221964"
               className="bg-white text-blue-600 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition-colors"
             >
               Call: (702) 222-1964

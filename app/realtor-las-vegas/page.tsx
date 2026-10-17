@@ -125,11 +125,11 @@ export default function RealtorLasVegasPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 mr-3 font-bold">•</span>
-                  <span><strong>Henderson:</strong> Value communities, family-friendly neighborhoods, growing amenities</span>
+                  <span><strong>Henderson:</strong> Value communities, residential streets, growing amenities</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 mr-3 font-bold">•</span>
-                  <span><strong>North Las Vegas:</strong> New construction, affordable options, family amenities</span>
+                  <span><strong>North Las Vegas:</strong> New construction, affordable options, parks</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 mr-3 font-bold">•</span>

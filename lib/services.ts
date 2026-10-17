@@ -5,39 +5,33 @@ import { getServiceSchema } from './schema'
 export const SERVICES = {
   EXPIRED_LISTING_ASSISTANCE: {
     name: 'Expired Listing Assistance',
-    description: 'Comprehensive help for homes that didn\'t sell the first time. Expert pricing analysis, professional marketing, and proven strategies to get your home sold successfully.',
+    description: 'Help for homes that did not sell the first time: pricing, presentation, and a relist plan.',
     serviceType: 'Real Estate Brokerage Service',
-    areaServed: 'Las Vegas, NV'
   },
   HOME_VALUATION: {
     name: 'Home Valuation Service',
-    description: 'Accurate home valuation using 30+ years of Las Vegas market data. Get a professional assessment of your home\'s value to help price it right the first time.',
+    description: 'A home value assessment used to price a Las Vegas relist.',
     serviceType: 'Property Valuation Service',
-    areaServed: 'Las Vegas, NV'
   },
   REAL_ESTATE_MARKETING: {
     name: 'Real Estate Marketing Service',
-    description: 'Professional marketing services including photography, virtual tours, digital advertising, and institutional marketing power through Berkshire Hathaway HomeServices.',
+    description: 'Photography, virtual tours, and digital advertising through Berkshire Hathaway HomeServices.',
     serviceType: 'Real Estate Marketing Service',
-    areaServed: 'Las Vegas, NV'
   },
   BUYER_REPRESENTATION: {
     name: 'Buyer Representation',
-    description: 'Expert representation for home buyers in the Las Vegas market. Access to exclusive listings, market insights, and negotiation expertise.',
+    description: 'Buyer representation for Las Vegas home searches, including MLS access and offer negotiation.',
     serviceType: 'Real Estate Buyer Agent Service',
-    areaServed: 'Las Vegas, NV'
   },
   SELLER_REPRESENTATION: {
     name: 'Seller Representation',
-    description: 'Full-service seller representation including pricing strategy, staging recommendations, marketing, and negotiation to get top dollar for your home.',
+    description: 'Seller representation for pricing, staging recommendations, marketing, and negotiation.',
     serviceType: 'Real Estate Listing Service',
-    areaServed: 'Las Vegas, NV'
   },
   PROPERTY_SEARCH_ASSISTANCE: {
     name: 'Property Search Assistance',
-    description: 'Personalized property search assistance to help you find your ideal home in Las Vegas. Access to MLS listings and expert market guidance.',
+    description: 'Property search help for Las Vegas buyers, using MLS listings and local market guidance.',
     serviceType: 'Real Estate Search Service',
-    areaServed: 'Las Vegas, NV'
   }
 }
 
@@ -47,7 +41,6 @@ export function getServiceSchemaForPage(serviceKey: keyof typeof SERVICES) {
     name: service.name,
     description: service.description,
     serviceType: service.serviceType,
-    areaServed: service.areaServed
   })
 }
 

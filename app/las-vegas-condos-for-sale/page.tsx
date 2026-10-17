@@ -69,7 +69,7 @@ export default function LasVegasCondosForSalePage() {
                 Downtown Las Vegas condos for sale require urban positioning: emphasizing Arts District proximity, Fremont Street access, entertainment scene, walkability, and Downtown revitalization benefits.
               </p>
               <p className="text-gray-700">
-                Dr. Jan specializes in Downtown Las Vegas real estate, understanding urban lifestyle buyers, Arts District positioning, and Downtown condo market dynamics that differ from suburban single-family homes.
+                Dr. Jan specializes in Downtown Las Vegas real estate, understanding urban lifestyle buyers, Arts District positioning, and Downtown condo market dynamics that differ from suburban single-family houses.
               </p>
             </div>
           </div>
@@ -116,7 +116,7 @@ export default function LasVegasCondosForSalePage() {
             <div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Condo-Specific Knowledge</h3>
               <p className="text-gray-700 mb-3">
-                Dr. Jan understands Las Vegas condo market dynamics: high-rise view premiums, resort amenities value, HOA fee impact, building-specific comps, and condo buyer demographics that differ from single-family home buyers.
+                Dr. Jan understands Las Vegas condo market dynamics: high-rise view premiums, resort amenities value, HOA fee impact, building-specific comps, and condo buyer demographics that differ from buyers of detached houses.
               </p>
               <p className="text-gray-700 mb-3">
                 This specialized knowledge ensures Las Vegas condos for sale are positioned effectively: emphasizing views, resort amenities, Strip proximity, or Downtown urban benefits based on specific building and location advantages.

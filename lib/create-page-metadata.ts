@@ -53,8 +53,18 @@ export function createPageMetadata(
       description: seo.description,
       images: ['/og-image.png'],
     },
-    ...(seo.noIndex
-      ? { robots: { index: false, follow: false } }
-      : { robots: { index: true, follow: true } }),
+    robots: seo.noIndex
+      ? { index: false, follow: false }
+      : {
+          index: true,
+          follow: true,
+          googleBot: {
+            index: true,
+            follow: true,
+            'max-image-preview': 'large',
+            'max-snippet': -1,
+            'max-video-preview': -1,
+          },
+        },
   }
 }

@@ -63,7 +63,7 @@ export default function MacDonaldRanchPage() {
             <div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Master-Planned Golf Community</h3>
               <p className="text-gray-700 mb-3">
-                MacDonald Ranch features master-planned community benefits combined with golf course living: quality schools, parks, and recreational amenities within golf-focused neighborhood design.
+                MacDonald Ranch features master-planned community benefits combined with golf course living: nearby schools, parks, and recreational amenities within golf-focused neighborhood design.
               </p>
               <p className="text-gray-700 mb-3">
                 Your expired listing likely positioned MacDonald Ranch homes generically without highlighting golf course benefits, course views, or master-planned advantages that define MacDonald Ranch market.

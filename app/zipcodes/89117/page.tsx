@@ -60,25 +60,25 @@ export default function Zip89117Page() {
             <div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Summerlin Master-Planned Community</h3>
               <p className="text-gray-700 mb-3">
-                Much of zip code 89117 falls within Summerlin, offering master-planned benefits: quality schools, parks, golf courses, and cohesive neighborhood design that maintains property values better than non-planned areas.
+                Much of zip code 89117 falls within Summerlin, offering master-planned benefits: nearby schools, parks, golf courses, and cohesive neighborhood design that maintains property values better than non-planned areas.
               </p>
               <p className="text-gray-700 mb-3">
                 Many expired listings in 89117 failed to communicate Summerlin master-planned advantages effectively. Properties positioned generically miss community benefits that define 89117 market value.
               </p>
               <p className="text-gray-700">
-                Dr. Jan helps you showcase 89117 Summerlin benefits: master-planned community amenities, quality schools, and neighborhood cohesion that 89117 buyers specifically value within Las Vegas.
+                Dr. Jan helps you showcase 89117 Summerlin benefits: master-planned community amenities, nearby schools, and neighborhood cohesion that 89117 buyers specifically value within Las Vegas.
               </p>
             </div>
             <div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Upscale Neighborhood Positioning</h3>
               <p className="text-gray-700 mb-3">
-                Zip code 89117 attracts buyers seeking Summerlin upscale living with Red Rock Canyon proximity, golf courses, and established neighborhoods with strong property values and quality of life.
+                Zip code 89117 attracts buyers seeking Summerlin upscale living with Red Rock Canyon proximity, golf courses, and older neighborhoods with strong property values and the parks, trails, and commute.
               </p>
               <p className="text-gray-700 mb-3">
                 Your expired listing likely positioned 89117 properties generically without highlighting Summerlin benefits, master-planned advantages, or upscale community character that define 89117 market.
               </p>
               <p className="text-gray-700">
-                Her marketing strategy emphasizes 89117 Summerlin benefits: master-planned community, quality schools, golf courses, and upscale positioning that buyers seeking Summerlin specifically value.
+                Her marketing strategy emphasizes 89117 Summerlin benefits: master-planned community, nearby schools, golf courses, and upscale positioning that buyers seeking Summerlin specifically value.
               </p>
             </div>
           </div>
@@ -97,7 +97,7 @@ export default function Zip89117Page() {
             <div className="bg-red-50 p-6 rounded-lg border border-red-200">
               <h3 className="text-xl font-bold mb-4 text-gray-900">Missing Summerlin Benefits</h3>
               <p className="text-gray-700">
-                89117's biggest advantage is Summerlin master-planned benefits. Listings that don't highlight community amenities, quality schools, and master-planned advantages miss value that defines 89117 appeal.
+                89117's biggest advantage is Summerlin master-planned benefits. Listings that don't highlight community amenities, nearby schools, and master-planned advantages miss value that defines 89117 appeal.
               </p>
             </div>
             <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-200">
@@ -109,7 +109,7 @@ export default function Zip89117Page() {
             <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
               <h3 className="text-xl font-bold mb-4 text-gray-900">Competing Against New Construction</h3>
               <p className="text-gray-700">
-                89117 resales compete against active Summerlin new construction. Marketing must highlight resale advantages: established neighborhoods, mature landscaping, and proven quality while buyers wait for new builds.
+                89117 resales compete against active Summerlin new construction. Marketing must highlight resale advantages: older neighborhoods, mature landscaping, and proven quality while buyers wait for new builds.
               </p>
             </div>
           </div>
@@ -122,7 +122,7 @@ export default function Zip89117Page() {
               Dr. Jan specializes in zip code 89117 real estate and understands how to position Summerlin homes to highlight master-planned benefits and community advantages that 89117 buyers specifically seek.
             </p>
             <p className="text-gray-700">
-              Her marketing targets 89117 buyers specifically: Summerlin seekers wanting master-planned benefits, buyers seeking upscale communities, and those valuing quality schools that 89117 uniquely offers within Las Vegas.
+              Her marketing targets 89117 buyers specifically: Summerlin seekers wanting master-planned benefits, buyers seeking upscale communities, and those valuing nearby schools that 89117 uniquely offers within Las Vegas.
             </p>
           </div>
         </div>
@@ -140,25 +140,25 @@ export default function Zip89117Page() {
             <div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">89117 Summerlin Expertise</h3>
               <p className="text-gray-700 mb-3">
-                Dr. Jan understands 89117 unique value: Summerlin master-planned benefits, quality schools, and upscale positioning that community properties command. She creates marketing emphasizing these 89117 advantages buyers specifically seek.
+                Dr. Jan understands 89117 unique value: Summerlin master-planned benefits, nearby schools, and upscale positioning that community properties command. She creates marketing emphasizing these 89117 advantages buyers specifically seek.
               </p>
               <p className="text-gray-700 mb-3">
                 She tracks 89117 comps specifically, watching how Summerlin properties, master-planned homes, and upscale positioning perform against generic Las Vegas listings. This 89117-specific expertise ensures accurate pricing.
               </p>
               <p className="text-gray-700">
-                Her marketing strategy targets 89117 buyers specifically: Summerlin seekers wanting master-planned benefits, buyers seeking quality schools, and those valuing upscale communities that 89117 uniquely offers.
+                Her marketing strategy targets 89117 buyers specifically: Summerlin seekers wanting master-planned benefits, buyers seeking nearby schools, and those valuing upscale communities that 89117 uniquely offers.
               </p>
             </div>
             <div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Highlighting 89117 Advantages</h3>
               <p className="text-gray-700 mb-3">
-                Your 89117 home offers advantages other Las Vegas areas can't replicate: Summerlin master-planned benefits, quality schools, and upscale community positioning. Generic listings don't communicate these 89117-specific benefits effectively.
+                Your 89117 home offers advantages other Las Vegas areas can't replicate: Summerlin master-planned benefits, nearby schools, and upscale community positioning. Generic listings don't communicate these 89117-specific benefits effectively.
               </p>
               <p className="text-gray-700 mb-3">
                 Dr. Jan's marketing showcases 89117 advantages with professional photography highlighting Summerlin amenities, community features, and neighborhood character that 89117 buyers specifically appreciate.
               </p>
               <p className="text-gray-700">
-                Her approach positions your property against other Las Vegas areas by emphasizing benefits only 89117 offers: Summerlin master-planned community, quality schools, and upscale positioning that buyers value in 89117 specifically.
+                Her approach positions your property against other Las Vegas areas by emphasizing benefits only 89117 offers: Summerlin master-planned community, nearby schools, and upscale positioning that buyers value in 89117 specifically.
               </p>
             </div>
           </div>

@@ -35,14 +35,14 @@ export default function BoulderCityPage() {
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Small-Town Character Appeal</h3>
-              <p className="text-gray-700 mb-3">Boulder City attracts buyers seeking lifestyle benefits: outdoor recreation, lake access, quiet neighborhoods, and small-town atmosphere. Properties emphasizing these advantages connect with Boulder City buyers effectively.</p>
+              <p className="text-gray-700 mb-3">Boulder City attracts buyers seeking lifestyle benefits: outdoor recreation, lake access, streets away from the Strip, and small-town atmosphere. Properties emphasizing these advantages connect with Boulder City buyers effectively.</p>
               <p className="text-gray-700 mb-3">Many expired listings in Boulder City missed the mark by using generic suburb marketing that didn't highlight outdoor recreation, lake access, and quiet living that defines Boulder City's appeal.</p>
-              <p className="text-gray-700">Dr. Jan helps you showcase Boulder City's unique lifestyle advantages: proximity to Lake Mead, outdoor recreation, quiet neighborhoods, and escape from Las Vegas hustle while remaining close enough for employment.</p>
+              <p className="text-gray-700">Dr. Jan helps you showcase Boulder City's unique lifestyle advantages: proximity to Lake Mead, outdoor recreation, streets away from the Strip, and escape from Las Vegas hustle while remaining close enough for employment.</p>
             </div>
             <div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Relocation and Retirement Market</h3>
-              <p className="text-gray-700 mb-3">Boulder City attracts retirees and relocators seeking outdoor lifestyle without Las Vegas Strip intensity. These buyers value quiet neighborhoods, mountain views, and recreational access over urban density.</p>
-              <p className="text-gray-700 mb-3">Your expired listing likely used generic marketing that didn't speak to Boulder City's specific buyer motivations. Dr. Jan targets outdoor enthusiasts, retirees, and relocators specifically.</p>
+              <p className="text-gray-700 mb-3">Boulder City draws buyers who want lake access seeking outdoor lifestyle without Las Vegas Strip intensity. These buyers value streets away from the Strip, mountain views, and recreational access over urban density.</p>
+              <p className="text-gray-700 mb-3">Your expired listing likely used generic marketing that didn't speak to Boulder City's specific buyer motivations. Dr. Jan targets buyers who want lake access specifically.</p>
               <p className="text-gray-700">Her marketing strategy emphasizes Boulder City's unique position: outdoor recreation hub, retirement destination, and Las Vegas proximity without Strip intensity. This messaging connects with Boulder City's actual buyer pool.</p>
             </div>
           </div>
@@ -68,14 +68,14 @@ export default function BoulderCityPage() {
             </div>
             <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
               <h3 className="text-xl font-bold mb-4 text-gray-900">Wrong Buyer Targeting</h3>
-              <p className="text-gray-700">Boulder City attracts retirees, outdoor enthusiasts, and those seeking quieter living. Marketing to generic Las Vegas buyers who don't understand Boulder City's appeal wastes advertising while missing interested buyers.</p>
+              <p className="text-gray-700">Boulder City attracts buyers, outdoor enthusiasts, and those seeking quieter living. Marketing to generic Las Vegas buyers who don't understand Boulder City's appeal wastes advertising while missing interested buyers.</p>
             </div>
           </div>
           <div className="bg-white p-8 rounded-lg border border-gray-200">
             <h3 className="text-2xl font-bold mb-4 text-gray-900">The Boulder City Messaging Challenge</h3>
-            <p className="text-gray-700 mb-3">Boulder City homes that didn't sell often failed to communicate the area's unique lifestyle advantages. Buyers considering Boulder City want outdoor recreation, quiet neighborhoods, and escape from urban intensity.</p>
-            <p className="text-gray-700 mb-3">Generic marketing that positions Boulder City as "just another Las Vegas suburb" misses the point entirely. Your marketing needs to speak to outdoor enthusiasts, retirees, and those seeking lifestyle advantages.</p>
-            <p className="text-gray-700">Dr. Jan specializes in Boulder City real estate and understands how to communicate lifestyle advantages to the right buyers. Her marketing targets outdoor enthusiasts and retirees seeking Boulder City's unique benefits.</p>
+            <p className="text-gray-700 mb-3">Boulder City homes that didn't sell often failed to communicate the area's unique lifestyle advantages. Buyers considering Boulder City want outdoor recreation, streets away from the Strip, and escape from urban intensity.</p>
+            <p className="text-gray-700 mb-3">Generic marketing that positions Boulder City as "just another Las Vegas suburb" misses the point entirely. Your marketing needs to speak to outdoor enthusiasts, buyers, and those seeking lifestyle advantages.</p>
+            <p className="text-gray-700">Dr. Jan specializes in Boulder City real estate and understands how to communicate lifestyle advantages to the right buyers. Her marketing targets buyers who want lake access seeking Boulder City's unique benefits.</p>
           </div>
         </div>
       </section>
@@ -86,19 +86,19 @@ export default function BoulderCityPage() {
             How Dr. Jan Helps Boulder City Homes Sell
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Boulder City real estate requires understanding of outdoor recreation buyers, retiree motivations, and lifestyle marketing. Dr. Jan Duffy brings specialized knowledge to help your Boulder City home achieve successful sale on relisting.
+            Boulder City real estate requires understanding of outdoor recreation buyers, reasons buyers want lake access, and lifestyle marketing. Dr. Jan Duffy brings specialized knowledge to help your Boulder City home achieve successful sale on relisting.
           </p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Boulder City Lifestyle Marketing</h3>
               <p className="text-gray-700 mb-3">Dr. Jan understands Boulder City's unique buyer motivations and creates marketing that speaks directly to them. Her approach emphasizes outdoor recreation, lake access, quiet living, and lifestyle advantages that define Boulder City appeal.</p>
-              <p className="text-gray-700 mb-3">She tracks Boulder City comps specifically, watching how recreational properties, quiet neighborhoods, and lifestyle homes perform in the market. This Boulder City-specific expertise ensures accurate pricing and effective marketing.</p>
-              <p className="text-gray-700">Her marketing strategy targets Boulder City buyers specifically: outdoor enthusiasts seeking recreation access, retirees seeking peaceful communities, and those wanting Las Vegas proximity without Strip intensity. This precision creates results.</p>
+              <p className="text-gray-700 mb-3">She tracks Boulder City comps specifically, watching how recreational properties, streets away from the Strip, and lifestyle homes perform in the market. This Boulder City-specific expertise ensures accurate pricing and effective marketing.</p>
+              <p className="text-gray-700">Her marketing strategy targets Boulder City buyers specifically: outdoor enthusiasts seeking recreation access, buyers who want a short drive to Lake Mead, and those wanting Las Vegas proximity without Strip intensity. This precision creates results.</p>
             </div>
             <div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Highlighting Recreational Advantages</h3>
-              <p className="text-gray-700 mb-3">Your Boulder City home has unique selling points: proximity to Lake Mead, outdoor recreation, mountain views, quiet neighborhoods, and peaceful lifestyle. Generic listings don't communicate these advantages effectively.</p>
-              <p className="text-gray-700 mb-3">Dr. Jan's marketing showcases Boulder City lifestyle with professional photography highlighting outdoor recreation, lake access, quiet neighborhoods, and peaceful community atmosphere that attracts Boulder City buyers.</p>
+              <p className="text-gray-700 mb-3">Your Boulder City home has unique selling points: proximity to Lake Mead, outdoor recreation, mountain views, streets away from the Strip, and peaceful lifestyle. Generic listings don't communicate these advantages effectively.</p>
+              <p className="text-gray-700 mb-3">Dr. Jan's marketing showcases Boulder City lifestyle with professional photography highlighting outdoor recreation, lake access, streets away from the Strip, and peaceful community atmosphere that attracts Boulder City buyers.</p>
               <p className="text-gray-700">Her approach positions your property as a lifestyle advantage that city living cannot offer. This Boulder City positioning attracts buyers seeking outdoor recreation and peaceful living over urban density.</p>
             </div>
           </div>
@@ -106,7 +106,7 @@ export default function BoulderCityPage() {
             <h3 className="text-2xl font-bold mb-4 text-gray-900">Success with Boulder City Homes That Didn't Sell</h3>
             <p className="text-gray-700 mb-3">Dr. Jan's Boulder City focus means she's sold multiple Boulder City properties that previous agents couldn't move. Her understanding of Boulder City buyers, lifestyle marketing, and recreational positioning creates results where generic approaches failed.</p>
             <p className="text-gray-700 mb-3">Typical turnaround for Boulder City expired listings working with Dr. Jan is 30-45 days with strategic pricing and lifestyle-focused marketing. Her Boulder City expertise identifies issues generic agents miss and creates solutions tailored to this unique market.</p>
-            <p className="text-gray-700">If your Boulder City home didn't sell initially, likely issues included marketing that didn't communicate lifestyle advantages, messaging that didn't target outdoor enthusiasts and retirees, or pricing that didn't reflect Boulder City's unique market value. Dr. Jan addresses each systematically.</p>
+            <p className="text-gray-700">If your Boulder City home didn't sell initially, likely issues included marketing that didn't communicate lifestyle advantages, messaging that didn't target buyers who want lake access, or pricing that didn't reflect Boulder City's unique market value. Dr. Jan addresses each systematically.</p>
           </div>
         </div>
       </section>

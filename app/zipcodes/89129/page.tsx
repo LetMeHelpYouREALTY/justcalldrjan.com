@@ -45,31 +45,31 @@ export default function Zip89129Page() {
             Understanding Zip Code 89129 Real Estate Market
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Zip code 89129 covers Centennial Hills, Northwest Las Vegas's fastest-growing area with new construction, master-planned communities, and family-friendly amenities. This zip code includes newer subdivisions, established neighborhoods, and growing residential areas. For homeowners whose properties didn't sell, understanding 89129's market dynamics is essential for successful relisting.
+            Zip code 89129 covers Centennial Hills, Northwest Las Vegas's fastest-growing area with new construction, master-planned communities, and parks. This zip code includes newer subdivisions, older neighborhoods, and growing residential areas. For homeowners whose properties didn't sell, understanding 89129's market dynamics is essential for successful relisting.
           </p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Centennial Hills Growing Market</h3>
               <p className="text-gray-700 mb-3">
-                Zip code 89129 represents Centennial Hills, featuring rapid growth, new construction projects, master-planned communities, and excellent value for Northwest Las Vegas buyers. This area offers newer homes, growing amenities, and affordable family living.
+                Zip code 89129 represents Centennial Hills, featuring rapid growth, new construction projects, master-planned communities, and excellent value for Northwest Las Vegas buyers. This area offers newer homes, growing amenities, and affordable day-to-day living.
               </p>
               <p className="text-gray-700 mb-3">
-                Many expired listings in 89129 failed due to competing against active new construction without highlighting established neighborhood advantages, missing value positioning for Northwest Las Vegas buyers, or insufficient marketing to families seeking Centennial Hills growth area.
+                Many expired listings in 89129 failed due to competing against active new construction without highlighting older streets advantages, missing value positioning for Northwest Las Vegas buyers, or insufficient marketing to buyers who want Centennial Hills growth area.
               </p>
               <p className="text-gray-700">
-                Dr. Jan specializes in 89129 Centennial Hills real estate and understands how to position properties in growing areas to highlight established benefits, value pricing, and family-friendly amenities that buyers specifically seek.
+                Dr. Jan specializes in 89129 Centennial Hills real estate and understands how to position properties in growing areas to highlight parks already built, value pricing, and parks that buyers specifically seek.
               </p>
             </div>
             <div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Why 89129 Homes Don't Sell</h3>
               <p className="text-gray-700 mb-3">
-                89129 real estate has specific characteristics that challenge sellers competing against active new construction in rapidly growing Centennial Hills. Common issues include competing against new builds without establishing value advantages, missing family-friendly positioning, or insufficient marketing to Northwest Las Vegas buyers.
+                89129 real estate has specific characteristics that challenge sellers competing against active new construction in rapidly growing Centennial Hills. Common issues include competing against new builds without establishing value advantages, missing the parks and the lot, or insufficient marketing to Northwest Las Vegas buyers.
               </p>
               <p className="text-gray-700 mb-3">
-                Your expired listing likely competed against new construction without positioning 89129's established benefits: immediate availability, proven neighborhood quality, mature landscaping, and value pricing that defines this growing area's appeal.
+                Your expired listing likely competed against new construction without positioning 89129's parks already built: immediate availability, proven neighborhood quality, mature landscaping, and value pricing that defines this growing area's appeal.
               </p>
               <p className="text-gray-700">
-                Dr. Jan's diagnostic approach identifies 89129-specific issues: positioning against new construction, highlighting immediate availability and value, and marketing to families seeking Centennial Hills growth area with established neighborhood benefits.
+                Dr. Jan's diagnostic approach identifies 89129-specific issues: positioning against new construction, highlighting immediate availability and value, and marketing to buyers who want Centennial Hills growth area with older streets benefits.
               </p>
             </div>
           </div>
@@ -88,13 +88,13 @@ export default function Zip89129Page() {
             <div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Centennial Hills Expertise</h3>
               <p className="text-gray-700 mb-3">
-                Dr. Jan understands 89129's unique value: Northwest Las Vegas growth area, established neighborhoods with proven quality, immediate availability, and value pricing compared to new construction. She creates marketing emphasizing these 89129 advantages buyers specifically seek.
+                Dr. Jan understands 89129's unique value: Northwest Las Vegas growth area, older neighborhoods with proven quality, immediate availability, and value pricing compared to new construction. She creates marketing emphasizing these 89129 advantages buyers specifically seek.
               </p>
               <p className="text-gray-700 mb-3">
                 She tracks 89129 comps specifically, watching how established properties, growth area positioning, and value pricing perform against active new construction. This 89129-specific expertise ensures accurate pricing and effective value positioning.
               </p>
               <p className="text-gray-700">
-                Her marketing strategy targets 89129 buyers specifically: families seeking Northwest Las Vegas value, immediate availability over new construction wait times, and established neighborhood benefits that 89129 uniquely offers.
+                Her marketing strategy targets 89129 buyers specifically: buyers who want Northwest Las Vegas value, immediate availability over new construction wait times, and older streets benefits that 89129 uniquely offers.
               </p>
             </div>
             <div>
@@ -103,17 +103,17 @@ export default function Zip89129Page() {
                 Your 89129 home offers advantages new construction can't match: immediate availability, proven quality, mature landscaping, and value pricing. Generic listings don't communicate these 89129-specific benefits effectively against active new builds.
               </p>
               <p className="text-gray-700 mb-3">
-                Dr. Jan's marketing showcases 89129 advantages with professional photography highlighting immediate move-in readiness, established neighborhood features, and value positioning that 89129 buyers specifically appreciate.
+                Dr. Jan's marketing showcases 89129 advantages with professional photography highlighting immediate move-in readiness, older streets features, and value positioning that 89129 buyers specifically appreciate.
               </p>
               <p className="text-gray-700">
-                Her approach positions your property against new construction by emphasizing benefits only 89129 established properties offer: immediate availability, proven quality, mature amenities, and value pricing that Centennial Hills families value.
+                Her approach positions your property against new construction by emphasizing benefits only 89129 established properties offer: immediate availability, proven quality, mature amenities, and value pricing that Centennial Hills buyers value.
               </p>
             </div>
           </div>
           <div className="bg-indigo-50 p-8 rounded-lg">
             <h3 className="text-2xl font-bold mb-4 text-gray-900">Success with 89129 Homes That Didn't Sell</h3>
             <p className="text-gray-700 mb-3">
-              Dr. Jan's 89129 focus means she's sold multiple 89129 properties that previous agents couldn't move. Her understanding of Centennial Hills value positioning, established neighborhood marketing, and immediate availability advantages creates results where generic approaches failed.
+              Dr. Jan's 89129 focus means she's sold multiple 89129 properties that previous agents couldn't move. Her understanding of Centennial Hills value positioning, older streets marketing, and immediate availability advantages creates results where generic approaches failed.
             </p>
             <p className="text-gray-700 mb-3">
               Typical turnaround for 89129 expired listings working with Dr. Jan is 30-45 days with strategic pricing and value-focused marketing. Her 89129 expertise identifies issues generic agents miss in growing Northwest Las Vegas markets.
