@@ -4,7 +4,7 @@ import Link from 'next/link'
 import AuthorBadge from '@/components/author-badge'
 import StructuredDataScript from '@/components/structured-data-script'
 import Breadcrumbs from '@/components/breadcrumbs'
-import { getArticleSchema, getPersonSchema, getReviewSchema, BASE_URL } from '@/lib/schema'
+import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function SuccessStoriesPage() {
   const articleSchema = getArticleSchema({
@@ -45,20 +45,9 @@ export default function SuccessStoriesPage() {
     }
   ]
 
-  // Create review schemas for each story
-  const reviewSchemas = stories.map((story, index) => getReviewSchema({
-    author: story.name,
-    rating: 5,
-    reviewBody: story.quote,
-    datePublished: `2024-${String(5 + index).padStart(2, '0')}-01`
-  }))
-
   return (
     <>
       <StructuredDataScript data={articleSchema} id="article-schema" />
-      {reviewSchemas.map((review, index) => (
-        <StructuredDataScript key={index} data={review} id={`review-schema-${index}`} />
-      ))}
       <Breadcrumbs />
       <div className="min-h-screen bg-white">
       {/* Hero with H1 */}

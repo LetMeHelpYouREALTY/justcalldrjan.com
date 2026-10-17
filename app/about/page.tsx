@@ -250,7 +250,7 @@ export default function AboutPage() {
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <a
-              href="tel:+17025667890"
+              href="tel:+17022221964"
               className="bg-white text-blue-600 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition-colors"
             >
               Call: (702) 222-1964

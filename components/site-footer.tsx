@@ -1,49 +1,36 @@
 import Link from 'next/link'
-import { SITE_URL } from '@/lib/site-url'
 import { OFFICE, OFFICE_DIRECTIONS_URL, OFFICE_REVIEWS_URL } from '@/lib/office'
 
 export default function SiteFooter() {
   const currentYear = new Date().getFullYear()
 
   return (
-    <footer itemScope itemType="https://schema.org/RealEstateAgent" className="bg-[#14110e] px-4 py-14 text-[#f7f3ec]">
+    <footer className="bg-[#14110e] px-4 py-14 text-[#f7f3ec]">
       <div className="mx-auto grid max-w-6xl gap-10 md:grid-cols-3">
         <div>
-          <h2 className="font-display text-3xl" itemProp="name">
+          <h2 className="font-display text-3xl">
             {OFFICE.agentName}
           </h2>
-          <p className="mt-3 text-sm text-[#e6dccb]" itemProp="brand">
+          <p className="mt-3 text-sm text-[#e6dccb]">
             {OFFICE.brokerage}
           </p>
-          <address
-            className="mt-4 not-italic text-sm leading-relaxed text-[#e6dccb]"
-            itemProp="address"
-            itemScope
-            itemType="https://schema.org/PostalAddress"
-          >
-            <span itemProp="streetAddress">{OFFICE.streetAddress}</span>
+          <address className="mt-4 not-italic text-sm leading-relaxed text-[#e6dccb]">
+            {OFFICE.streetAddress}
             <br />
-            <span itemProp="addressLocality">{OFFICE.locality}</span>,{' '}
-            <span itemProp="addressRegion">{OFFICE.region}</span>{' '}
-            <span itemProp="postalCode">{OFFICE.postalCode}</span>
+            {OFFICE.locality}, {OFFICE.region} {OFFICE.postalCode}
           </address>
           <p className="mt-4 text-sm">
-            <a itemProp="telephone" href={`tel:${OFFICE.ctaPhoneTel}`} className="underline decoration-[#c4a574] underline-offset-4">
+            <a href={`tel:${OFFICE.ctaPhoneTel}`} className="underline decoration-[#c4a574] underline-offset-4">
               {OFFICE.ctaPhoneDisplay}
             </a>
           </p>
           <p className="mt-2 text-sm text-[#c4a574]">Office {OFFICE.officePhoneDisplay}</p>
           <p className="mt-2 text-sm">
-            <a itemProp="email" href={`mailto:${OFFICE.email}`} className="underline decoration-[#c4a574] underline-offset-4">
+            <a href={`mailto:${OFFICE.email}`} className="underline decoration-[#c4a574] underline-offset-4">
               {OFFICE.email}
             </a>
           </p>
-          <p className="mt-4 text-sm text-[#a3988c]">
-            Nevada license <span itemProp="licenseNumber">{OFFICE.license}</span>
-          </p>
-          <meta itemProp="priceRange" content="$$$" />
-          <meta itemProp="image" content={`${SITE_URL}/og-image.png`} />
-          <meta itemProp="url" content={SITE_URL} />
+          <p className="mt-4 text-sm text-[#a3988c]">Nevada license {OFFICE.license}</p>
         </div>
 
         <div>

@@ -5,7 +5,7 @@ import AuthorBadge from '@/components/author-badge'
 import StructuredDataScript from '@/components/structured-data-script'
 import Breadcrumbs from '@/components/breadcrumbs'
 import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
-import { getPlaceSchema, getCitySchema } from '@/lib/hyperlocal-schema'
+import { getPlaceSchema } from '@/lib/hyperlocal-schema'
 
 export default function SummerlinPage() {
   const articleSchema = getArticleSchema({
@@ -17,13 +17,11 @@ export default function SummerlinPage() {
   })
 
   const placeSchema = getPlaceSchema('Summerlin', 'Neighborhood')
-  const citySchema = getCitySchema('Summerlin', 'Nevada')
 
   return (
     <>
       <StructuredDataScript data={articleSchema} id="article-schema" />
       <StructuredDataScript data={placeSchema} id="place-schema" />
-      <StructuredDataScript data={citySchema} id="city-schema" />
       <Breadcrumbs />
       <div className="min-h-screen bg-white">
       {/* Hero Section with H1 */}
@@ -323,7 +321,7 @@ export default function SummerlinPage() {
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <a
-              href="tel:+17025667890"
+              href="tel:+17022221964"
               className="bg-white text-blue-600 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition-colors"
             >
               Call: (702) 222-1964
