@@ -9,7 +9,7 @@ const neighborhoods = [
     name: 'Summerlin',
     slug: 'summerlin',
     path: '/neighborhoods/summerlin',
-    description: 'Master-planned community with golf courses, parks, and nearby schools',
+    description: 'Master-planned community with golf courses and parks',
     medianPrice: '$575,000',
     activeListings: 234,
     facts: ['Golf', 'Parks', 'Master-planned'],
@@ -54,10 +54,10 @@ const neighborhoods = [
     name: 'Spring Valley',
     slug: 'spring-valley',
     path: '/spring-valley',
-    description: 'Central location with older neighborhoods and nearby schools',
+    description: 'Central location with older neighborhoods',
     medianPrice: '$395,000',
     activeListings: 143,
-    facts: ['Central', 'Older streets', 'Nearby schools'],
+    facts: ['Central', 'Older streets'],
   },
   {
     name: 'North Las Vegas',
@@ -107,7 +107,7 @@ export default function NeighborhoodsPage() {
           <div>
             <p className="text-xs tracking-[0.28em] text-[#c4a574] uppercase">Where the last listing sat</p>
             <h1 className="mt-5 font-display text-5xl leading-[1.05] md:text-6xl">
-              Las Vegas Neighborhoods Guide: Find Your Perfect Community
+              Las Vegas Neighborhoods for a Second Listing.
             </h1>
             <p id="answer" className="mt-6 max-w-xl text-lg leading-relaxed text-[#e6dccb]">
               Discover the Las Vegas neighborhoods in Las Vegas. From master-planned communities to urban living,
