@@ -7,7 +7,7 @@ const neighborhoods = [
     name: 'Summerlin', 
     slug: 'summerlin',
     path: '/neighborhoods/summerlin',
-    description: 'Master-planned community with golf courses, parks, and top-rated schools',
+    description: 'Master-planned community with golf courses, parks, and nearby schools',
     medianPrice: '$575,000',
     activeListings: 234,
     lifestyle: ['Family-Friendly', 'Golf', 'Upscale']
@@ -43,7 +43,7 @@ const neighborhoods = [
     name: 'Enterprise', 
     slug: 'enterprise',
     path: '/enterprise',
-    description: 'West side value with new construction and established communities',
+    description: 'West side value with new construction and older villages',
     medianPrice: '$425,000',
     activeListings: 167,
     lifestyle: ['New Builds', 'Value', 'Growing']
@@ -52,7 +52,7 @@ const neighborhoods = [
     name: 'Spring Valley', 
     slug: 'spring-valley',
     path: '/spring-valley',
-    description: 'Central location with established neighborhoods and good schools',
+    description: 'Central location with older neighborhoods and nearby schools',
     medianPrice: '$395,000',
     activeListings: 143,
     lifestyle: ['Established', 'Central', 'Family-Friendly']
@@ -61,7 +61,7 @@ const neighborhoods = [
     name: 'North Las Vegas', 
     slug: 'north-las-vegas',
     path: '/neighborhoods/north-las-vegas',
-    description: 'Affordable new construction with great family amenities',
+    description: 'Affordable new construction with great parks',
     medianPrice: '$385,000',
     activeListings: 212,
     lifestyle: ['New Builds', 'Affordable', 'Family-Friendly']
@@ -88,7 +88,7 @@ const neighborhoods = [
     name: 'Whitney', 
     slug: 'whitney',
     path: '/whitney',
-    description: 'East Las Vegas family-friendly community with established neighborhoods',
+    description: 'East Las Vegas residential streets with older neighborhoods',
     medianPrice: '$370,000',
     activeListings: 145,
     lifestyle: ['Family-Friendly', 'Established', 'Safe']
@@ -105,7 +105,7 @@ export default function NeighborhoodsPage() {
             Las Vegas Neighborhoods Guide: Find Your Perfect Community
           </h1>
           <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto">
-            Discover the best neighborhoods in Las Vegas. From master-planned communities to urban living, find the perfect area that matches your lifestyle and budget.
+            Discover the Las Vegas neighborhoods in Las Vegas. From master-planned communities to urban living, find the perfect area that matches your lifestyle and budget.
           </p>
         </div>
       </section>
@@ -117,7 +117,7 @@ export default function NeighborhoodsPage() {
             Explore Las Vegas Communities
           </h2>
           <p className="text-center text-gray-600 mb-12 max-w-3xl mx-auto">
-            Las Vegas offers diverse neighborhoods each with unique character, amenities, and lifestyle. Whether you're looking for master-planned communities with world-class golf courses, affordable family-friendly areas, or vibrant urban living, Las Vegas has something for everyone.
+            Las Vegas offers diverse neighborhoods each with unique character, amenities, and lifestyle. Whether you're looking for master-planned communities with world-class golf courses, affordable residential areas, or vibrant urban living, Las Vegas has something for everyone.
           </p>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -198,10 +198,10 @@ export default function NeighborhoodsPage() {
               <div className="text-5xl mb-4">🎓</div>
               <h3 className="text-2xl font-bold mb-3 text-gray-900">Top-Rated Schools</h3>
               <p className="text-gray-600 mb-4">
-                Clark County School District includes many A-rated schools, especially in areas like Summerlin, Henderson, and Green Valley. School choice and quality are major factors in homebuying decisions.
+                Clark County School District includes many Clark County schools, especially in areas like Summerlin, Henderson, and Green Valley. School choice and quality are major factors in homebuying decisions.
               </p>
               <p className="text-gray-600">
-                Neighborhoods zoned to top schools like Palo Verde High School, Coronado High, and Advanced Technologies Academy often command premium prices and faster sales. Many families specifically search homes by school zone.
+                Neighborhoods zoned to top schools like Palo Verde High School, Coronado High, and Advanced Technologies Academy often command premium prices and faster sales. Many buyers search homes by school zone.
               </p>
             </div>
             
@@ -227,20 +227,20 @@ export default function NeighborhoodsPage() {
                 These communities feature homeowners associations that maintain common areas, organize events, and provide security. The HOA amenities often include pools, fitness centers, playgrounds, and community parks that create a strong sense of community.
               </p>
               <p className="text-gray-600">
-                Buying in a master-planned community typically offers better resale value, stronger appreciation rates, and higher quality of life. The planning ensures proper infrastructure, traffic flow, and aesthetic standards that individual developments may lack.
+                Buying in a master-planned community typically offers better resale value, stronger appreciation rates, and higher the parks, trails, and commute. The planning ensures proper infrastructure, traffic flow, and aesthetic standards that individual developments may lack.
               </p>
             </div>
             
             <div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">New Construction vs Established Neighborhoods</h3>
               <p className="text-gray-600 mb-3">
-                Las Vegas offers both brand-new construction and established neighborhoods, each with distinct advantages. New construction areas like Skye Canyon, Inspirada, and Cadence offer modern floor plans, energy-efficient features, and the latest in home design and technology.
+                Las Vegas offers both brand-new construction and older neighborhoods, each with distinct advantages. New construction areas like Skye Canyon, Inspirada, and Cadence offer modern floor plans, energy-efficient features, and the latest in home design and technology.
               </p>
               <p className="text-gray-600 mb-3">
-                Established neighborhoods like Spring Valley, Paradise, and parts of Henderson offer mature landscaping, established amenities, and often larger lot sizes. These areas typically have lower HOA fees and more established tree canopies.
+                Established neighborhoods like Spring Valley, Paradise, and parts of Henderson offer mature landscaping, existing parks, and often larger lot sizes. These areas typically have lower HOA fees and more established tree canopies.
               </p>
               <p className="text-gray-600">
-                Your choice depends on priorities: new builds offer customization and latest features, while established neighborhoods offer character, lower costs, and proven appreciation. Many buyers find value in both options across Las Vegas's diverse market.
+                Your choice depends on priorities: new builds offer customization and latest features, while older neighborhoods offer character, lower costs, and proven appreciation. Many buyers find value in both options across Las Vegas's diverse market.
               </p>
             </div>
           </div>
@@ -281,7 +281,7 @@ export default function NeighborhoodsPage() {
             <div className="bg-blue-50 p-8 rounded-lg">
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Personalized Service</h3>
               <p className="text-gray-700 mb-3">
-                Finding the right neighborhood is about more than just prices and amenities - it's about finding a community that fits your lifestyle, commute, family needs, and long-term goals.
+                Finding the right neighborhood is about more than just prices and amenities - it's about finding a community that fits your lifestyle, commute, commute, and long-term goals.
               </p>
               <p className="text-gray-700">
                 Dr. Jan takes time to understand what matters to you: schools, commute times, recreational opportunities, resale value potential, and community culture. This personalized approach ensures you find not just a house, but a home.

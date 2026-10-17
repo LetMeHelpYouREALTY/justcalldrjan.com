@@ -9,7 +9,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 export default function HendersonPage() {
   const articleSchema = getArticleSchema({
     headline: 'Henderson Las Vegas: Affordability, Amenities, and Great Value',
-    description: 'Henderson offers Las Vegas residents exceptional value with quality schools, family-friendly communities, and more affordable housing than many other Vegas areas.',
+    description: 'Henderson offers Las Vegas residents exceptional value with nearby schools, residential streets, and more affordable housing than many other Vegas areas.',
     datePublished: '2024-03-05',
     dateModified: '2024-12-01',
     author: getPersonSchema()
@@ -27,7 +27,7 @@ export default function HendersonPage() {
             Henderson Las Vegas: Affordability, Amenities, and Great Value
           </h1>
           <p className="text-xl md:text-2xl text-teal-100 max-w-3xl">
-            Henderson offers Las Vegas residents exceptional value with quality schools, family-friendly communities, and more affordable housing than many other Vegas areas.
+            Henderson offers Las Vegas residents exceptional value with nearby schools, residential streets, and more affordable housing than many other Vegas areas.
           </p>
         </div>
       </section>
@@ -49,10 +49,10 @@ export default function HendersonPage() {
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div>
               <p className="text-lg text-gray-700 mb-4">
-                Henderson stands as Nevada's second-largest city and one of the fastest-growing communities in the Las Vegas Valley. Unlike Las Vegas proper, Henderson offers a more suburban feel with strong emphasis on families, safety, and community. This combination of affordability, amenities, and quality of life makes Henderson highly attractive to buyers.
+                Henderson stands as Nevada's second-largest city and one of the fastest-growing communities in the Las Vegas Valley. Henderson sits southeast of the Strip, with parks and a suburban street grid. Prices are often lower than Summerlin, and the drive to Strip jobs is on I-215 or Boulder Highway.
               </p>
               <p className="text-lg text-gray-700 mb-4">
-                The city consistently ranks among America's safest cities, a major draw for families. This reputation for safety, combined with A-rated schools, parks, and family amenities, creates strong demand for Henderson real estate. Properties here typically appreciate well while offering better affordability than Summerlin.
+                Henderson has parks, the Clark County School District, and homes that often list below Summerlin prices. Properties here typically appreciate well while offering better affordability than Summerlin.
               </p>
               <p className="text-lg text-gray-700">
                 Henderson's diverse housing inventory means something for everyone: entry-level homes, luxury estates, master-planned communities, and new construction. Whether you're a first-time buyer seeking value or looking to upgrade to more space, Henderson delivers options that fit various budgets and lifestyles.
@@ -68,7 +68,7 @@ export default function HendersonPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="font-bold mr-2">• Schools:</span>
-                  <span>Clark County (many A-rated schools)</span>
+                  <span>Clark County School District</span>
                 </li>
                 <li className="flex items-start">
                   <span className="font-bold mr-2">• Golf Courses:</span>
@@ -84,7 +84,7 @@ export default function HendersonPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="font-bold mr-2">• Safety:</span>
-                  <span>Consistently ranked among safest US cities</span>
+                  <span>Parks and the Clark County School District</span>
                 </li>
               </ul>
             </div>
@@ -100,7 +100,7 @@ export default function HendersonPage() {
           </h2>
           
           <p className="text-lg text-gray-700 mb-8">
-            Henderson's real estate market appeals to buyers seeking value without sacrificing quality. Properties typically cost less than Summerlin while offering similar amenities, schools, and lifestyle benefits. This value proposition drives steady demand from first-time buyers, families, and retirees.
+            Henderson's real estate market appeals to buyers seeking value without sacrificing quality. Properties typically cost less than Summerlin while offering similar amenities, schools, and lifestyle benefits. This value proposition drives steady demand from first-time buyers and investors.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -126,13 +126,13 @@ export default function HendersonPage() {
           <div className="bg-green-600 text-white p-8 rounded-lg mb-8">
             <h3 className="text-2xl font-bold mb-4">Why Henderson Properties Hold Their Value</h3>
             <p className="mb-4 text-green-100">
-              Henderson real estate maintains strong value due to consistent population growth, excellent school system, and reputation for safety. The city's ongoing development and infrastructure improvements support continued appreciation.
+              Henderson real estate maintains strong value due to consistent population growth, the Clark County School District, and parks and a published commute to the Strip. The city's ongoing development and infrastructure improvements support continued appreciation.
             </p>
             <p className="mb-4 text-green-100">
-              New construction areas like Inspirada and Cadence continue attracting buyers, while established neighborhoods maintain their appeal. This balanced mix of old and new creates stable market conditions with appreciation potential.
+              New construction areas like Inspirada and Cadence continue attracting buyers, while older neighborhoods are still on the market. This balanced mix of old and new creates stable market conditions with appreciation potential.
             </p>
             <p className="text-green-100">
-              For sellers, Henderson's strong market means faster sales at fair prices. For buyers, it means you get more home for your money compared to other Las Vegas areas while still accessing quality schools, amenities, and community infrastructure.
+              For sellers, Henderson's strong market means faster sales at fair prices. List prices are often lower than Summerlin, with parks and Clark County schools nearby.
             </p>
           </div>
 
@@ -174,17 +174,17 @@ export default function HendersonPage() {
           </h2>
           
           <p className="text-lg text-gray-700 mb-8">
-            Living in Henderson means enjoying family-focused amenities, excellent schools, abundant parks, and a strong sense of community. The city balances suburban tranquility with proximity to Las Vegas Strip entertainment and employment centers.
+            Henderson has parks, Clark County schools, and a drive to the Strip on I-215 or Boulder Highway. The city balances suburban tranquility with proximity to Las Vegas Strip entertainment and employment centers.
           </p>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Education and Schools</h3>
               <p className="text-gray-700 mb-3">
-                Henderson boasts many of Clark County's highest-rated schools, including Coronado High School consistently ranked among Nevada's top schools. Elementary and middle schools across Green Valley and Anthem receive strong ratings, attracting families specifically for education quality.
+                Henderson addresses are served by the Clark County School District, including Coronado High School. Buyers should confirm the zone for the specific address.
               </p>
               <p className="text-gray-700 mb-3">
-                The Clark County School District serves Henderson with magnet programs, advanced placement, and college preparatory options. Many families specifically shop Henderson for school zones, making properties in top-rated zones command premium pricing and sell faster.
+                The Clark County School District serves Henderson with magnet programs, advanced placement, and college preparatory options. Buyers often shop Henderson by school zone. Confirm the zone for the address before you price the relist.
               </p>
               <p className="text-gray-700">
                 Higher education is accessible with College of Southern Nevada's Henderson campus and proximity to University of Nevada Las Vegas. This educational infrastructure supports professional development and creates an educated workforce that drives economic stability.
@@ -214,7 +214,7 @@ export default function HendersonPage() {
               Dining ranges from casual chains to fine dining establishments. The Water Street District offers local restaurants and breweries creating a vibrant downtown feel. This combination of national and local businesses provides variety without needing to leave Henderson for shopping or dining.
             </p>
             <p className="text-gray-700">
-              Proximity to Las Vegas Strip is convenient - just 15-20 minutes - for entertainment, fine dining, and shows. Meanwhile, Henderson itself provides everything needed for daily life. This balance of local amenities with Strip access makes Henderson attractive to both families and professionals working on the Strip.
+              Proximity to Las Vegas Strip is convenient - just 15-20 minutes - for entertainment, fine dining, and shows. Meanwhile, Henderson itself provides everything needed for daily life. This balance of local amenities with Strip access makes Henderson attractive to people who work on the Strip and people who do not working on the Strip.
             </p>
           </div>
         </div>
@@ -248,7 +248,7 @@ export default function HendersonPage() {
             <div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Finding Your Henderson Home</h3>
               <p className="text-gray-700 mb-3">
-                Henderson buyers benefit from a range of options across various price points. Whether seeking an affordable starter home in established neighborhoods, a mid-range family home in Anthem, or luxury living in Green Valley, choices exist.
+                Henderson buyers benefit from a range of options across various price points. Options include older houses, Anthem, and Green Valley.
               </p>
               <p className="text-gray-700">
                 Dr. Jan helps Henderson buyers navigate these options by understanding specific needs: budget, lifestyle preferences, school requirements, commute distances, and long-term goals. This personalized approach ensures buyers find homes that fit perfectly rather than settling.

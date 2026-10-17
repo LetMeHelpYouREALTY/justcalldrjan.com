@@ -44,13 +44,13 @@ export default function Zip89052Page() {
             Understanding Zip Code 89052 Real Estate Market
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Zip code 89052 encompasses Boulder City, offering small-town charm, outdoor recreation access, and proximity to Lake Mead and Hoover Dam. This zip code includes established neighborhoods, newer subdivisions, and unique properties with mountain views. For homeowners whose properties didn't sell, understanding 89052's small-town positioning is essential for successful relisting.
+            Zip code 89052 encompasses Boulder City, offering small-town charm, outdoor recreation access, and proximity to Lake Mead and Hoover Dam. This zip code includes older neighborhoods, newer subdivisions, and unique properties with mountain views. For homeowners whose properties didn't sell, understanding 89052's small-town positioning is essential for successful relisting.
           </p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Small-Town Community Benefits</h3>
               <p className="text-gray-700 mb-3">
-                Much of zip code 89052 falls within Boulder City, offering small-town community benefits: low crime, community character, and proximity to Lake Mead and outdoor recreation that creates unique value.
+                Much of zip code 89052 falls within Boulder City, offering small-town community benefits: a short drive to Lake Mead, and proximity to Lake Mead and outdoor recreation that creates unique value.
               </p>
               <p className="text-gray-700 mb-3">
                 Many expired listings in 89052 failed to communicate small-town advantages effectively. Properties positioned generically miss community benefits that define 89052 market value.

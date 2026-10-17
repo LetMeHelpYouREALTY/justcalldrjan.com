@@ -44,7 +44,7 @@ export default function TheTrailsPage() {
             Understanding The Trails Summerlin Real Estate Market
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            The Trails represents one of Summerlin's most desirable sub-communities, featuring direct access to the extensive trail system that gives this neighborhood its name. For homeowners whose properties didn't sell, understanding The Trails' unique market positioning is essential for successful relisting.
+            The Trails represents one of Summerlin's named Summerlin villages, featuring direct access to the extensive trail system that gives this neighborhood its name. For homeowners whose properties didn't sell, understanding The Trails' unique market positioning is essential for successful relisting.
           </p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div>
@@ -62,13 +62,13 @@ export default function TheTrailsPage() {
             <div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Established Neighborhood Character</h3>
               <p className="text-gray-700 mb-3">
-                The Trails features mature landscaping, established community amenities, and proven neighborhood quality that newer Summerlin areas haven't developed yet. This established character attracts buyers seeking proven Summerlin investment.
+                The Trails features mature landscaping, existing parks and trails, and proven neighborhood quality that newer Summerlin areas haven't developed yet. This mature trees attracts buyers seeking proven Summerlin investment.
               </p>
               <p className="text-gray-700 mb-3">
                 Your expired listing likely competed against newer Summerlin construction without highlighting The Trails' established advantages: mature trees, proven community character, and settled neighborhood atmosphere.
               </p>
               <p className="text-gray-700">
-                Her marketing strategy emphasizes The Trails' established benefits: mature landscaping, proven quality, and community character that buyers seeking settled Summerlin neighborhoods specifically value.
+                Her marketing strategy emphasizes The Trails' parks already built: mature landscaping, proven quality, and community character that buyers seeking settled Summerlin neighborhoods specifically value.
               </p>
             </div>
           </div>
@@ -106,10 +106,10 @@ export default function TheTrailsPage() {
           <div className="bg-white p-8 rounded-lg border border-gray-200">
             <h3 className="text-2xl font-bold mb-4 text-gray-900">The Trails Positioning Challenge</h3>
             <p className="text-gray-700 mb-3">
-              The Trails homes that didn't sell often failed to communicate trail access advantages and established neighborhood character that define this sub-community's value within Summerlin.
+              The Trails homes that didn't sell often failed to communicate trail access advantages and older streets character that define this sub-community's value within Summerlin.
             </p>
             <p className="text-gray-700 mb-3">
-              Dr. Jan specializes in The Trails Summerlin real estate and understands how to position trail-accessible homes to highlight active lifestyle advantages and established community benefits that The Trails buyers specifically seek.
+              Dr. Jan specializes in The Trails Summerlin real estate and understands how to position trail-accessible homes to highlight active lifestyle advantages and existing parks and trails that The Trails buyers specifically seek.
             </p>
             <p className="text-gray-700">
               Her marketing targets The Trails buyers specifically: active lifestyle enthusiasts seeking trail access, nature lovers wanting Red Rock proximity, and buyers valuing established Summerlin neighborhoods with proven character.
@@ -142,10 +142,10 @@ export default function TheTrailsPage() {
             <div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Highlighting The Trails Advantages</h3>
               <p className="text-gray-700 mb-3">
-                Your The Trails home offers advantages other Summerlin areas can't replicate: direct trail access, active lifestyle positioning, and established neighborhood character. Generic listings don't communicate these The Trails-specific benefits effectively.
+                Your The Trails home offers advantages other Summerlin areas can't replicate: direct trail access, active lifestyle positioning, and older streets character. Generic listings don't communicate these The Trails-specific benefits effectively.
               </p>
               <p className="text-gray-700 mb-3">
-                Dr. Jan's marketing showcases The Trails advantages with professional photography highlighting trail connectivity, active lifestyle amenities, and established community character that The Trails buyers specifically appreciate.
+                Dr. Jan's marketing showcases The Trails advantages with professional photography highlighting trail connectivity, active lifestyle amenities, and older streets and mature trees that The Trails buyers specifically appreciate.
               </p>
               <p className="text-gray-700">
                 Her approach positions your property against other Summerlin areas by emphasizing benefits only The Trails offers: direct trail access, Red Rock proximity, and active lifestyle positioning that active buyers value in The Trails specifically.
@@ -155,7 +155,7 @@ export default function TheTrailsPage() {
           <div className="bg-purple-50 p-8 rounded-lg">
             <h3 className="text-2xl font-bold mb-4 text-gray-900">Success with The Trails Homes That Didn't Sell</h3>
             <p className="text-gray-700 mb-3">
-              Dr. Jan's The Trails focus means she's sold multiple The Trails properties that previous agents couldn't move. Her understanding of trail access premium, active lifestyle positioning, and established community marketing creates results where generic approaches failed.
+              Dr. Jan's The Trails focus means she's sold multiple The Trails properties that previous agents couldn't move. Her understanding of trail access premium, active lifestyle positioning, and marketing of the existing parks creates results where generic approaches failed.
             </p>
             <p className="text-gray-700 mb-3">
               Typical turnaround for The Trails expired listings working with Dr. Jan is 30-45 days with strategic pricing and trail-focused marketing. Her The Trails expertise identifies issues generic agents miss and creates solutions tailored to The Trails' unique market.
