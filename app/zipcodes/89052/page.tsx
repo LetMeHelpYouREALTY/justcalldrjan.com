@@ -8,6 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function Zip89052Page() {
   const articleSchema = getArticleSchema({
+    path: '/zipcodes/89052',
     headline: 'Zip Code 89052: Homes That Didn\'t Sell Expert Help in Boulder City Area',
     description: 'Specialized help for zip code 89052 homes that didn\'t sell. Expert guidance for successful home sales in Boulder City and Lake Mead area.',
     datePublished: '2024-04-25',

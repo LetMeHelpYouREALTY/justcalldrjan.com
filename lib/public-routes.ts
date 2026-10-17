@@ -102,13 +102,10 @@ const SITEMAP_META: Partial<Record<string, SitemapMeta>> = {
 }
 
 export function buildPublicSitemap(baseUrl: string): MetadataRoute.Sitemap {
-  const now = new Date()
-
   return PUBLIC_ROUTE_PATHS.map((path) => {
     const meta = SITEMAP_META[path] ?? DEFAULT_SITEMAP_META
     return {
       url: path === '/' ? baseUrl : baseUrl + path,
-      lastModified: now,
       changeFrequency: meta.changeFrequency,
       priority: meta.priority,
     }

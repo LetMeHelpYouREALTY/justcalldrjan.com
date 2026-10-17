@@ -1,7 +1,7 @@
 // Schema.org structured data utilities
 
 import { SITE_URL } from './site-url'
-import { OFFICE } from './office'
+import { AGENT_PROFILE_URLS, OFFICE } from './office'
 
 export const BASE_URL = SITE_URL
 
@@ -39,6 +39,10 @@ export function getLocalBusinessSchema() {
     image: `${BASE_URL}/og-image.png`,
     logo: `${BASE_URL}/og-image.png`,
     licenseNumber: DR_JAN_INFO.licenseNumber,
+    sameAs: [...AGENT_PROFILE_URLS],
+    worksFor: {
+      '@id': `${BASE_URL}#brokerage`,
+    },
     areaServed: [
       {
         '@type': 'City',
@@ -89,8 +93,9 @@ export function getOrganizationSchema() {
   return {
     '@context': 'https://schema.org',
     '@type': 'Organization',
+    '@id': `${BASE_URL}#brokerage`,
     name: OFFICE.brokerage,
-    legalName: OFFICE.agentName,
+    legalName: OFFICE.brokerage,
     url: BASE_URL,
     logo: `${BASE_URL}/og-image.png`,
     contactPoint: {
@@ -101,57 +106,24 @@ export function getOrganizationSchema() {
       availableLanguage: 'English'
     },
     address: DR_JAN_INFO.address,
-    sameAs: [] // Add social media profiles when available
   }
 }
 
+/** Same entity as getLocalBusinessSchema. Kept so older imports cannot emit a second agent. */
 export function getRealEstateAgentSchema() {
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'RealEstateAgent',
-    name: DR_JAN_INFO.name,
-    description:
-      'Las Vegas REALTOR® for luxury homes that did not sell with the previous agent.',
-    url: BASE_URL,
-    telephone: DR_JAN_INFO.telephone,
-    email: DR_JAN_INFO.email,
-    address: DR_JAN_INFO.address,
-    licenseNumber: DR_JAN_INFO.licenseNumber,
-    areaServed: {
-      '@type': 'City',
-      name: 'Las Vegas'
-    },
-    jobTitle: 'Licensed Real Estate Professional',
-    worksFor: {
-      '@type': 'Organization',
-      name: OFFICE.brokerage,
-      address: DR_JAN_INFO.address,
-    },
-    knowsAbout: [
-      'Las Vegas Real Estate',
-      'Expired Listings',
-      'Home Selling',
-      'Property Valuation',
-      'Real Estate Marketing',
-      'Homes That Didn\'t Sell'
-    ]
-  }
+  return getLocalBusinessSchema()
 }
 
 export function getWebSiteSchema() {
   return {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'Just Call Dr. Jan',
+    '@id': `${BASE_URL}#website`,
+    name: 'Dr. Jan Duffy',
     url: BASE_URL,
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: {
-        '@type': 'EntryPoint',
-        urlTemplate: `${BASE_URL}/search?q={search_term_string}`
-      },
-      'query-input': 'required name=search_term_string'
-    }
+    publisher: {
+      '@id': `${BASE_URL}#realestateagent`,
+    },
   }
 }
 
@@ -166,10 +138,9 @@ export function getPersonSchema() {
     email: DR_JAN_INFO.email,
     url: BASE_URL,
     image: `${BASE_URL}/og-image.png`,
-    sameAs: [],
+    sameAs: [...AGENT_PROFILE_URLS],
     worksFor: {
-      '@type': 'Organization',
-      name: DR_JAN_INFO.brokerage
+      '@id': `${BASE_URL}#brokerage`,
     },
     knowsAbout: [
       'Las Vegas Real Estate',
@@ -186,29 +157,36 @@ export function getArticleSchema({
   datePublished,
   dateModified,
   image,
-  author = getPersonSchema()
+  author = getPersonSchema(),
+  path,
 }: {
   headline: string
   description: string
   datePublished: string
   dateModified: string
   image?: string
-  author?: any
+  author?: object
+  /** Site path for this article, such as `/didnt-sell`. */
+  path: string
 }) {
+  const pageUrl = path === '/' ? BASE_URL : `${BASE_URL}${path}`
+
   return {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline,
     description,
     author,
-    publisher: getOrganizationSchema(),
+    publisher: {
+      '@id': `${BASE_URL}#brokerage`,
+    },
     datePublished,
     dateModified,
     image: image || `${BASE_URL}/og-image.png`,
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': BASE_URL
-    }
+      '@id': pageUrl,
+    },
   }
 }
 

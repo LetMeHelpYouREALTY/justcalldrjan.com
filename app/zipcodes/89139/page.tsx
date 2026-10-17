@@ -8,6 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function Zip89139Page() {
   const articleSchema = getArticleSchema({
+    path: '/zipcodes/89139',
     headline: 'Zip Code 89139: Homes That Didn\'t Sell Expert Help in Enterprise South Area',
     description: 'Specialized help for zip code 89139 homes that didn\'t sell. Expert guidance for successful home sales in Enterprise South and Southwest Las Vegas areas.',
     datePublished: '2024-05-15',

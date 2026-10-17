@@ -8,6 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function NorthLasVegasPage() {
   const articleSchema = getArticleSchema({
+    path: '/neighborhoods/north-las-vegas',
     headline: 'North Las Vegas: Growth, Affordability, and Opportunity',
     description: 'North Las Vegas combines affordability with growth, making it an attractive option for first-time homebuyers and families seeking value in the Las Vegas Valley.',
     datePublished: '2024-03-10',

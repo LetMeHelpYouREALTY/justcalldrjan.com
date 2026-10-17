@@ -8,6 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function WhyBerkshireHathawayPage() {
   const articleSchema = getArticleSchema({
+    path: '/why-berkshire-hathaway',
     headline: 'Why Dr. Jan Duffy Wins When Your Las Vegas Home Doesn\'t Sell',
     description: 'Three critical advantages that turn expired listings into sold properties. Institutional marketing power, pricing mastery, and proactive communication that boutique firms simply can\'t match.',
     datePublished: '2024-07-01',

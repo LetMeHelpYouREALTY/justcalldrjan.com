@@ -12,6 +12,7 @@ import LeadHoneypotField from '@/components/lead-honeypot-field'
 
 export default function SellerConsultationPage() {
   const articleSchema = getArticleSchema({
+    path: '/seller-consultation',
     headline: 'Free Seller Consultation - Expert Help for Homes That Didn\'t Sell',
     description: 'Schedule your free consultation with Dr. Jan Duffy to analyze why your home didn\'t sell and create a proven strategy for successful relisting.',
     datePublished: '2024-03-01',

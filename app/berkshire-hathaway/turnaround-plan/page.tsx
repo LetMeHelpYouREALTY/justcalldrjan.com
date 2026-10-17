@@ -8,6 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function TurnaroundPlanPage() {
   const articleSchema = getArticleSchema({
+    path: '/berkshire-hathaway/turnaround-plan',
     headline: 'The Expired Listing Turnaround Plan: A 30-Day Relisting Plan',
     description: 'When you switch to Dr. Jan after an expired listing, here\'s exactly what changes immediately - a systematic 4-week plan that addresses every failure from your previous listing.',
     datePublished: '2024-06-20',

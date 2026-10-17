@@ -8,6 +8,7 @@ import { getServiceSchemaForPage } from '@/lib/services'
 
 export default function WhyDidntItSellPage() {
   const articleSchema = getArticleSchema({
+    path: '/didnt-sell',
     headline: 'Why Didn\'t Your Home Sell? The Most Common Reasons',
     description: 'Understanding why your home didn\'t sell is the first step to selling it successfully. Here are the most common reasons and how to fix them.',
     datePublished: '2024-01-15',

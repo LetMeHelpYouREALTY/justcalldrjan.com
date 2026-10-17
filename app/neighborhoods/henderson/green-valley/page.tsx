@@ -8,6 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function GreenValleyPage() {
   const articleSchema = getArticleSchema({
+    path: '/neighborhoods/henderson/green-valley',
     headline: 'Green Valley Henderson: Homes That Didn\'t Sell Expert Help',
     description: 'Specialized help for Green Valley homes that didn\'t sell. Expert guidance for successful home sales in Henderson\'s premier master-planned community.',
     datePublished: '2024-05-15',

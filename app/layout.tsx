@@ -10,10 +10,8 @@ import StructuredData from '../components/structured-data'
 import {
   getLocalBusinessSchema,
   getOrganizationSchema,
-  getRealEstateAgentSchema,
   getWebSiteSchema
 } from '../lib/schema'
-import { getMultiLocationBusinessSchema } from '../lib/hyperlocal-schema'
 import { SITE_URL } from '@/lib/site-url'
 import { createPageMetadata } from '@/lib/create-page-metadata'
 import { resolveRouteSeo } from '@/lib/route-seo'
@@ -74,11 +72,9 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <Analytics />
-                <StructuredData data={getRealEstateAgentSchema()} id="real-estate-agent-schema" />
                 <StructuredData data={getLocalBusinessSchema()} id="local-business-schema" />
                 <StructuredData data={getOrganizationSchema()} id="organization-schema" />
                 <StructuredData data={getWebSiteSchema()} id="website-schema" />
-                <StructuredData data={getMultiLocationBusinessSchema()} id="multi-location-business-schema" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${cormorant.variable} ${outfit.variable} antialiased`}

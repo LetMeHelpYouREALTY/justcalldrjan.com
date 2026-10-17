@@ -8,6 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function HousesForSaleLasVegasPage() {
   const articleSchema = getArticleSchema({
+    path: '/houses-for-sale-las-vegas',
     headline: 'Houses for Sale Las Vegas: Expert Guidance for Buyers and Sellers',
     description: 'Expert guidance for houses for sale in Las Vegas. Specialized help for homes that didn\'t sell and comprehensive resources for Las Vegas real estate buyers and sellers.',
     datePublished: '2024-06-25',

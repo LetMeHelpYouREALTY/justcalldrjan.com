@@ -8,6 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function TheFoothillsPage() {
   const articleSchema = getArticleSchema({
+    path: '/neighborhoods/summerlin/the-foothills',
     headline: 'The Foothills Summerlin: Mountain View Homes Expert Help',
     description: 'Specialized help for The Foothills homes that didn\'t sell. Expert guidance for successful home sales in Summerlin\'s elevated mountain view community.',
     datePublished: '2024-05-05',

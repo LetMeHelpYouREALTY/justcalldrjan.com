@@ -8,6 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function TheTrailsPage() {
   const articleSchema = getArticleSchema({
+    path: '/neighborhoods/summerlin/the-trails',
     headline: 'The Trails Summerlin: Homes That Didn\'t Sell Expert Help',
     description: 'Specialized help for The Trails homes that didn\'t sell. Expert guidance for successful home sales in Summerlin\'s premier trail-accessible community.',
     datePublished: '2024-05-01',

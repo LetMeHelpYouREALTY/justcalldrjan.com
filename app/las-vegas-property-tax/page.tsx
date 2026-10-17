@@ -8,6 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function LasVegasPropertyTaxPage() {
   const articleSchema = getArticleSchema({
+    path: '/las-vegas-property-tax',
     headline: 'Las Vegas Property Tax: Complete Guide for Homeowners and Buyers',
     description: 'Comprehensive guide to Las Vegas property tax rates, assessments, and exemptions. Essential information for Las Vegas homeowners and homebuyers understanding property tax implications.',
     datePublished: '2024-07-20',

@@ -145,6 +145,18 @@ export default function HomePageContent() {
         </div>
       </section>
 
+      <section id="answer" className="px-4 py-16">
+        <div className="mx-auto max-w-3xl">
+          <h2 className="font-display text-4xl">If the last agent did not sell it</h2>
+          <p className="mt-4 text-lg leading-relaxed text-[#3f3832]">
+            Call Dr. Jan Duffy at {OFFICE.ctaPhoneDisplay}. She is a REALTOR® with {OFFICE.brokerage},
+            Nevada license {OFFICE.license}, at {OFFICE.streetAddress}, {OFFICE.locality}, {OFFICE.region}{' '}
+            {OFFICE.postalCode}. She reads the expired or withdrawn file, prices the home to current comps,
+            orders new photos, and reports every week.
+          </p>
+        </div>
+      </section>
+
       <section className="px-4 py-20">
         <div className="mx-auto max-w-6xl">
           <h2 className="font-display text-4xl md:text-5xl">Why the last listing stalled</h2>

@@ -43,7 +43,7 @@ export function createPageMetadata(
       description: seo.description,
       url: canonical,
       images: ['/og-image.png'],
-      siteName: 'Just Call Dr. Jan',
+      siteName: 'Dr. Jan Duffy',
       type: 'website',
       locale: 'en_US',
     },

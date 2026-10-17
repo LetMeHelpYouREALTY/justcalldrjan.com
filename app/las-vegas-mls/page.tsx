@@ -8,6 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function LasVegasMLSPage() {
   const articleSchema = getArticleSchema({
+    path: '/las-vegas-mls',
     headline: 'Las Vegas MLS: Understanding Multiple Listing Service and Real Estate Listings',
     description: 'Expert guidance on Las Vegas MLS listings and how the Multiple Listing Service works. Learn how professional real estate agents use MLS to market your Las Vegas property effectively.',
     datePublished: '2024-07-01',

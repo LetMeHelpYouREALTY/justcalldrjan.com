@@ -34,9 +34,11 @@ export default function PrivateListingReviewPage() {
             <h1 className="mt-5 font-display text-5xl leading-[1.05] md:text-6xl">
               A quiet read of the home that did not sell.
             </h1>
-            <p className="mt-6 max-w-xl text-lg text-[#e6dccb]">
-              Bring the address. Dr. Jan Duffy will tell you whether price, presentation, or reach
-              stopped the last sale.
+            <p id="answer" className="mt-6 max-w-xl text-lg text-[#e6dccb]">
+              Call {OFFICE.agentName} at {OFFICE.ctaPhoneDisplay}. She works at {OFFICE.brokerage},
+              Nevada license {OFFICE.license}, {OFFICE.streetAddress}, {OFFICE.locality}, {OFFICE.region}{' '}
+              {OFFICE.postalCode}. She reads the expired file, prices the home to current comps, orders new
+              photos, and reports every week.
             </p>
             <ul className="mt-10 space-y-4 text-[#e6dccb]">
               <li>1. The expired or withdrawn file.</li>

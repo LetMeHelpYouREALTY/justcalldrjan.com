@@ -8,6 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function BestNeighborhoodsLasVegasPage() {
   const articleSchema = getArticleSchema({
+    path: '/best-neighborhoods-las-vegas',
     headline: 'Best Neighborhoods in Las Vegas: Comprehensive Guide to Top Communities',
     description: 'Discover the best neighborhoods in Las Vegas for luxury homes, family living, and value. Expert insights on Summerlin, Henderson, North Las Vegas, and Las Vegas\'s most desirable communities.',
     datePublished: '2024-07-05',

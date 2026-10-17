@@ -8,6 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function RealtorLasVegasPage() {
   const articleSchema = getArticleSchema({
+    path: '/realtor-las-vegas',
     headline: 'Realtor Las Vegas: Expert Real Estate Agent for Homes That Didn\'t Sell',
     description: 'Las Vegas realtor specializing in expired listings and homes that didn\'t sell. Licensed real estate professional with Berkshire Hathaway HomeServices. Expert guidance for successful Las Vegas home sales.',
     datePublished: '2024-06-20',

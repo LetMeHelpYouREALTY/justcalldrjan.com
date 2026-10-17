@@ -9,6 +9,7 @@ import { getPlaceSchema, getCitySchema } from '@/lib/hyperlocal-schema'
 
 export default function SummerlinPage() {
   const articleSchema = getArticleSchema({
+    path: '/neighborhoods/summerlin',
     headline: 'Summerlin Las Vegas: Master-Planned Living at Its Finest',
     description: 'Discover why Summerlin is considered one of the best neighborhoods in Las Vegas. From world-class golf courses to top-rated schools and master-planned communities, find everything you need to know about living in Summerlin.',
     datePublished: '2024-03-01',

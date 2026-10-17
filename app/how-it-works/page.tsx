@@ -10,6 +10,7 @@ import { getServiceSchemaForPage } from '@/lib/services'
 
 export default function HowItWorksPage() {
   const articleSchema = getArticleSchema({
+    path: '/how-it-works',
     headline: 'How Dr. Jan Helps Homes That Didn\'t Sell Get Sold',
     description: 'A step-by-step look at Dr. Jan Duffy\'s proven process for turning expired listings into sold properties. From initial consultation to successful closing.',
     datePublished: '2024-02-01',

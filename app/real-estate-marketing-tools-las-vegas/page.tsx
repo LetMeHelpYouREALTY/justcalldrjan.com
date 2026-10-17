@@ -8,6 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function RealEstateMarketingToolsLasVegasPage() {
   const articleSchema = getArticleSchema({
+    path: '/real-estate-marketing-tools-las-vegas',
     headline: 'Best Real Estate Marketing Tools for Las Vegas Agents: Technology That Gets Results',
     description: 'Discover the top real estate marketing tools and platforms used by successful Las Vegas agents. From photography to lead generation, learn what technology drives results in the Las Vegas market.',
     datePublished: '2024-06-05',

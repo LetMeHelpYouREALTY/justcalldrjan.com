@@ -8,6 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function FremontPage() {
   const articleSchema = getArticleSchema({
+    path: '/neighborhoods/downtown-las-vegas/fremont',
     headline: 'Fremont Street Downtown Las Vegas: Urban Lofts Expert Help',
     description: 'Specialized help for Fremont Street area homes that didn\'t sell. Expert guidance for successful home sales in Downtown Las Vegas\'s entertainment district.',
     datePublished: '2024-06-01',

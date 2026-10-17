@@ -4,10 +4,11 @@ import Link from 'next/link'
 import AuthorBadge from '@/components/author-badge'
 import StructuredDataScript from '@/components/structured-data-script'
 import Breadcrumbs from '@/components/breadcrumbs'
-import { getArticleSchema, getPersonSchema, getReviewSchema, BASE_URL } from '@/lib/schema'
+import { getArticleSchema, getPersonSchema } from '@/lib/schema'
 
 export default function SuccessStoriesPage() {
   const articleSchema = getArticleSchema({
+    path: '/success-stories',
     headline: 'Success Stories: Homes That Didn\'t Sell, Then Sold Successfully',
     description: 'Real results from homeowners whose properties didn\'t sell initially. Learn how Dr. Jan Duffy helped them sell successfully.',
     datePublished: '2024-01-20',
@@ -40,25 +41,14 @@ export default function SuccessStoriesPage() {
       before: { days: 150, offers: 0 },
       after: { days: 28, price: 'Asking price' },
       issue: 'Competing with new construction',
-      solution: 'Highlighted established neighborhood advantages and strategic pricing',
-      quote: 'New construction nearby made our home feel outdated. Dr. Jan showed us how to highlight our home\'s advantages - mature landscaping, proven quality, and established neighborhood. Sold in under a month!'
+      solution: 'Showed the landscaping, the floor plan, and a price set to nearby sales',
+      quote: 'New construction nearby made our home feel outdated. Dr. Jan showed us how to highlight our home\'s advantages - mature landscaping, the floor plan, and the lot. Sold in under a month!'
     }
   ]
-
-  // Create review schemas for each story
-  const reviewSchemas = stories.map((story, index) => getReviewSchema({
-    author: story.name,
-    rating: 5,
-    reviewBody: story.quote,
-    datePublished: `2024-${String(5 + index).padStart(2, '0')}-01`
-  }))
 
   return (
     <>
       <StructuredDataScript data={articleSchema} id="article-schema" />
-      {reviewSchemas.map((review, index) => (
-        <StructuredDataScript key={index} data={review} id={`review-schema-${index}`} />
-      ))}
       <Breadcrumbs />
       <div className="min-h-screen bg-white">
       {/* Hero with H1 */}

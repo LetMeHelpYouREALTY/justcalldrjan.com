@@ -8,6 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function LasVegasLuxuryHomesPage() {
   const articleSchema = getArticleSchema({
+    path: '/las-vegas-luxury-homes',
     headline: 'Las Vegas Luxury Homes for Sale: Expert Guidance for High-End Properties',
     description: 'Specialized expertise in Las Vegas luxury homes for sale. Expert guidance for buying and selling luxury properties in Summerlin, Henderson, and Las Vegas\'s most prestigious communities.',
     datePublished: '2024-06-15',

@@ -38,3 +38,9 @@ export const OFFICE_REVIEWS_URL = `https://www.google.com/maps/search/?api=1&que
 )}`
 
 export const OFFICE_MAP_EMBED_URL = `https://maps.google.com/maps?q=${encodeURIComponent(OFFICE_ONE_LINE)}&z=15&output=embed`
+
+/** Public agent profiles confirmed 2026-10-17. Do not add social URLs that are not verified. */
+export const AGENT_PROFILE_URLS = [
+  'https://www.bhhsnv.com/real-estate-agent/4986/dr-jan-duffy',
+  'https://www.bhhs.com/arizona-properties-california-properties-and-nevada-properties-nv301/las-vegas/dr-jan-duffy/cid-3042332',
+] as const
