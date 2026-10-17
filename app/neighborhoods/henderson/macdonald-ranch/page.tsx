@@ -8,6 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function MacDonaldRanchPage() {
   const articleSchema = getArticleSchema({
+    path: '/neighborhoods/henderson/macdonald-ranch',
     headline: 'MacDonald Ranch Henderson: Golf Course Homes Expert Help',
     description: 'Specialized help for MacDonald Ranch homes that didn\'t sell. Expert guidance for successful home sales in Henderson\'s premier golf course community.',
     datePublished: '2024-05-25',

@@ -8,6 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function RealEstateScriptsLasVegasPage() {
   const articleSchema = getArticleSchema({
+    path: '/real-estate-agent-scripts-las-vegas',
     headline: 'Real Estate Agent Scripts for Las Vegas: Effective Cold Calling for Expired Listings',
     description: 'Expert real estate scripts tailored for Las Vegas market, specifically for reaching out about expired listings and homes that didn\'t sell. Proven templates for successful lead conversations.',
     datePublished: '2024-06-01',

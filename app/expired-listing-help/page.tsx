@@ -10,6 +10,7 @@ import { getServiceSchemaForPage } from '@/lib/services'
 
 export default function ExpiredListingHelpPage() {
   const articleSchema = getArticleSchema({
+    path: '/expired-listing-help',
     headline: 'Free Help for Expired Listings - Dr. Jan Duffy',
     description: 'Your listing expired. What happens next? Get expert guidance and a proven plan to sell your home successfully.',
     datePublished: '2024-01-25',

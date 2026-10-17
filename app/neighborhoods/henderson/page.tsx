@@ -8,6 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function HendersonPage() {
   const articleSchema = getArticleSchema({
+    path: '/neighborhoods/henderson',
     headline: 'Henderson Las Vegas: Affordability, Amenities, and Great Value',
     description: 'Henderson offers Las Vegas residents exceptional value with quality schools, family-friendly communities, and more affordable housing than many other Vegas areas.',
     datePublished: '2024-03-05',

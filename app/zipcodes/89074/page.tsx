@@ -8,6 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function Zip89074Page() {
   const articleSchema = getArticleSchema({
+    path: '/zipcodes/89074',
     headline: 'Zip Code 89074: Expert Help for Homes That Didn\'t Sell in Green Valley Henderson',
     description: 'Specialized help for zip code 89074 homes that didn\'t sell. Expert guidance for successful home sales in Green Valley Henderson and surrounding Las Vegas areas.',
     datePublished: '2024-04-05',

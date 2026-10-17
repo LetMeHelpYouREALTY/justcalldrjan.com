@@ -8,6 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function Zip89103Page() {
   const articleSchema = getArticleSchema({
+    path: '/zipcodes/89103',
     headline: 'Zip Code 89103: Homes That Didn\'t Sell Expert Help in Summerlin West Area',
     description: 'Specialized help for zip code 89103 homes that didn\'t sell. Expert guidance for successful home sales in Summerlin West and surrounding Las Vegas areas.',
     datePublished: '2024-04-25',

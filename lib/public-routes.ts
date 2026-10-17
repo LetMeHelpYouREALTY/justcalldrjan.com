@@ -40,6 +40,7 @@ export const PUBLIC_ROUTE_PATHS: readonly string[] = [
   '/neighborhoods/summerlin/the-foothills',
   '/neighborhoods/summerlin/the-trails',
   '/paradise',
+  '/private-listing-review',
   '/real-estate-agent-scripts-las-vegas',
   '/real-estate-las-vegas',
   '/real-estate-marketing-tools-las-vegas',
@@ -90,6 +91,7 @@ const SITEMAP_META: Partial<Record<string, SitemapMeta>> = {
   '/': { changeFrequency: 'weekly', priority: 1 },
   '/didnt-sell': { changeFrequency: 'weekly', priority: 1 },
   '/expired-listing-help': { changeFrequency: 'weekly', priority: 1 },
+  '/private-listing-review': { changeFrequency: 'weekly', priority: 0.95 },
   '/seller-consultation': { changeFrequency: 'weekly', priority: 0.9 },
   '/home-valuation': { changeFrequency: 'monthly', priority: 0.9 },
   '/success-stories': { changeFrequency: 'weekly', priority: 0.9 },
@@ -100,13 +102,10 @@ const SITEMAP_META: Partial<Record<string, SitemapMeta>> = {
 }
 
 export function buildPublicSitemap(baseUrl: string): MetadataRoute.Sitemap {
-  const now = new Date()
-
   return PUBLIC_ROUTE_PATHS.map((path) => {
     const meta = SITEMAP_META[path] ?? DEFAULT_SITEMAP_META
     return {
       url: path === '/' ? baseUrl : baseUrl + path,
-      lastModified: now,
       changeFrequency: meta.changeFrequency,
       priority: meta.priority,
     }

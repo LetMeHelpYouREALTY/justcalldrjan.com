@@ -8,6 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function LasVegasMansionsPage() {
   const articleSchema = getArticleSchema({
+    path: '/las-vegas-mansions',
     headline: 'Las Vegas Mansions: Expert Guide to Luxury Estate Properties',
     description: 'Expert guidance on Las Vegas mansions and luxury estate properties. Specialized expertise in high-end luxury homes in Summerlin, Henderson, and Las Vegas\'s most prestigious communities.',
     datePublished: '2024-07-25',

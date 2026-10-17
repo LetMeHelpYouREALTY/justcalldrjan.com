@@ -8,6 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function PricingMasteryPage() {
   const articleSchema = getArticleSchema({
+    path: '/berkshire-hathaway/pricing-mastery',
     headline: 'Pricing Mastery: Why 73% of Expired Listings Were Overpriced',
     description: 'Your home didn\'t sell because it was priced 5-15% too high. Dr. Jan\'s PhD-level pricing approach backed by 30 years of Vegas market data ensures accurate pricing that attracts buyers.',
     datePublished: '2024-06-10',

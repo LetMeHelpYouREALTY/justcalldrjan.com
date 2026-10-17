@@ -8,6 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function CommunicationPage() {
   const articleSchema = getArticleSchema({
+    path: '/berkshire-hathaway/communication',
     headline: 'Proactive Communication: Why 68% of Expired Listings Had Radio Silence',
     description: 'Your home didn\'t sell because your agent disappeared. Dr. Jan delivers weekly updates, 24/7 accessibility, and strategic pivots that keep your listing moving toward sale.',
     datePublished: '2024-06-15',

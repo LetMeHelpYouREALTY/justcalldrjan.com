@@ -15,9 +15,13 @@ function entry(
 /** Per-path SEO. Paths must match request pathname (no trailing slash). */
 export const ROUTE_SEO: Record<string, PageSeoInput> = {
   '/': entry(
-    'Las Vegas Expired Listing Help | Dr. Jan Duffy',
-    'Expired or withdrawn Las Vegas listing? Dr. Jan Duffy, REALTOR®, offers a structured relisting plan for homes that did not sell the first time. License S.0197614.LLC.',
+    'Luxury Homes That Did Not Sell | Dr. Jan Duffy',
+    'Las Vegas luxury homes that expired with the last agent. Dr. Jan Duffy, REALTOR® at Berkshire Hathaway HomeServices Nevada Properties, writes a private relist plan. 9406 W Lake Mead Blvd, Suite 100. Call (702) 222-1964.',
     true,
+  ),
+  '/private-listing-review': entry(
+    'Private Listing Review',
+    'Book a private review of a Las Vegas luxury home that did not sell with the previous agent. Dr. Jan Duffy, 9406 W Lake Mead Blvd, Suite 100, Las Vegas, NV 89134.',
   ),
   '/about': entry(
     'About Dr. Jan Duffy',

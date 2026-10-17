@@ -9,6 +9,7 @@ import { getPostalCodeSchema, getServiceAreaSchema } from '@/lib/hyperlocal-sche
 
 export default function Zip89117Page() {
   const articleSchema = getArticleSchema({
+    path: '/zipcodes/89117',
     headline: 'Zip Code 89117: Homes That Didn\'t Sell Expert Help in Summerlin Area',
     description: 'Specialized help for zip code 89117 homes that didn\'t sell. Expert guidance for successful home sales in Summerlin and surrounding Las Vegas areas.',
     datePublished: '2024-04-01',

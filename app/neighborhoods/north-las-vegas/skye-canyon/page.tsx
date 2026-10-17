@@ -8,6 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function SkyeCanyonPage() {
   const articleSchema = getArticleSchema({
+    path: '/neighborhoods/north-las-vegas/skye-canyon',
     headline: 'Skye Canyon North Las Vegas: New Construction Homes Expert Help',
     description: 'Specialized help for Skye Canyon homes that didn\'t sell. Expert guidance for successful home sales in North Las Vegas\'s premier new construction community.',
     datePublished: '2024-05-30',

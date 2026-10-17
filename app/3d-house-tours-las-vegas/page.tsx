@@ -8,6 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function ThreeDHouseToursLasVegasPage() {
   const articleSchema = getArticleSchema({
+    path: '/3d-house-tours-las-vegas',
     headline: '3D House Tours Las Vegas: Virtual Tour Services for Real Estate',
     description: 'Professional 3D house tours and virtual tour services for Las Vegas real estate. Enhance your property listing with immersive virtual tours that attract buyers and accelerate sales.',
     datePublished: '2024-08-01',

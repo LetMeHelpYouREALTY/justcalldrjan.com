@@ -8,6 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function Zip89129Page() {
   const articleSchema = getArticleSchema({
+    path: '/zipcodes/89129',
     headline: 'Zip Code 89129: Homes That Didn\'t Sell Expert Help in Centennial Hills Area',
     description: 'Specialized help for zip code 89129 homes that didn\'t sell. Expert guidance for successful home sales in Centennial Hills and Northwest Las Vegas areas.',
     datePublished: '2024-05-05',

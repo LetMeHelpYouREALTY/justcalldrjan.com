@@ -8,6 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function LasVegasCondosForSalePage() {
   const articleSchema = getArticleSchema({
+    path: '/las-vegas-condos-for-sale',
     headline: 'Las Vegas Condos for Sale: Expert Guide to Condominium Living',
     description: 'Expert guidance on Las Vegas condos for sale in Downtown, high-rise buildings, and luxury communities. Specialized help for condos that didn\'t sell.',
     datePublished: '2024-07-10',

@@ -8,6 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function SunCityPage() {
   const articleSchema = getArticleSchema({
+    path: '/neighborhoods/summerlin/sun-city',
     headline: 'Sun City Summerlin: Active Adult Homes Expert Help',
     description: 'Specialized help for Sun City Summerlin homes that didn\'t sell. Expert guidance for successful home sales in Summerlin\'s premier active adult community.',
     datePublished: '2024-05-10',

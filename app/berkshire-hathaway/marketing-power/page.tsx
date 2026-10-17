@@ -8,6 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function MarketingPowerPage() {
   const articleSchema = getArticleSchema({
+    path: '/berkshire-hathaway/marketing-power',
     headline: 'Institutional Marketing Power: Why 87% of Expired Listings Failed',
     description: 'Your home didn\'t sell because it never reached qualified buyers. Dr. Jan Duffy delivers marketing reach that regional firms simply can\'t match.',
     datePublished: '2024-06-05',

@@ -1,6 +1,7 @@
 // Advanced hyperlocal schema markup for 2024-2025 Google SEO strategy
 
 import { DR_JAN_INFO, BASE_URL } from './schema'
+import { OFFICE } from './office'
 
 /**
  * ServiceArea schema for specific neighborhoods and zip codes
@@ -107,12 +108,12 @@ export function getMultiLocationBusinessSchema() {
     '@id': `${BASE_URL}#business`,
     url: BASE_URL,
     telephone: DR_JAN_INFO.telephone,
-    priceRange: '$$',
+    priceRange: '$$$',
     address: DR_JAN_INFO.address,
     geo: {
       '@type': 'GeoCoordinates',
-      latitude: 36.1699,
-      longitude: -115.1398
+      latitude: OFFICE.latitude,
+      longitude: OFFICE.longitude,
     },
     areaServed: [
       { '@type': 'City', name: 'Las Vegas' },

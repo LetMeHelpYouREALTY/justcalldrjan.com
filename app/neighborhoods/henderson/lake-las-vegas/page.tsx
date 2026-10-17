@@ -8,6 +8,7 @@ import { getArticleSchema, getPersonSchema, BASE_URL } from '@/lib/schema'
 
 export default function LakeLasVegasPage() {
   const articleSchema = getArticleSchema({
+    path: '/neighborhoods/henderson/lake-las-vegas',
     headline: 'Lake Las Vegas Henderson: Luxury Waterfront Homes Expert Help',
     description: 'Specialized help for Lake Las Vegas homes that didn\'t sell. Expert guidance for successful home sales in Henderson\'s premier waterfront community.',
     datePublished: '2024-05-20',
