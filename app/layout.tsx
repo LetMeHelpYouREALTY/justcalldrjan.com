@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { headers } from 'next/headers'
 import { Cormorant_Garamond, Geist, Geist_Mono, Outfit } from 'next/font/google'
 import { ThemeProvider } from 'next-themes'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import DeployBanner from '../components/deploy-banner'
 import SiteNavigation from '../components/site-nav'
 import SiteFooter from '../components/site-footer'
@@ -90,6 +91,7 @@ export default function RootLayout({
           </main>
           <SiteFooter />
         </ThemeProvider>
+        <SpeedInsights />
       </body>
     </html>
   )
