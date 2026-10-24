@@ -134,7 +134,7 @@ export default function LasVegasHomesPage() {
                 Las Vegas homes require professional marketing and presentation: quality photography showcasing property advantages, virtual tours enabling buyer engagement, strategic exposure through multiple channels, and positioning that reaches qualified buyers effectively.
               </p>
               <p className="text-gray-700 mb-3">
-                For Las Vegas homes that didn't sell, marketing improvements often make critical difference: replacing poor photos with professional images, adding virtual tours, expanding reach through Berkshire Hathaway HomeServices channels, and positioning that highlights unique advantages.
+                For Las Vegas homes that didn't sell, marketing improvements often make critical difference: replacing poor photos with professional images, adding virtual tours, expanding reach through professional marketing channels, and positioning that highlights unique advantages.
               </p>
               <p className="text-gray-700">
                 Dr. Jan invests in professional marketing because she knows Las Vegas homes need superior presentation to compete effectively. Her comprehensive marketing approach reaches buyers through channels previous agents may not have utilized.

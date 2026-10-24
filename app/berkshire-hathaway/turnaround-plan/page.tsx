@@ -91,7 +91,7 @@ export default function TurnaroundPlanPage() {
             Week 2: Professional Presentation & Marketing Materials
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Week 2 focuses on professional presentation that showcases your home at its best. New photography, staging consultation, and updated marketing materials with Berkshire Hathaway HomeServices luxury branding.
+            Week 2 focuses on professional presentation that showcases your home at its best. New photography, staging consultation, and updated marketing materials with luxury branding.
           </p>
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div>
@@ -100,7 +100,7 @@ export default function TurnaroundPlanPage() {
                 Dr. Jan invests in professional photography that showcases your home's best features. No more dark, amateur shots - your home will be presented professionally from day one.
               </p>
               <p className="text-gray-700 mb-4">
-                Professional photos include proper lighting, wide-angle shots that show space accurately, and staging that makes rooms look inviting. These photos go beyond MLS - they appear in BHHS luxury marketing materials.
+                Professional photos include proper lighting, wide-angle shots that show space accurately, and staging that makes rooms look inviting. These photos go beyond MLS - they appear in luxury marketing materials.
               </p>
               <p className="text-gray-700">
                 First impressions matter. Buyers form opinions in seconds when viewing photos. Professional photography ensures those first impressions are positive.
@@ -120,9 +120,9 @@ export default function TurnaroundPlanPage() {
             </div>
           </div>
           <div className="bg-orange-50 p-8 rounded-lg">
-            <h3 className="text-2xl font-bold mb-4 text-gray-900">BHHS Luxury Branding</h3>
+            <h3 className="text-2xl font-bold mb-4 text-gray-900">Luxury Branding</h3>
             <p className="text-gray-700 mb-3">
-              Marketing materials are updated with Berkshire Hathaway HomeServices luxury branding that signals quality and institutional backing. Your home isn't just another listing - it's a BHHS property.
+              Marketing materials are updated with luxury branding that signals quality and institutional backing. Your home isn't just another listing - it's a professionally marketed property.
             </p>
             <p className="text-gray-700">
               These branded materials appear in premium channels: Wall Street Journal Real Estate, NYT Real Estate sections, and elite luxury portals where serious buyers search. Regional firms can't access these channels.
@@ -149,7 +149,7 @@ export default function TurnaroundPlanPage() {
                 Markets change constantly. What was appropriate pricing three months ago may not be correct today. Fresh CMAs ensure pricing reflects current market conditions, not outdated data.
               </p>
               <p className="text-gray-700">
-                This analysis uses proprietary BHHS valuation tools combined with Dr. Jan's 30 years of Vegas market experience to determine optimal pricing strategy.
+                This analysis uses proprietary tools combined with Dr. Jan's experience in real estate since 1983 to determine optimal pricing strategy.
               </p>
             </div>
             <div>
@@ -174,20 +174,20 @@ export default function TurnaroundPlanPage() {
             Week 4: Aggressive Outreach & Network Activation
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Week 4 activates Berkshire Hathaway HomeServices networks to ensure your home reaches qualified buyers through channels that previous agents couldn't access.
+            Week 4 activates agent networks to ensure your home reaches qualified buyers through channels that previous agents couldn't access.
           </p>
           <div className="grid md:grid-cols-3 gap-6 mb-8">
             <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
-              <h3 className="text-xl font-bold mb-3 text-gray-900">BHHS Agent Network</h3>
-              <p className="text-gray-700">900+ Berkshire Hathaway agents in Nevada receive your listing through internal network. These agents have buyers actively searching for properties like yours.</p>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">Agent Referral Network</h3>
+              <p className="text-gray-700">Agents across Nevada receive your listing through the referral network. These agents have buyers actively searching for properties like yours.</p>
             </div>
             <div className="bg-purple-50 p-6 rounded-lg border border-purple-200">
               <h3 className="text-xl font-bold mb-3 text-gray-900">Luxury Buyer Database</h3>
-              <p className="text-gray-700">BHHS maintains luxury buyer databases with clients who have purchased high-end properties. Your home is promoted to these qualified buyers directly.</p>
+              <p className="text-gray-700">Dr. Jan maintains luxury buyer databases with clients who have purchased high-end properties. Your home is promoted to these qualified buyers directly.</p>
             </div>
             <div className="bg-green-50 p-6 rounded-lg border border-green-200">
               <h3 className="text-xl font-bold mb-3 text-gray-900">International Referrals</h3>
-              <p className="text-gray-700">BHHS international offices and referral partners receive your listing. If buyers in New York, California, or international markets are looking for Las Vegas properties, they see your home.</p>
+              <p className="text-gray-700">International referral partners receive your listing. If buyers in New York, California, or international markets are looking for Las Vegas properties, they see your home.</p>
             </div>
           </div>
           <div className="bg-white p-8 rounded-lg border border-gray-200">
@@ -196,7 +196,7 @@ export default function TurnaroundPlanPage() {
               When your previous listing failed, it likely wasn't promoted to agent networks, luxury buyer databases, or international referral partners. Dr. Jan activates all of these channels in Week 4.
             </p>
             <p className="text-gray-700">
-              Your home isn't just on MLS - it's actively promoted to 900+ BHHS agents, luxury buyer databases, and international referral partners who have clients actively searching. This network reach is what turns expired listings into sold properties.
+              Your home isn't just on MLS - it's actively promoted to agent referral networks, luxury buyer databases, and international referral partners who have clients actively searching. This network reach is what turns expired listings into sold properties.
             </p>
           </div>
         </div>

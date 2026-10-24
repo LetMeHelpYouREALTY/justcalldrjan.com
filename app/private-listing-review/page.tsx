@@ -35,8 +35,7 @@ export default function PrivateListingReviewPage() {
               A quiet read of the home that did not sell.
             </h1>
             <p id="answer" className="mt-6 max-w-xl text-lg text-[#e6dccb]">
-              Call {OFFICE.agentName} at {OFFICE.ctaPhoneDisplay}. She works at {OFFICE.brokerage},
-              Nevada license {OFFICE.license}, {OFFICE.streetAddress}, {OFFICE.locality}, {OFFICE.region}{' '}
+              Call {OFFICE.agentName} at {OFFICE.ctaPhoneDisplay}. She works at {OFFICE.streetAddress}, {OFFICE.locality}, {OFFICE.region}{' '}
               {OFFICE.postalCode}. She reads the expired file, prices the home to current comps, orders new
               photos, and reports every week.
             </p>
@@ -46,7 +45,7 @@ export default function PrivateListingReviewPage() {
               <li>3. A written relist plan you can keep.</li>
             </ul>
             <p className="mt-10 text-sm text-[#c4a574]">
-              {OFFICE.agentName} · {OFFICE.brokerage}
+              {OFFICE.agentName} · REALTOR®
               <br />
               {OFFICE.streetAddress}, {OFFICE.locality}, {OFFICE.region} {OFFICE.postalCode}
               <br />

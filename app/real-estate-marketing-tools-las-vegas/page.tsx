@@ -69,7 +69,7 @@ export default function RealEstateMarketingToolsLasVegasPage() {
                 Standard MLS marketing failed once - relisting requires tools that provide superior presentation, broader reach, and strategic buyer targeting. Professional marketing platforms make the difference between relisting failure and successful sale.
               </p>
               <p className="text-gray-700">
-                Dr. Jan's marketing approach combines Berkshire Hathaway HomeServices institutional tools with cutting-edge platforms designed for luxury real estate marketing. This combination reaches buyers who saw previous marketing and didn't respond, plus new buyer pools entirely.
+                Dr. Jan's marketing approach combines institutional tools with cutting-edge platforms designed for luxury real estate marketing. This combination reaches buyers who saw previous marketing and didn't respond, plus new buyer pools entirely.
               </p>
             </div>
           </div>
@@ -126,15 +126,15 @@ export default function RealEstateMarketingToolsLasVegasPage() {
             </div>
 
             <div className="bg-white p-8 rounded-lg border border-gray-200">
-              <h3 className="text-2xl font-bold mb-4 text-gray-900">Berkshire Hathaway HomeServices Marketing Platform</h3>
+              <h3 className="text-2xl font-bold mb-4 text-gray-900">Marketing Platform</h3>
               <p className="text-gray-700 mb-4">
-                Berkshire Hathaway HomeServices provides institutional marketing platform unmatched by regional firms: access to Wall Street Journal Real Estate, New York Times Real Estate sections, luxury portals, and national exposure that positions Las Vegas properties to qualified buyers nationwide.
+                Dr. Jan Duffy provides a marketing platform unmatched by regional firms: access to Wall Street Journal Real Estate, New York Times Real Estate sections, luxury portals, and national exposure that positions Las Vegas properties to qualified buyers nationwide.
               </p>
               <p className="text-gray-700 mb-4">
-                This institutional marketing power creates competitive advantage: properties receive exposure through channels regional firms cannot access. For expired listings needing maximum visibility, BHHS platform provides comprehensive reach that basic marketing cannot match.
+                This institutional marketing power creates competitive advantage: properties receive exposure through channels regional firms cannot access. For expired listings needing maximum visibility, Her marketing platform provides comprehensive reach that basic marketing cannot match.
               </p>
               <p className="text-gray-700">
-                Dr. Jan leverages BHHS marketing platform because she knows expired listings need superior exposure. Institutional marketing tools make the difference between relisting with same approach and strategic marketing that reaches qualified buyers effectively.
+                Dr. Jan leverages a professional marketing platform because she knows expired listings need superior exposure. Institutional marketing tools make the difference between relisting with same approach and strategic marketing that reaches qualified buyers effectively.
               </p>
             </div>
           </div>
@@ -159,7 +159,7 @@ export default function RealEstateMarketingToolsLasVegasPage() {
             <div className="bg-cyan-50 p-6 rounded-lg border border-cyan-200">
               <h3 className="text-xl font-bold mb-4 text-gray-900">Las Vegas Market Knowledge</h3>
               <p className="text-gray-700">
-                Her 30+ years of Las Vegas real estate experience informs tool selection and usage. She knows which platforms reach Las Vegas buyers effectively and how to position properties strategically.
+                Her experience in real estate since 1983 informs tool selection and usage. She knows which platforms reach Las Vegas buyers effectively and how to position properties strategically.
               </p>
             </div>
             <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">

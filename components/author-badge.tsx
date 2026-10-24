@@ -13,7 +13,7 @@ export default function AuthorBadge() {
           By <Link href="/about" className="font-semibold text-blue-600 hover:text-blue-700">Dr. Jan Duffy</Link>
         </p>
         <p className="text-xs text-gray-500">
-          Licensed Real Estate Professional | Berkshire Hathaway HomeServices | Las Vegas, NV | License #S.0197614
+          Licensed Real Estate Professional | Top 1% Las Vegas REALTOR® | Las Vegas, NV
         </p>
       </div>
     </div>

@@ -83,7 +83,7 @@ export default function HowItWorksPage() {
               <Link href="/about" className="underline underline-offset-4">
                 {OFFICE.agentName}
               </Link>
-              , a Las Vegas REALTOR® with {OFFICE.brokerage}, Nevada license {OFFICE.license}, at{' '}
+              , a Las Vegas REALTOR® in real estate since 1983, at{' '}
               {OFFICE_ONE_LINE}. Call or text{' '}
               <a href={`tel:${OFFICE.ctaPhoneTel}`} className="underline underline-offset-4">
                 {OFFICE.ctaPhoneDisplay}
@@ -140,8 +140,7 @@ export default function HowItWorksPage() {
           <p className="text-xs tracking-[0.22em] text-[#9a7b4f]">02</p>
           <h2 className="mt-3 font-display text-4xl md:text-5xl">Strategic Repricing &amp; Market Analysis</h2>
           <p className="mt-4 max-w-3xl text-lg leading-relaxed text-[#3f3832]">
-            Dr. Jan conducts fresh market analysis using current data and proprietary Berkshire Hathaway
-            HomeServices valuation tools to determine optimal pricing strategy that attracts buyers while
+            Dr. Jan conducts fresh market analysis using current data and proprietary tools to determine optimal pricing strategy that attracts buyers while
             protecting your equity.
           </p>
           <article className="mt-12 border border-[#d9d0c3] bg-[#f7f3ec] p-8">
@@ -172,7 +171,7 @@ export default function HowItWorksPage() {
           </article>
           <p className="mt-8 max-w-3xl text-lg leading-relaxed text-[#3f3832]">
             Pricing isn&apos;t guesswork - it&apos;s science. Dr. Jan combines her PhD-level analytical approach
-            with 30 years of Vegas market experience and proprietary BHHS tools to determine pricing that works.
+            with experience in real estate since 1983 and proprietary tools to determine pricing that works.
           </p>
           <p className="mt-4 max-w-3xl text-lg leading-relaxed text-[#3f3832]">
             Result: Strategic pricing that positions your home competitively from day one, attracting buyers while
@@ -187,7 +186,7 @@ export default function HowItWorksPage() {
           <h2 className="mt-3 font-display text-4xl md:text-5xl">Professional Presentation &amp; Marketing</h2>
           <p className="mt-4 max-w-3xl text-lg leading-relaxed text-[#3f3832]">
             Your home receives professional presentation that showcases its best features: professional
-            photography, staging consultation, and marketing materials with Berkshire Hathaway HomeServices luxury
+            photography, staging consultation, and marketing materials with luxury
             branding.
           </p>
           <div className="mt-12 grid gap-10 md:grid-cols-2">
@@ -216,9 +215,9 @@ export default function HowItWorksPage() {
             </article>
           </div>
           <article className="mt-12 border border-[#14110e] bg-[#14110e] p-8 text-[#f7f3ec]">
-            <h3 className="font-display text-3xl">BHHS Luxury Marketing</h3>
+            <h3 className="font-display text-3xl">Luxury Marketing</h3>
             <p className="mt-4 text-[#e6dccb]">
-              Marketing materials carry Berkshire Hathaway HomeServices luxury branding that signals quality and
+              Marketing materials carry luxury branding that signals quality and
               institutional backing. Your home appears in premium channels: Wall Street Journal Real Estate, NYT
               Real Estate sections, and elite luxury portals.
             </p>
@@ -236,15 +235,15 @@ export default function HowItWorksPage() {
           <p className="text-xs tracking-[0.22em] text-[#9a7b4f]">04</p>
           <h2 className="mt-3 font-display text-4xl md:text-5xl">Network Activation &amp; Buyer Outreach</h2>
           <p className="mt-4 max-w-3xl text-lg leading-relaxed text-[#3f3832]">
-            Your listing is actively promoted to Berkshire Hathaway HomeServices agent networks, luxury buyer
+            Your listing is actively promoted to agent referral networks, luxury buyer
             databases, and international referral partners - reaching buyers that previous agents couldn&apos;t
             access.
           </p>
           <div className="mt-10 grid gap-px bg-[#d9d0c3] md:grid-cols-3">
             <article className="bg-[#fffcf8] p-8">
-              <h3 className="font-display text-3xl">BHHS Agent Network</h3>
+              <h3 className="font-display text-3xl">Agent Referral Network</h3>
               <p className="mt-4 text-[#3f3832]">
-                900+ Berkshire Hathaway agents in Nevada receive your listing through internal network with buyers
+                Agents across Nevada receive your listing through the referral network with buyers
                 actively searching.
               </p>
             </article>
@@ -257,7 +256,7 @@ export default function HowItWorksPage() {
             <article className="bg-[#fffcf8] p-8">
               <h3 className="font-display text-3xl">International Referrals</h3>
               <p className="mt-4 text-[#3f3832]">
-                BHHS international offices and referral partners in all 50 states promote your listing to their
+                International referral partners in all 50 states promote your listing to their
                 clients.
               </p>
             </article>

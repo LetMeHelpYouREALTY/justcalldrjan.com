@@ -10,7 +10,7 @@ export default function PricingMasteryPage() {
   const articleSchema = getArticleSchema({
     path: '/berkshire-hathaway/pricing-mastery',
     headline: 'Pricing Mastery: Why 73% of Expired Listings Were Overpriced',
-    description: 'Your home didn\'t sell because it was priced 5-15% too high. Dr. Jan\'s PhD-level pricing approach backed by 30 years of Vegas market data ensures accurate pricing that attracts buyers.',
+    description: 'Your home didn\'t sell because it was priced 5-15% too high. Dr. Jan\'s PhD-level pricing approach backed by experience in real estate since 1983 ensures accurate pricing that attracts buyers.',
     datePublished: '2024-06-10',
     dateModified: '2024-12-01',
     author: getPersonSchema()
@@ -27,7 +27,7 @@ export default function PricingMasteryPage() {
             Pricing Mastery: Why 73% of Expired Listings Were Overpriced
           </h1>
           <p className="text-xl md:text-2xl text-green-100 max-w-3xl">
-            Your home didn't sell because it was priced 5-15% too high. Dr. Jan's PhD-level pricing approach backed by 30 years of Vegas market data ensures accurate pricing that attracts buyers.
+            Your home didn't sell because it was priced 5-15% too high. Dr. Jan's PhD-level pricing approach backed by experience in real estate since 1983 ensures accurate pricing that attracts buyers.
           </p>
         </div>
       </section>
@@ -81,13 +81,13 @@ export default function PricingMasteryPage() {
             Dr. Jan's PhD-Level Pricing Approach
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Dr. Jan combines her PhD-level analytical approach with proprietary Berkshire Hathaway HomeServices valuation tools and 30 years of Las Vegas market experience to determine accurate pricing from day one.
+            Dr. Jan combines her PhD-level analytical approach with proprietary tools and experience in real estate since 1983 to determine accurate pricing from day one.
           </p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div>
-              <h3 className="text-2xl font-bold mb-4 text-gray-900">Proprietary BHHS Valuation Tools</h3>
+              <h3 className="text-2xl font-bold mb-4 text-gray-900">Proprietary Valuation Tools</h3>
               <p className="text-gray-700 mb-4">
-                Dr. Jan has access to proprietary Berkshire Hathaway HomeServices valuation tools that analyze market data, absorption rates, and buyer behavior patterns that generic CMAs miss.
+                Dr. Jan has access to proprietary tools that analyze market data, absorption rates, and buyer behavior patterns that generic CMAs miss.
               </p>
               <p className="text-gray-700 mb-4">
                 These tools combine recent comparable sales, current competition, days on market trends, and buyer feedback data to determine optimal pricing strategy.

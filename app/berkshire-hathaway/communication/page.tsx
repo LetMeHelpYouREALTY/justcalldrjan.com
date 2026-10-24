@@ -170,7 +170,7 @@ export default function CommunicationPage() {
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-6">
               <h3 className="text-xl font-bold mb-3 text-gray-900">Simply Vegas</h3>
-              <p className="text-gray-700">Smaller firm means better than mega-brokerages, but lacks BHHS systematic accountability and communication protocols that ensure consistent updates.</p>
+              <p className="text-gray-700">Smaller firm means better than mega-brokerages, but lacks systematic accountability and communication protocols that ensure consistent updates.</p>
             </div>
             <div className="bg-white border border-gray-200 rounded-lg p-6">
               <h3 className="text-xl font-bold mb-3 text-gray-900">eXp Realty</h3>

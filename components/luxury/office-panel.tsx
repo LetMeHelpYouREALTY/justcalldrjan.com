@@ -18,7 +18,7 @@ export default function OfficePanel() {
           <h2 id="office-heading" className="mt-3 font-display text-4xl md:text-5xl">
             {OFFICE.agentName}
           </h2>
-          <p className="mt-4 text-[#3f3832]">{OFFICE.brokerage}</p>
+          <p className="mt-4 text-[#3f3832]">Top 1% Las Vegas REALTOR®</p>
           <address className="mt-6 not-italic leading-relaxed">
             {OFFICE.streetAddress}
             <br />
@@ -35,7 +35,6 @@ export default function OfficePanel() {
               {OFFICE.email}
             </a>
           </p>
-          <p className="mt-4 text-sm text-[#5c534c]">Nevada license {OFFICE.license}</p>
           <dl className="mt-6 space-y-2 text-sm">
             {OFFICE.hours.map((row) => (
               <div key={row.days} className="flex justify-between gap-6 border-b border-[#e4dcd0] py-2">
@@ -57,7 +56,7 @@ export default function OfficePanel() {
           </div>
         </div>
         <iframe
-          title={`Map to ${OFFICE.brokerage}, ${OFFICE_ONE_LINE}`}
+          title={`Map to ${OFFICE.agentName}, ${OFFICE_ONE_LINE}`}
           src={OFFICE_MAP_EMBED_URL}
           className="h-80 w-full border border-[#d9d0c3] bg-[#efe8dc] lg:h-full lg:min-h-[420px]"
           loading="lazy"

@@ -15,7 +15,7 @@ export const SERVICES = {
   },
   REAL_ESTATE_MARKETING: {
     name: 'Real Estate Marketing Service',
-    description: 'Photography, virtual tours, and digital advertising through Berkshire Hathaway HomeServices.',
+    description: 'Photography, virtual tours, and digital advertising from Dr. Jan Duffy.',
     serviceType: 'Real Estate Marketing Service',
   },
   BUYER_REPRESENTATION: {

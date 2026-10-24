@@ -34,7 +34,7 @@ export default function LasVegasLuxuryHomesPage() {
               when the last one did not sell.
             </p>
             <p className="mt-8 max-w-xl text-sm leading-relaxed text-[#c4a574]">
-              {OFFICE.agentName} is a Las Vegas REALTOR® with {OFFICE.brokerage}, Nevada license {OFFICE.license},
+              {OFFICE.agentName} is a Las Vegas REALTOR® in real estate since 1983,
               at {OFFICE_ONE_LINE}. Call or text{' '}
               <a href={`tel:${OFFICE.ctaPhoneTel}`} className="underline underline-offset-4">
                 {OFFICE.ctaPhoneDisplay}
@@ -86,8 +86,7 @@ export default function LasVegasLuxuryHomesPage() {
                 listing never said what made the property different.
               </p>
               <p className="mt-4 text-[#3f3832]">
-                Dr. Jan&apos;s approach is a luxury market read, a price set to those comps, Berkshire Hathaway
-                HomeServices marketing channels, and a plan built for the community the home is actually in.
+                Dr. Jan&apos;s approach is a luxury market read, a price set to those comps, luxury marketing channels, and a plan built for the community the home is actually in.
               </p>
             </article>
           </div>
@@ -119,7 +118,7 @@ export default function LasVegasLuxuryHomesPage() {
             <article className="bg-[#fffcf8] p-8">
               <h3 className="font-display text-3xl">Luxury Marketing Channels</h3>
               <p className="mt-4 text-[#3f3832]">
-                Berkshire Hathaway HomeServices marketing: Wall Street Journal Real Estate, NYT Real Estate
+                Luxury marketing: Wall Street Journal Real Estate, NYT Real Estate
                 sections, luxury portals, international exposure, and channels that reach buyers shopping at this
                 price.
               </p>

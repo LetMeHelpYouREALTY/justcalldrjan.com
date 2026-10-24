@@ -69,7 +69,7 @@ export default function LasVegasMansionsPage() {
                 Common issues with Las Vegas mansions that didn't sell: pricing above luxury mansion comparables, insufficient marketing reach to qualified buyers worldwide, poor positioning relative to luxury competition, or missing unique value propositions that define ultra-luxury properties.
               </p>
               <p className="text-gray-700">
-                Dr. Jan's Las Vegas mansion approach addresses these specific challenges: comprehensive luxury mansion market analysis, strategic ultra-premium positioning, Berkshire Hathaway HomeServices luxury marketing channels reaching global buyers, and expertise in Las Vegas luxury mansion communities.
+                Dr. Jan's Las Vegas mansion approach addresses these specific challenges: comprehensive luxury mansion market analysis, strategic ultra-premium positioning, luxury marketing channels reaching global buyers, and expertise in Las Vegas luxury mansion communities.
               </p>
             </div>
           </div>
@@ -94,7 +94,7 @@ export default function LasVegasMansionsPage() {
             <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-200">
               <h3 className="text-xl font-bold mb-4 text-gray-900">Global Marketing Reach</h3>
               <p className="text-gray-700">
-                Berkshire Hathaway HomeServices luxury marketing reaches qualified Las Vegas mansion buyers globally: Wall Street Journal Real Estate, NYT Real Estate sections, luxury portals, international exposure, and premium channels accessing ultra-luxury buyer market.
+                Luxury marketing reaches qualified Las Vegas mansion buyers globally: Wall Street Journal Real Estate, NYT Real Estate sections, luxury portals, international exposure, and premium channels accessing ultra-luxury buyer market.
               </p>
             </div>
             <div className="bg-amber-50 p-6 rounded-lg border border-amber-200">

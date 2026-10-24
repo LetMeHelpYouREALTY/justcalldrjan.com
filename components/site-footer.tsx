@@ -11,9 +11,6 @@ export default function SiteFooter() {
           <h2 className="font-display text-3xl">
             {OFFICE.agentName}
           </h2>
-          <p className="mt-3 text-sm text-[#e6dccb]">
-            {OFFICE.brokerage}
-          </p>
           <address className="mt-4 not-italic text-sm leading-relaxed text-[#e6dccb]">
             {OFFICE.streetAddress}
             <br />
@@ -30,7 +27,6 @@ export default function SiteFooter() {
               {OFFICE.email}
             </a>
           </p>
-          <p className="mt-4 text-sm text-[#a3988c]">Nevada license {OFFICE.license}</p>
         </div>
 
         <div>
@@ -94,6 +90,9 @@ export default function SiteFooter() {
       <div className="mx-auto mt-12 max-w-6xl border-t border-[#2a241e] pt-6 text-sm text-[#a3988c]">
         <p>
           © {currentYear} {OFFICE.agentName}. Luxury relisting for homes that did not sell with the previous agent.
+        </p>
+        <p className="mt-2">
+          Berkshire Hathaway HomeServices Nevada Properties since September 2008 · License S.0197614.LLC
         </p>
         <p className="mt-2">
           <a href="https://calldrduffy.com" className="underline decoration-[#6e6254] underline-offset-4" rel="noopener noreferrer">

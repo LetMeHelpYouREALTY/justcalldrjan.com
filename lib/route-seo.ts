@@ -2,7 +2,7 @@ import type { PageSeoInput } from '@/lib/create-page-metadata'
 import { isPublicRoute, normalizePathname } from '@/lib/public-routes'
 
 const DEFAULT_DESCRIPTION =
-  'Las Vegas REALTOR® Dr. Jan Duffy helps homeowners relist expired and withdrawn properties. Nevada License S.0197614.LLC.'
+  'Las Vegas REALTOR® Dr. Jan Duffy helps homeowners relist expired and withdrawn properties. In real estate since 1983.'
 
 function entry(
   title: string,
@@ -16,7 +16,7 @@ function entry(
 export const ROUTE_SEO: Record<string, PageSeoInput> = {
   '/': entry(
     'Luxury Homes That Did Not Sell | Dr. Jan Duffy',
-    'Las Vegas luxury homes that expired with the last agent. Dr. Jan Duffy, REALTOR® at Berkshire Hathaway HomeServices Nevada Properties, writes a private relist plan. 9406 W Lake Mead Blvd, Suite 100. Call (702) 222-1964.',
+    'Las Vegas luxury homes that expired with the last agent. Dr. Jan Duffy, REALTOR®, writes a private relist plan. 9406 W Lake Mead Blvd, Suite 100. Call (702) 222-1964.',
     true,
   ),
   '/private-listing-review': entry(

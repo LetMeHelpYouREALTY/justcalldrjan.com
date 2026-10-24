@@ -45,7 +45,7 @@ export default function WhyBerkshireHathawayPage() {
             The Truth About Why Your Home Didn't Sell
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            After analyzing hundreds of expired listings, three critical failures emerge: insufficient marketing exposure beyond basic MLS, overpricing by 5-15%, and poor agent communication. Dr. Jan Duffy with Berkshire Hathaway HomeServices addresses all three with institutional power that boutique firms simply can't match.
+            After analyzing hundreds of expired listings, three critical failures emerge: insufficient marketing exposure beyond basic MLS, overpricing by 5-15%, and poor agent communication. Dr. Jan Duffy, REALTOR®, addresses all three with institutional power that boutique firms simply can't match.
           </p>
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div className="bg-red-50 p-6 rounded-lg border border-red-200">
@@ -76,14 +76,14 @@ export default function WhyBerkshireHathawayPage() {
             Advantage #1: Institutional Marketing Power & National Exposure
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            When your home didn't sell due to insufficient exposure, Dr. Jan + Berkshire Hathaway HomeServices delivers marketing power that regional and boutique firms simply cannot match.
+            When your home didn't sell due to insufficient exposure, Dr. Jan Duffy delivers marketing power that regional and boutique firms simply cannot match.
           </p>
           <div className="bg-blue-50 p-8 rounded-lg mb-8">
-            <h3 className="text-2xl font-bold mb-4 text-gray-900">Dr. Jan + BHHS Marketing Advantages</h3>
+            <h3 className="text-2xl font-bold mb-4 text-gray-900">Dr. Jan Duffy Marketing Advantages</h3>
             <ul className="space-y-3 text-gray-700 mb-6">
               <li className="flex items-start">
                 <span className="text-blue-600 mr-3 font-bold">✓</span>
-                <span><strong>Global Berkshire Hathaway brand</strong> with Fortune 100 recognition reaches international luxury buyers</span>
+                <span><strong>Global marketing reach</strong> that reaches international luxury buyers</span>
               </li>
               <li className="flex items-start">
                 <span className="text-blue-600 mr-3 font-bold">✓</span>
@@ -107,7 +107,7 @@ export default function WhyBerkshireHathawayPage() {
               <div className="space-y-4">
                 <div className="bg-white p-4 rounded-lg border border-gray-200">
                   <h4 className="font-bold text-gray-900 mb-2">Realty ONE Group</h4>
-                  <p className="text-gray-700">Strong local presence, but purely regional marketing footprint. Can't match BHHS national and international reach.</p>
+                  <p className="text-gray-700">Strong local presence, but purely regional marketing footprint. Can't match national and international reach.</p>
                 </div>
                 <div className="bg-white p-4 rounded-lg border border-gray-200">
                   <h4 className="font-bold text-gray-900 mb-2">Simply Vegas</h4>
@@ -126,13 +126,13 @@ export default function WhyBerkshireHathawayPage() {
             <div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">The Marketing Reality</h3>
               <p className="text-gray-700 mb-4">
-                When your home expired with limited marketing, it wasn't seen by the buyers who were actively looking. Regional firms and boutique agencies simply don't have access to the national advertising, luxury networks, and international channels that Berkshire Hathaway HomeServices provides.
+                When your home expired with limited marketing, it wasn't seen by the buyers who were actively looking. Regional firms and boutique agencies simply don't have access to the national advertising, luxury networks, and international channels that Dr. Jan Duffy provides.
               </p>
               <p className="text-gray-700 mb-4">
-                Dr. Jan leverages BHHS institutional marketing power to ensure your home reaches qualified buyers through multiple channels: luxury agent networks, national advertising, premium real estate portals, and international referral partners that regional firms can't access.
+                Dr. Jan leverages institutional marketing power to ensure your home reaches qualified buyers through multiple channels: luxury agent networks, national advertising, premium real estate portals, and international referral partners that regional firms can't access.
               </p>
               <p className="text-gray-700">
-                This isn't just better MLS photos - it's institutional marketing power that gets your home in front of 10X more qualified buyers. When buyers are searching through Wall Street Journal Real Estate or BHHS luxury networks, your home appears where competitors' listings don't.
+                This isn't just better MLS photos - it's institutional marketing power that gets your home in front of 10X more qualified buyers. When buyers are searching through Wall Street Journal Real Estate or luxury networks, your home appears where competitors' listings don't.
               </p>
             </div>
           </div>
@@ -145,18 +145,18 @@ export default function WhyBerkshireHathawayPage() {
             Advantage #2: Pricing Mastery Backed by 30+ Years of Data
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            When your home didn't sell due to overpricing, Dr. Jan's PhD-level analytical approach combined with proprietary BHHS valuation tools ensures accurate pricing that attracts buyers while protecting your equity.
+            When your home didn't sell due to overpricing, Dr. Jan's PhD-level analytical approach combined with proprietary tools ensures accurate pricing that attracts buyers while protecting your equity.
           </p>
           <div className="bg-green-50 p-8 rounded-lg mb-8">
-            <h3 className="text-2xl font-bold mb-4 text-gray-900">Dr. Jan + BHHS Pricing Advantages</h3>
+            <h3 className="text-2xl font-bold mb-4 text-gray-900">Dr. Jan Duffy Pricing Advantages</h3>
             <ul className="space-y-3 text-gray-700 mb-6">
               <li className="flex items-start">
                 <span className="text-green-600 mr-3 font-bold">✓</span>
-                <span><strong>PhD-level analytical approach</strong> to CMAs using proprietary BHHS valuation tools</span>
+                <span><strong>PhD-level analytical approach</strong> to CMAs using proprietary tools</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 mr-3 font-bold">✓</span>
-                <span><strong>30 years of Vegas market cycles</strong> - survived 2008 crash, understands true value vs. emotion</span>
+                <span><strong>Vegas market cycles since 1983</strong> - survived 2008 crash, understands true value vs. emotion</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 mr-3 font-bold">✓</span>
@@ -195,10 +195,10 @@ export default function WhyBerkshireHathawayPage() {
             <div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Dr. Jan's Pricing Philosophy</h3>
               <p className="text-gray-700 mb-4">
-                After 30 years in Las Vegas real estate, Dr. Jan has seen every market cycle. She understands that most agents overprice to win the listing, knowing they'll have to reduce later. This approach wastes your time and money while your home sits on the market.
+                In real estate since 1983, Dr. Jan has seen every market cycle. She understands that most agents overprice to win the listing, knowing they'll have to reduce later. This approach wastes your time and money while your home sits on the market.
               </p>
               <p className="text-gray-700 mb-4">
-                Dr. Jan uses proprietary BHHS valuation tools combined with her PhD-level analytical approach to determine accurate pricing from day one. She'll have the tough conversation upfront: price your home correctly to sell quickly, or price high and watch it sit.
+                Dr. Jan uses proprietary tools combined with her PhD-level analytical approach to determine accurate pricing from day one. She'll have the tough conversation upfront: price your home correctly to sell quickly, or price high and watch it sit.
               </p>
               <p className="text-gray-700 mb-4">
                 Her pricing strategy includes real-time adjustments based on showing feedback and market shifts. If initial pricing isn't attracting buyers, she pivots within 14-21 days rather than waiting weeks for the market to catch up.
@@ -220,7 +220,7 @@ export default function WhyBerkshireHathawayPage() {
             When your home didn't sell due to poor agent communication, Dr. Jan delivers weekly updates, 24/7 accessibility, and strategic pivots that keep your listing moving toward sale.
           </p>
           <div className="bg-purple-50 p-8 rounded-lg mb-8">
-            <h3 className="text-2xl font-bold mb-4 text-gray-900">Dr. Jan + BHHS Communication Advantages</h3>
+            <h3 className="text-2xl font-bold mb-4 text-gray-900">Dr. Jan Duffy Communication Advantages</h3>
             <ul className="space-y-3 text-gray-700 mb-6">
               <li className="flex items-start">
                 <span className="text-purple-600 mr-3 font-bold">✓</span>
@@ -252,7 +252,7 @@ export default function WhyBerkshireHathawayPage() {
                 </div>
                 <div className="bg-white p-4 rounded-lg border border-gray-200">
                   <h4 className="font-bold text-gray-900 mb-2">Simply Vegas</h4>
-                  <p className="text-gray-700">Smaller firm means better than mega-brokerages, but lacks BHHS systematic accountability and communication protocols.</p>
+                  <p className="text-gray-700">Smaller firm means better than mega-brokerages, but lacks systematic accountability and communication protocols.</p>
                 </div>
                 <div className="bg-white p-4 rounded-lg border border-gray-200">
                   <h4 className="font-bold text-gray-900 mb-2">eXp Realty</h4>
@@ -298,7 +298,7 @@ export default function WhyBerkshireHathawayPage() {
             </div>
             <div className="bg-green-50 p-6 rounded-lg border border-green-200">
               <h3 className="text-xl font-bold mb-3 text-gray-900">Week 2</h3>
-              <p className="text-gray-700">New professional photography, staging consultation, updated marketing materials with BHHS luxury branding</p>
+              <p className="text-gray-700">New professional photography, staging consultation, updated marketing materials with luxury branding</p>
             </div>
             <div className="bg-purple-50 p-6 rounded-lg border border-purple-200">
               <h3 className="text-xl font-bold mb-3 text-gray-900">Week 3</h3>
@@ -306,7 +306,7 @@ export default function WhyBerkshireHathawayPage() {
             </div>
             <div className="bg-orange-50 p-6 rounded-lg border border-orange-200">
               <h3 className="text-xl font-bold mb-3 text-gray-900">Week 4</h3>
-              <p className="text-gray-700">Aggressive outreach to BHHS agent network (900+ agents), luxury buyer database, and international referral partners</p>
+              <p className="text-gray-700">Aggressive outreach to the agent referral network, luxury buyer database, and international referral partners</p>
             </div>
           </div>
           <div className="bg-gray-50 p-8 rounded-lg">

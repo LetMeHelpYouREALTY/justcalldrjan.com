@@ -76,7 +76,7 @@ export default function WhyDidntItSellPage() {
               <Link href="/about" className="underline underline-offset-4">
                 {OFFICE.agentName}
               </Link>
-              , a Las Vegas REALTOR® with {OFFICE.brokerage}, Nevada license {OFFICE.license}, at{' '}
+              , a Las Vegas REALTOR® in real estate since 1983, at{' '}
               {OFFICE_ONE_LINE}. Call or text{' '}
               <a href={`tel:${OFFICE.ctaPhoneTel}`} className="underline underline-offset-4">
                 {OFFICE.ctaPhoneDisplay}

@@ -90,7 +90,7 @@ export default function RealEstateScriptsLasVegasPage() {
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Script 1: Initial Expired Listing Contact</h3>
               <div className="bg-blue-50 p-6 rounded-lg mb-4">
                 <p className="text-gray-700 italic mb-3">
-                  "Hi [Name], this is Dr. Jan Duffy with Berkshire Hathaway HomeServices. I noticed your home at [Address] in [Neighborhood] came off the market. I specialize in helping Las Vegas homes that didn't sell get sold successfully."
+                  "Hi [Name], this is Dr. Jan Duffy, REALTOR®. I noticed your home at [Address] in [Neighborhood] came off the market. I specialize in helping Las Vegas homes that didn't sell get sold successfully."
                 </p>
                 <p className="text-gray-700 italic mb-3">
                   "I'd like to offer you free analysis of what happened with your listing - no obligation, just honest assessment. I've helped dozens of Las Vegas homeowners in [Neighborhood] successfully relist and sell after expiration."

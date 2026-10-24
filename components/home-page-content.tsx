@@ -33,7 +33,7 @@ const steps = [
   {
     number: '03',
     title: 'Reshoot and restage',
-    body: 'New photography, a tighter story, and Berkshire Hathaway HomeServices reach.',
+    body: 'New photography, a tighter story, and broader marketing reach.',
   },
   {
     number: '04',
@@ -120,8 +120,7 @@ export default function HomePageContent() {
               Then she writes a private relist plan.
             </p>
             <p className="mt-8 max-w-xl text-sm leading-relaxed text-[#c4a574]">
-              {OFFICE.agentName} is a Las Vegas REALTOR® with {OFFICE.brokerage}, Nevada license{' '}
-              {OFFICE.license}, at {OFFICE_ONE_LINE}. She relists luxury homes that did not sell
+              {OFFICE.agentName} is a Las Vegas REALTOR® in real estate since 1983, at {OFFICE_ONE_LINE}. She relists luxury homes that did not sell
               with the previous agent. Call or text{' '}
               <a href={`tel:${OFFICE.ctaPhoneTel}`} className="underline underline-offset-4">
                 {OFFICE.ctaPhoneDisplay}
@@ -153,8 +152,7 @@ export default function HomePageContent() {
         <div className="mx-auto max-w-3xl">
           <h2 className="font-display text-4xl">If the last agent did not sell it</h2>
           <p className="mt-4 text-lg leading-relaxed text-[#3f3832]">
-            Call Dr. Jan Duffy at {OFFICE.ctaPhoneDisplay}. She is a REALTOR® with {OFFICE.brokerage},
-            Nevada license {OFFICE.license}, at {OFFICE.streetAddress}, {OFFICE.locality}, {OFFICE.region}{' '}
+            Call Dr. Jan Duffy at {OFFICE.ctaPhoneDisplay}. She is a REALTOR® in real estate since 1983, at {OFFICE.streetAddress}, {OFFICE.locality}, {OFFICE.region}{' '}
             {OFFICE.postalCode}. She reads the expired or withdrawn file, prices the home to current comps,
             orders new photos, and reports every week.
           </p>

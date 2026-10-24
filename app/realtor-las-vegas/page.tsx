@@ -10,7 +10,7 @@ export default function RealtorLasVegasPage() {
   const articleSchema = getArticleSchema({
     path: '/realtor-las-vegas',
     headline: 'Realtor Las Vegas: Expert Real Estate Agent for Homes That Didn\'t Sell',
-    description: 'Las Vegas realtor specializing in expired listings and homes that didn\'t sell. Licensed real estate professional with Berkshire Hathaway HomeServices. Expert guidance for successful Las Vegas home sales.',
+    description: 'Las Vegas realtor specializing in expired listings and homes that didn\'t sell. Licensed real estate professional in real estate since 1983. Expert guidance for successful Las Vegas home sales.',
     datePublished: '2024-06-20',
     dateModified: '2024-12-01',
     author: getPersonSchema()
@@ -27,7 +27,7 @@ export default function RealtorLasVegasPage() {
             Realtor Las Vegas: Expert Real Estate Agent for Homes That Didn't Sell
           </h1>
           <p className="text-xl md:text-2xl text-blue-100 max-w-3xl">
-            Las Vegas realtor specializing in expired listings and homes that didn't sell. Licensed real estate professional with Berkshire Hathaway HomeServices. Expert guidance for successful Las Vegas home sales.
+            Las Vegas realtor specializing in expired listings and homes that didn't sell. Licensed real estate professional in real estate since 1983. Expert guidance for successful Las Vegas home sales.
           </p>
         </div>
       </section>
@@ -45,7 +45,7 @@ export default function RealtorLasVegasPage() {
             Why Choose Dr. Jan Duffy as Your Las Vegas Realtor
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            As a licensed Las Vegas realtor with Berkshire Hathaway HomeServices, Dr. Jan Duffy brings specialized expertise in expired listings, comprehensive Las Vegas market knowledge, and proven strategies for homes that didn't sell initially.
+            As a licensed Las Vegas realtor in real estate since 1983, Dr. Jan Duffy brings specialized expertise in expired listings, comprehensive Las Vegas market knowledge, and proven strategies for homes that didn't sell initially.
           </p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div>
@@ -61,15 +61,15 @@ export default function RealtorLasVegasPage() {
               </p>
             </div>
             <div>
-              <h3 className="text-2xl font-bold mb-4 text-gray-900">Berkshire Hathaway HomeServices Advantage</h3>
+              <h3 className="text-2xl font-bold mb-4 text-gray-900">The Dr. Jan Duffy Advantage</h3>
               <p className="text-gray-700 mb-3">
-                As Las Vegas realtor with Berkshire Hathaway HomeServices, Dr. Jan provides institutional marketing power unavailable to independent agents: access to Wall Street Journal Real Estate, NYT Real Estate sections, luxury portals, and national exposure.
+                As a Las Vegas realtor, Dr. Jan provides premium marketing: access to Wall Street Journal Real Estate, NYT Real Estate sections, luxury portals, and national exposure.
               </p>
               <p className="text-gray-700 mb-3">
-                This institutional advantage matters for expired listings needing superior marketing reach. BHHS platform provides comprehensive exposure through channels regional firms cannot access, positioning properties to qualified buyers effectively.
+                This institutional advantage matters for expired listings needing superior marketing reach. Her marketing platform provides comprehensive exposure through channels regional firms cannot access, positioning properties to qualified buyers effectively.
               </p>
               <p className="text-gray-700">
-                Her Las Vegas realtor services combine BHHS institutional resources with specialized expired listing expertise. This combination creates competitive advantage: premium marketing channels plus diagnostic approach that addresses specific issues preventing sales.
+                Her Las Vegas realtor services combine institutional resources with specialized expired listing expertise. This combination creates competitive advantage: premium marketing channels plus diagnostic approach that addresses specific issues preventing sales.
               </p>
             </div>
           </div>
