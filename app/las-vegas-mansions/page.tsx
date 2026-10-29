@@ -45,13 +45,13 @@ export default function LasVegasMansionsPage() {
             Las Vegas Mansion Market Overview
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Las Vegas mansions represent the pinnacle of luxury real estate in Southern Nevada: custom-built estates, gated community luxury homes, properties with resort-style amenities, and exclusive enclaves with privacy and prestige. For Las Vegas mansions that didn't sell, specialized luxury expertise makes the critical difference.
+            Las Vegas mansions represent the pinnacle of luxury real estate in Southern Nevada: custom-built estates, gated community luxury homes, properties with resort-style amenities, and luxury enclaves with privacy and prestige. For Las Vegas mansions that didn't sell, specialized luxury expertise makes the critical difference.
           </p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Las Vegas Mansion Communities</h3>
               <p className="text-gray-700 mb-3">
-                Las Vegas mansions are located in exclusive communities: The Summit Club with championship golf, MacDonald Highlands with mountain views, Ascaya with modern architecture, Seven Hills with custom estates, and luxury Summerlin developments with Red Rock Canyon proximity.
+                Las Vegas mansions are located in guard-gated and custom-estate communities: The Summit Club with championship golf, MacDonald Highlands with mountain views, Ascaya with modern architecture, Seven Hills with custom estates, and luxury Summerlin developments with Red Rock Canyon proximity.
               </p>
               <p className="text-gray-700 mb-3">
                 Each luxury community offers distinct advantages for Las Vegas mansions: gated security, resort-style amenities, championship golf, mountain or Strip views, custom architecture, and exclusive privacy. Mansion buyers seek these premium community benefits.
@@ -82,7 +82,7 @@ export default function LasVegasMansionsPage() {
             Las Vegas Mansion Positioning and Marketing
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Las Vegas mansions require specialized positioning and marketing approaches: emphasizing exclusive community benefits, custom architectural features, resort-style amenities, views, privacy, and luxury lifestyle features that define ultra-premium properties.
+            Las Vegas mansions require specialized positioning and marketing approaches: emphasizing community benefits, custom architectural features, resort-style amenities, views, privacy, and luxury lifestyle features that define ultra-premium properties.
           </p>
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div className="bg-amber-50 p-6 rounded-lg border border-amber-200">
@@ -122,7 +122,7 @@ export default function LasVegasMansionsPage() {
                 Las Vegas mansions in these communities command premium prices for exclusive positioning, gated security, championship golf access, mountain views, and custom architectural features. These communities attract ultra-luxury buyers seeking exclusive Las Vegas lifestyle.
               </p>
               <p className="text-gray-700">
-                Dr. Jan understands Las Vegas mansion positioning in these exclusive communities: emphasizing championship golf benefits, mountain view premiums, gated community privacy, and custom estate value that attracts ultra-luxury buyers.
+                Dr. Jan understands Las Vegas mansion positioning in these communities: emphasizing championship golf benefits, mountain view premiums, gated community privacy, and custom estate value that attracts ultra-luxury buyers.
               </p>
             </div>
             <div>

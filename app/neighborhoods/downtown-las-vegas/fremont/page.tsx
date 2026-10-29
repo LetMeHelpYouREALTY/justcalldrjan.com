@@ -63,7 +63,7 @@ export default function FremontPage() {
             <div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Urban Loft and Condo Positioning</h3>
               <p className="text-gray-700 mb-3">
-                Fremont Street features converted lofts and modern condos appealing to urban professionals, empty nesters, and investors seeking low-maintenance downtown living with entertainment access.
+                Fremont Street features converted lofts and modern condos appealing to urban professionals, downsizers, and investors seeking low-maintenance downtown living with entertainment access.
               </p>
               <p className="text-gray-700 mb-3">
                 Your expired listing likely positioned Fremont Street properties generically without highlighting urban loft benefits, walkability, or entertainment district advantages that define Fremont Street market.
@@ -100,7 +100,7 @@ export default function FremontPage() {
             <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
               <h3 className="text-xl font-bold mb-4 text-gray-900">Wrong Buyer Targeting</h3>
               <p className="text-gray-700">
-                Fremont Street attracts urban professionals and empty nesters seeking walkable downtown living. Marketing to generic Las Vegas buyers who don't value urban lifestyle wastes advertising while missing interested urban buyers.
+                Fremont Street attracts urban professionals and downsizers seeking walkable downtown living. Marketing to generic Las Vegas buyers who don't value urban lifestyle wastes advertising while missing interested urban buyers.
               </p>
             </div>
           </div>
@@ -113,7 +113,7 @@ export default function FremontPage() {
               Dr. Jan specializes in Fremont Street Downtown Las Vegas real estate and understands how to position urban properties to highlight walkability and entertainment access that Fremont Street buyers specifically seek.
             </p>
             <p className="text-gray-700">
-              Her marketing targets Fremont Street buyers specifically: urban professionals, empty nesters, and investors seeking entertainment district proximity that Fremont Street uniquely offers within Downtown Las Vegas.
+              Her marketing targets Fremont Street buyers specifically: urban professionals, downsizers, and investors seeking entertainment district proximity that Fremont Street uniquely offers within Downtown Las Vegas.
             </p>
           </div>
         </div>
@@ -137,7 +137,7 @@ export default function FremontPage() {
                 She tracks Fremont Street comps specifically, watching how urban lofts, entertainment-adjacent properties, and walkable positioning perform against generic Downtown listings. This Fremont Street-specific expertise ensures accurate pricing.
               </p>
               <p className="text-gray-700">
-                Her marketing strategy targets Fremont Street buyers specifically: urban professionals, empty nesters, and investors seeking entertainment district access that Fremont Street uniquely offers.
+                Her marketing strategy targets Fremont Street buyers specifically: urban professionals, downsizers, and investors seeking entertainment district access that Fremont Street uniquely offers.
               </p>
             </div>
             <div>

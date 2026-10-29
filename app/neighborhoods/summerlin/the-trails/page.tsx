@@ -61,7 +61,7 @@ export default function TheTrailsPage() {
               </p>
             </div>
             <div>
-              <h3 className="text-2xl font-bold mb-4 text-gray-900">Established Neighborhood Character</h3>
+              <h3 className="text-2xl font-bold mb-4 text-gray-900">Older Neighborhood Character</h3>
               <p className="text-gray-700 mb-3">
                 The Trails features mature landscaping, existing parks and trails, and proven neighborhood quality that newer Summerlin areas haven't developed yet. This mature trees attracts buyers seeking proven Summerlin investment.
               </p>
