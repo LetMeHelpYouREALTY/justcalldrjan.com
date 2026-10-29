@@ -61,7 +61,7 @@ export default function WinchesterPage() {
           <h2 className="text-4xl font-bold mb-6">Ready to Sell Your Winchester Home?</h2>
           <p className="text-xl mb-8 text-slate-100">Expert help for Winchester homes that didn't sell. Get your free analysis today.</p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
-            <a href="tel:+17022221964" className="bg-white text-slate-800 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition-colors">Call: (702) 222-1964</a>
+            <a href="tel:+17025001955" className="bg-white text-slate-800 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition-colors">Call: (702) 500-1955</a>
             <Link href="/contact" className="bg-slate-800 text-white font-bold py-4 px-8 rounded-lg hover:bg-slate-900 transition-colors">Get Free Winchester Analysis</Link>
           </div>
         </div>

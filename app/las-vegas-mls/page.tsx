@@ -158,7 +158,7 @@ export default function LasVegasMLSPage() {
           <h2 className="text-4xl font-bold mb-6">Professional Las Vegas MLS Listing Services</h2>
           <p className="text-xl mb-8 text-violet-100">Expert MLS listing and comprehensive marketing for Las Vegas properties.</p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
-            <a href="tel:+17022221964" className="bg-white text-violet-600 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition-colors">Call: (702) 222-1964</a>
+            <a href="tel:+17025001955" className="bg-white text-violet-600 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition-colors">Call: (702) 500-1955</a>
             <Link href="/contact" className="bg-violet-800 text-white font-bold py-4 px-8 rounded-lg hover:bg-violet-900 transition-colors">List Your Property</Link>
           </div>
         </div>

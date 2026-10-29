@@ -3,6 +3,7 @@ import FAQSection from '@/components/faq-section'
 import InquiryForm from '@/components/luxury/inquiry-form'
 import OfficePanel from '@/components/luxury/office-panel'
 import { OFFICE, OFFICE_ONE_LINE } from '@/lib/office'
+import FeaturedListing from '@/components/sections/FeaturedListing'
 
 const reasons = [
   {
@@ -99,7 +100,7 @@ const faqs = [
   {
     question: 'How do I reach Dr. Jan Duffy?',
     answer:
-      'Call or text (702) 222-1964. The office line is (702) 500-1942. Hours are Monday through Friday 9:00 AM to 6:00 PM, Saturday 10:00 AM to 4:00 PM, and Sunday by appointment.',
+      'Call or text (702) 500-1955. The office line is (702) 500-1942. Hours are Monday through Friday 9:00 AM to 6:00 PM, Saturday 10:00 AM to 4:00 PM, and Sunday by appointment.',
   },
 ]
 
@@ -147,6 +148,12 @@ export default function HomePageContent() {
           </div>
         </div>
       </section>
+
+      <FeaturedListing
+        phone="(702) 500-1955"
+        phoneHref="tel:+17025001955"
+        siteHost="justcalldrjan.com"
+      />
 
       <section id="answer" className="px-4 py-16">
         <div className="mx-auto max-w-3xl">

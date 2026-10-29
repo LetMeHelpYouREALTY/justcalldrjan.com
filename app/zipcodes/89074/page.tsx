@@ -61,7 +61,7 @@ export default function Zip89074Page() {
               </p>
             </div>
             <div>
-              <h3 className="text-2xl font-bold mb-4 text-gray-900">Family-Friendly Positioning</h3>
+              <h3 className="text-2xl font-bold mb-4 text-gray-900">Positioning</h3>
               <p className="text-gray-700 mb-3">
                 Zip code 89074 attracts buyers who want nearby schools, parks, and community amenities. This suburban market requires copy that names the parks and the school zone benefits.
               </p>
@@ -173,7 +173,7 @@ export default function Zip89074Page() {
           <h2 className="text-4xl font-bold mb-6">Ready to Sell Your Zip Code 89074 Home?</h2>
           <p className="text-xl mb-8 text-teal-100">Expert help for 89074 homes that didn't sell. Get your free analysis today.</p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
-            <a href="tel:+17022221964" className="bg-white text-green-600 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition-colors">Call: (702) 222-1964</a>
+            <a href="tel:+17025001955" className="bg-white text-green-600 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition-colors">Call: (702) 500-1955</a>
             <Link href="/contact" className="bg-green-800 text-white font-bold py-4 px-8 rounded-lg hover:bg-green-900 transition-colors">Get Free 89074 Analysis</Link>
           </div>
         </div>

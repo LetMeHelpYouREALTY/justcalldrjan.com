@@ -61,7 +61,7 @@ export default function TheTrailsPage() {
               </p>
             </div>
             <div>
-              <h3 className="text-2xl font-bold mb-4 text-gray-900">Established Neighborhood Character</h3>
+              <h3 className="text-2xl font-bold mb-4 text-gray-900">Older Neighborhood Character</h3>
               <p className="text-gray-700 mb-3">
                 The Trails features mature landscaping, existing parks and trails, and proven neighborhood quality that newer Summerlin areas haven't developed yet. This mature trees attracts buyers seeking proven Summerlin investment.
               </p>
@@ -173,7 +173,7 @@ export default function TheTrailsPage() {
           <h2 className="text-4xl font-bold mb-6">Ready to Sell Your The Trails Home?</h2>
           <p className="text-xl mb-8 text-blue-100">Expert help for The Trails homes that didn't sell. Get your free analysis today.</p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
-            <a href="tel:+17022221964" className="bg-white text-purple-600 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition-colors">Call: (702) 222-1964</a>
+            <a href="tel:+17025001955" className="bg-white text-purple-600 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition-colors">Call: (702) 500-1955</a>
             <Link href="/contact" className="bg-purple-800 text-white font-bold py-4 px-8 rounded-lg hover:bg-purple-900 transition-colors">Get Free The Trails Analysis</Link>
           </div>
         </div>

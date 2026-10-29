@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Script from 'next/script'
 import { headers } from 'next/headers'
 import { Cormorant_Garamond, Geist, Geist_Mono, Outfit } from 'next/font/google'
 import { ThemeProvider } from 'next-themes'
@@ -13,7 +14,6 @@ import { createPageMetadata } from '@/lib/create-page-metadata'
 import { resolveRouteSeo } from '@/lib/route-seo'
 import './globals.css'
 
-import Script from "next/script";
 const geistSans = Geist({
   variable: '--font-geist-sans',
   subsets: ['latin'],
@@ -91,18 +91,17 @@ export default function RootLayout({
           </main>
           <SiteFooter />
         </ThemeProvider>
-      
-        {/* Follow Up Boss pixel (Widget Tracker) */}
-        <Script id="fub-widget-tracker" strategy="afterInteractive">{`
-(function(w,i,d,g,e,t){w["WidgetTrackerObject"]=g;(w[g]=w[g]||function()
-{(w[g].q=w[g].q||[]).push(arguments);}),(w[g].ds=1*new Date());(e="script"),
-(t=d.createElement(e)),(e=d.getElementsByTagName(e)[0]);t.async=1;t.src=i;
-e.parentNode.insertBefore(t,e);})
-(window,"https://widgetbe.com/agent",document,"widgetTracker");
-window.widgetTracker("create", "WT-XQHVYQWW");
-window.widgetTracker("send", "pageview");
+        {/* Widget Tracker */}
+        <Script id="widget-tracker" strategy="afterInteractive">{`
+          (function(w,i,d,g,e,t){w["WidgetTrackerObject"]=g;(w[g]=w[g]||function()
+          {(w[g].q=w[g].q||[]).push(arguments);}),(w[g].ds=1*new Date());(e="script"),
+          (t=d.createElement(e)),(e=d.getElementsByTagName(e)[0]);t.async=1;t.src=i;
+          e.parentNode.insertBefore(t,e);})
+          (window,"https://widgetbe.com/agent",document,"widgetTracker");
+          window.widgetTracker("create", "WT-XQHVYQWW");
+          window.widgetTracker("send", "pageview");
         `}</Script>
-</body>
+      </body>
     </html>
   )
 }

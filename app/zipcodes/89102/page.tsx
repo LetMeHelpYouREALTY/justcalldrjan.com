@@ -63,7 +63,7 @@ export default function Zip89102Page() {
             <div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Urban Loft and Condo Positioning</h3>
               <p className="text-gray-700 mb-3">
-                Zip code 89102 features urban lofts, condos, and converted properties appealing to urban professionals, empty nesters, and investors seeking low-maintenance downtown living with entertainment access.
+                Zip code 89102 features urban lofts, condos, and converted properties appealing to urban professionals, downsizers, and investors seeking low-maintenance downtown living with entertainment access.
               </p>
               <p className="text-gray-700 mb-3">
                 Your expired listing likely positioned 89102 properties generically without highlighting urban loft benefits, walkability, or entertainment district advantages that define 89102 market.
@@ -100,7 +100,7 @@ export default function Zip89102Page() {
             <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
               <h3 className="text-xl font-bold mb-4 text-gray-900">Wrong Buyer Targeting</h3>
               <p className="text-gray-700">
-                89102 attracts urban professionals and empty nesters seeking walkable downtown living. Marketing to generic Las Vegas buyers who don't value urban lifestyle wastes advertising while missing interested urban buyers.
+                89102 attracts urban professionals and downsizers seeking walkable downtown living. Marketing to generic Las Vegas buyers who don't value urban lifestyle wastes advertising while missing interested urban buyers.
               </p>
             </div>
           </div>
@@ -113,7 +113,7 @@ export default function Zip89102Page() {
               Dr. Jan specializes in zip code 89102 real estate and understands how to position urban properties to highlight walkability and entertainment access that 89102 buyers specifically seek.
             </p>
             <p className="text-gray-700">
-              Her marketing targets 89102 buyers specifically: urban professionals, empty nesters, and investors seeking entertainment district proximity that 89102 uniquely offers within Downtown Las Vegas.
+              Her marketing targets 89102 buyers specifically: urban professionals, downsizers, and investors seeking entertainment district proximity that 89102 uniquely offers within Downtown Las Vegas.
             </p>
           </div>
         </div>
@@ -137,7 +137,7 @@ export default function Zip89102Page() {
                 She tracks 89102 comps specifically, watching how urban lofts, entertainment-adjacent properties, and walkable positioning perform against generic Downtown listings. This 89102-specific expertise ensures accurate pricing.
               </p>
               <p className="text-gray-700">
-                Her marketing strategy targets 89102 buyers specifically: urban professionals, empty nesters, and investors seeking entertainment district access that 89102 uniquely offers.
+                Her marketing strategy targets 89102 buyers specifically: urban professionals, downsizers, and investors seeking entertainment district access that 89102 uniquely offers.
               </p>
             </div>
             <div>
@@ -173,7 +173,7 @@ export default function Zip89102Page() {
           <h2 className="text-4xl font-bold mb-6">Ready to Sell Your Zip Code 89102 Property?</h2>
           <p className="text-xl mb-8 text-purple-100">Expert help for 89102 homes that didn't sell. Get your free analysis today.</p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
-            <a href="tel:+17022221964" className="bg-white text-purple-900 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition-colors">Call: (702) 222-1964</a>
+            <a href="tel:+17025001955" className="bg-white text-purple-900 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition-colors">Call: (702) 500-1955</a>
             <Link href="/contact" className="bg-purple-950 text-white font-bold py-4 px-8 rounded-lg hover:bg-purple-900 transition-colors">Get Free 89102 Analysis</Link>
           </div>
         </div>

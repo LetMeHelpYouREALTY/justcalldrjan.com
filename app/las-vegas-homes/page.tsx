@@ -149,7 +149,7 @@ export default function LasVegasHomesPage() {
           <h2 className="text-4xl font-bold mb-6">Sell Your Las Vegas Home</h2>
           <p className="text-xl mb-8 text-orange-100">Expert guidance for Las Vegas homes for sale and homes that didn't sell.</p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
-            <a href="tel:+17022221964" className="bg-white text-orange-600 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition-colors">Call: (702) 222-1964</a>
+            <a href="tel:+17025001955" className="bg-white text-orange-600 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition-colors">Call: (702) 500-1955</a>
             <Link href="/contact" className="bg-orange-800 text-white font-bold py-4 px-8 rounded-lg hover:bg-orange-900 transition-colors">Get Started</Link>
           </div>
         </div>

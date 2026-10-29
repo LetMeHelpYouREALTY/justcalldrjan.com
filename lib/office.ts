@@ -2,7 +2,7 @@
  * Published office NAP.
  * Source checked 2026-10-12: heyberkshire.com and searchforhomesvegas.com
  * list this desk as the Google Business Profile match.
- * Client CTA remains (702) 222-1964. Office line is (702) 500-1942.
+ * Client CTA remains (702) 500-1955. Office line is (702) 500-1942.
  * Coordinates from OpenStreetMap Nominatim for this street address.
  */
 
@@ -16,8 +16,8 @@ export const OFFICE = {
   country: 'US',
   license: 'S.0197614.LLC',
   email: 'HomeSales@CallDrDuffy.com',
-  ctaPhoneDisplay: '(702) 222-1964',
-  ctaPhoneTel: '+17022221964',
+  ctaPhoneDisplay: '(702) 500-1955',
+  ctaPhoneTel: '+17025001955',
   officePhoneDisplay: '(702) 500-1942',
   officePhoneTel: '+17025001942',
   latitude: 36.2061963,
