@@ -100,7 +100,7 @@ const faqs = [
   {
     question: 'How do I reach Dr. Jan Duffy?',
     answer:
-      'Call or text (702) 222-1964. The office line is (702) 500-1942. Hours are Monday through Friday 9:00 AM to 6:00 PM, Saturday 10:00 AM to 4:00 PM, and Sunday by appointment.',
+      'Call or text (702) 500-1955. The office line is (702) 500-1942. Hours are Monday through Friday 9:00 AM to 6:00 PM, Saturday 10:00 AM to 4:00 PM, and Sunday by appointment.',
   },
 ]
 

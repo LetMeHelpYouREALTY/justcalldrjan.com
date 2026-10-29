@@ -228,7 +228,7 @@ export default function WhyBerkshireHathawayPage() {
               </li>
               <li className="flex items-start">
                 <span className="text-purple-600 mr-3 font-bold">✓</span>
-                <span><strong>24/7 accessibility</strong> at 702-222-1964 for questions, concerns, or market shifts</span>
+                <span><strong>24/7 accessibility</strong> at 702-500-1955 for questions, concerns, or market shifts</span>
               </li>
               <li className="flex items-start">
                 <span className="text-purple-600 mr-3 font-bold">✓</span>
@@ -276,7 +276,7 @@ export default function WhyBerkshireHathawayPage() {
                 If your initial strategy isn't working, Dr. Jan pivots within 14-21 days rather than waiting weeks. This proactive approach means your home adapts to market conditions immediately, not after months of silence and stagnation.
               </p>
               <p className="text-gray-700">
-                You have 24/7 access at 702-222-1964. Questions about a showing? Call. Concerned about market conditions? Call. Need clarification on strategy? Call. Dr. Jan treats your listing like it's her own investment - because her reputation depends on results, not excuses.
+                You have 24/7 access at 702-500-1955. Questions about a showing? Call. Concerned about market conditions? Call. Need clarification on strategy? Call. Dr. Jan treats your listing like it's her own investment - because her reputation depends on results, not excuses.
               </p>
             </div>
           </div>
@@ -326,7 +326,7 @@ export default function WhyBerkshireHathawayPage() {
           <h2 className="text-4xl font-bold mb-6">Ready for Institutional Power?</h2>
           <p className="text-xl mb-8 text-blue-100">Your home deserves a second chance with a first-class strategy. Let's analyze exactly what went wrong and build the winning plan.</p>
           <div className="flex flex-col md:flex-row gap-4 justify-center mb-6">
-            <a href="tel:+17022221964" className="bg-white text-blue-900 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition-colors">Call: (702) 222-1964</a>
+            <a href="tel:+17025001955" className="bg-white text-blue-900 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition-colors">Call: (702) 500-1955</a>
             <Link href="/contact" className="bg-blue-800 text-white font-bold py-4 px-8 rounded-lg hover:bg-blue-950 transition-colors">Schedule Consultation</Link>
           </div>
           <p className="text-lg text-blue-200">No-pressure expired listing consultation. Your equity is too important to trust to hope and luck.</p>
