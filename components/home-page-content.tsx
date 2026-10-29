@@ -3,6 +3,7 @@ import FAQSection from '@/components/faq-section'
 import InquiryForm from '@/components/luxury/inquiry-form'
 import OfficePanel from '@/components/luxury/office-panel'
 import { OFFICE, OFFICE_ONE_LINE } from '@/lib/office'
+import FeaturedListing from '@/components/sections/FeaturedListing'
 
 const reasons = [
   {
@@ -147,6 +148,12 @@ export default function HomePageContent() {
           </div>
         </div>
       </section>
+
+      <FeaturedListing
+        phone="(702) 930-8672"
+        phoneHref="tel:+17029308672"
+        siteHost="justcalldrjan.com"
+      />
 
       <section id="answer" className="px-4 py-16">
         <div className="mx-auto max-w-3xl">
