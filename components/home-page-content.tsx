@@ -150,8 +150,8 @@ export default function HomePageContent() {
       </section>
 
       <FeaturedListing
-        phone="(702) 930-8672"
-        phoneHref="tel:+17029308672"
+        phone="(702) 500-1955"
+        phoneHref="tel:+17025001955"
         siteHost="justcalldrjan.com"
       />
 
