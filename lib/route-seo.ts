@@ -2,7 +2,7 @@ import type { PageSeoInput } from '@/lib/create-page-metadata'
 import { isPublicRoute, normalizePathname } from '@/lib/public-routes'
 
 const DEFAULT_DESCRIPTION =
-  'Las Vegas REALTOR® Dr. Jan Duffy helps homeowners relist expired and withdrawn properties. In real estate since 1983.'
+  'Las Vegas REALTOR® Dr. Jan Duffy helps homeowners relist expired and withdrawn properties. Licensed since 2008 · 35 years in Las Vegas.'
 
 function entry(
   title: string,

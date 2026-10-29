@@ -27,7 +27,7 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div>
               <p className="text-lg text-gray-700 mb-4">
-                Dr. Jan Duffy is a Las Vegas real estate agent who specializes in helping homeowners whose properties didn't sell the first time around. In real estate since 1983 and experienced in the Las Vegas real estate market, she has built a reputation for turning challenging situations into successful home sales.
+                Dr. Jan Duffy is a Las Vegas real estate agent who specializes in helping homeowners whose properties didn't sell the first time around. Licensed since 2008 · 35 years in Las Vegas and experienced in the Las Vegas real estate market, she has built a reputation for turning challenging situations into successful home sales.
               </p>
               <p className="text-lg text-gray-700 mb-4">
                 What makes Dr. Jan unique is her focus on expired listings - properties that came off the market because they didn't sell. While many agents pursue new listings, fewer actively work with homeowners who had unsuccessful first attempts. This specialization makes her exceptionally effective at diagnosing problems and creating winning strategies.

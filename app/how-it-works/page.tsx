@@ -83,7 +83,7 @@ export default function HowItWorksPage() {
               <Link href="/about" className="underline underline-offset-4">
                 {OFFICE.agentName}
               </Link>
-              , a Las Vegas REALTOR® in real estate since 1983, at{' '}
+              , a Las Vegas REALTOR® licensed since 2008 · 35 years in Las Vegas, at{' '}
               {OFFICE_ONE_LINE}. Call or text{' '}
               <a href={`tel:${OFFICE.ctaPhoneTel}`} className="underline underline-offset-4">
                 {OFFICE.ctaPhoneDisplay}
@@ -171,7 +171,7 @@ export default function HowItWorksPage() {
           </article>
           <p className="mt-8 max-w-3xl text-lg leading-relaxed text-[#3f3832]">
             Pricing isn&apos;t guesswork - it&apos;s science. Dr. Jan combines her PhD-level analytical approach
-            with experience in real estate since 1983 and proprietary tools to determine pricing that works.
+            with experience licensed since 2008 · 35 years in Las Vegas and proprietary tools to determine pricing that works.
           </p>
           <p className="mt-4 max-w-3xl text-lg leading-relaxed text-[#3f3832]">
             Result: Strategic pricing that positions your home competitively from day one, attracting buyers while

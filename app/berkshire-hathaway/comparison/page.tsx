@@ -67,7 +67,7 @@ export default function ComparisonPage() {
                 </tr>
                 <tr>
                   <td className="border border-gray-300 px-4 py-3 font-semibold text-gray-900">Pricing Expertise</td>
-                  <td className="border border-gray-300 px-4 py-3 text-center bg-green-50">✅ PhD + since 1983</td>
+                  <td className="border border-gray-300 px-4 py-3 text-center bg-green-50">✅ PhD + since 2008</td>
                   <td className="border border-gray-300 px-4 py-3 text-center">⚠️ Varies by agent</td>
                   <td className="border border-gray-300 px-4 py-3 text-center">⚠️ Luxury inflated</td>
                   <td className="border border-gray-300 px-4 py-3 text-center">⚠️ Inconsistent</td>
@@ -170,7 +170,7 @@ export default function ComparisonPage() {
               </li>
               <li className="flex items-start">
                 <span className="text-indigo-600 mr-3 font-bold">✓</span>
-                <span><strong>Pricing expertise:</strong> PhD-level analysis + experience in real estate since 1983 ensures accurate pricing from day one</span>
+                <span><strong>Pricing expertise:</strong> PhD-level analysis + experience licensed since 2008 · 35 years in Las Vegas ensures accurate pricing from day one</span>
               </li>
               <li className="flex items-start">
                 <span className="text-indigo-600 mr-3 font-bold">✓</span>

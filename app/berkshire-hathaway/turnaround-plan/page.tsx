@@ -149,7 +149,7 @@ export default function TurnaroundPlanPage() {
                 Markets change constantly. What was appropriate pricing three months ago may not be correct today. Fresh CMAs ensure pricing reflects current market conditions, not outdated data.
               </p>
               <p className="text-gray-700">
-                This analysis uses proprietary tools combined with Dr. Jan's experience in real estate since 1983 to determine optimal pricing strategy.
+                This analysis uses proprietary tools combined with Dr. Jan's experience licensed since 2008 · 35 years in Las Vegas to determine optimal pricing strategy.
               </p>
             </div>
             <div>

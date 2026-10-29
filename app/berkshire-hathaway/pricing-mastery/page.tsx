@@ -10,7 +10,7 @@ export default function PricingMasteryPage() {
   const articleSchema = getArticleSchema({
     path: '/berkshire-hathaway/pricing-mastery',
     headline: 'Pricing Mastery: Why 73% of Expired Listings Were Overpriced',
-    description: 'Your home didn\'t sell because it was priced 5-15% too high. Dr. Jan\'s PhD-level pricing approach backed by experience in real estate since 1983 ensures accurate pricing that attracts buyers.',
+    description: 'Your home didn\'t sell because it was priced 5-15% too high. Dr. Jan\'s PhD-level pricing approach backed by experience licensed since 2008 · 35 years in Las Vegas ensures accurate pricing that attracts buyers.',
     datePublished: '2024-06-10',
     dateModified: '2024-12-01',
     author: getPersonSchema()
@@ -27,7 +27,7 @@ export default function PricingMasteryPage() {
             Pricing Mastery: Why 73% of Expired Listings Were Overpriced
           </h1>
           <p className="text-xl md:text-2xl text-green-100 max-w-3xl">
-            Your home didn't sell because it was priced 5-15% too high. Dr. Jan's PhD-level pricing approach backed by experience in real estate since 1983 ensures accurate pricing that attracts buyers.
+            Your home didn't sell because it was priced 5-15% too high. Dr. Jan's PhD-level pricing approach backed by experience licensed since 2008 · 35 years in Las Vegas ensures accurate pricing that attracts buyers.
           </p>
         </div>
       </section>
@@ -81,7 +81,7 @@ export default function PricingMasteryPage() {
             Dr. Jan's PhD-Level Pricing Approach
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            Dr. Jan combines her PhD-level analytical approach with proprietary tools and experience in real estate since 1983 to determine accurate pricing from day one.
+            Dr. Jan combines her PhD-level analytical approach with proprietary tools and experience licensed since 2008 · 35 years in Las Vegas to determine accurate pricing from day one.
           </p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div>
