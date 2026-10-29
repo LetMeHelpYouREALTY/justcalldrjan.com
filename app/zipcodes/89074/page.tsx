@@ -61,7 +61,7 @@ export default function Zip89074Page() {
               </p>
             </div>
             <div>
-              <h3 className="text-2xl font-bold mb-4 text-gray-900">Family-Friendly Positioning</h3>
+              <h3 className="text-2xl font-bold mb-4 text-gray-900">Positioning</h3>
               <p className="text-gray-700 mb-3">
                 Zip code 89074 attracts buyers who want nearby schools, parks, and community amenities. This suburban market requires copy that names the parks and the school zone benefits.
               </p>
