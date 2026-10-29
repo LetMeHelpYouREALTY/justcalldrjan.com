@@ -16,7 +16,7 @@ function entry(
 export const ROUTE_SEO: Record<string, PageSeoInput> = {
   '/': entry(
     'Luxury Homes That Did Not Sell | Dr. Jan Duffy',
-    'Las Vegas luxury homes that expired with the last agent. Dr. Jan Duffy, REALTOR®, writes a private relist plan. 9406 W Lake Mead Blvd, Suite 100. Call (702) 222-1964.',
+    'Las Vegas luxury homes that expired with the last agent. Dr. Jan Duffy, REALTOR®, writes a private relist plan. 9406 W Lake Mead Blvd, Suite 100. Call (702) 500-1955.',
     true,
   ),
   '/private-listing-review': entry(
