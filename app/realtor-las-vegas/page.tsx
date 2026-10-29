@@ -10,7 +10,7 @@ export default function RealtorLasVegasPage() {
   const articleSchema = getArticleSchema({
     path: '/realtor-las-vegas',
     headline: 'Realtor Las Vegas: Expert Real Estate Agent for Homes That Didn\'t Sell',
-    description: 'Las Vegas realtor specializing in expired listings and homes that didn\'t sell. Licensed real estate professional in real estate since 1983. Expert guidance for successful Las Vegas home sales.',
+    description: 'Las Vegas realtor specializing in expired listings and homes that didn\'t sell. Licensed real estate professional licensed since 2008 · 35 years in Las Vegas. Expert guidance for successful Las Vegas home sales.',
     datePublished: '2024-06-20',
     dateModified: '2024-12-01',
     author: getPersonSchema()
@@ -27,7 +27,7 @@ export default function RealtorLasVegasPage() {
             Realtor Las Vegas: Expert Real Estate Agent for Homes That Didn't Sell
           </h1>
           <p className="text-xl md:text-2xl text-blue-100 max-w-3xl">
-            Las Vegas realtor specializing in expired listings and homes that didn't sell. Licensed real estate professional in real estate since 1983. Expert guidance for successful Las Vegas home sales.
+            Las Vegas realtor specializing in expired listings and homes that didn't sell. Licensed real estate professional licensed since 2008 · 35 years in Las Vegas. Expert guidance for successful Las Vegas home sales.
           </p>
         </div>
       </section>
@@ -45,7 +45,7 @@ export default function RealtorLasVegasPage() {
             Why Choose Dr. Jan Duffy as Your Las Vegas Realtor
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-3xl">
-            As a licensed Las Vegas realtor in real estate since 1983, Dr. Jan Duffy brings specialized expertise in expired listings, comprehensive Las Vegas market knowledge, and proven strategies for homes that didn't sell initially.
+            As a licensed Las Vegas realtor licensed since 2008 · 35 years in Las Vegas, Dr. Jan Duffy brings specialized expertise in expired listings, comprehensive Las Vegas market knowledge, and proven strategies for homes that didn't sell initially.
           </p>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div>

@@ -18,7 +18,7 @@ export default function OfficePanel() {
           <h2 id="office-heading" className="mt-3 font-display text-4xl md:text-5xl">
             {OFFICE.agentName}
           </h2>
-          <p className="mt-4 text-[#3f3832]">Top 1% Las Vegas REALTOR®</p>
+          <p className="mt-4 text-[#3f3832]">Las Vegas REALTOR®</p>
           <address className="mt-6 not-italic leading-relaxed">
             {OFFICE.streetAddress}
             <br />

@@ -114,7 +114,7 @@ export default function NeighborhoodsPage() {
               find the area that matches your commute, the parks, and the price.
             </p>
             <p className="mt-8 max-w-xl text-sm leading-relaxed text-[#c4a574]">
-              {OFFICE.agentName} is a Las Vegas REALTOR® in real estate since 1983,
+              {OFFICE.agentName} is a Las Vegas REALTOR® licensed since 2008 · 35 years in Las Vegas,
               at {OFFICE_ONE_LINE}. Call or text{' '}
               <a href={`tel:${OFFICE.ctaPhoneTel}`} className="underline underline-offset-4">
                 {OFFICE.ctaPhoneDisplay}

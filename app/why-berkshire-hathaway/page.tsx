@@ -156,7 +156,7 @@ export default function WhyBerkshireHathawayPage() {
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 mr-3 font-bold">✓</span>
-                <span><strong>Vegas market cycles since 1983</strong> - survived 2008 crash, understands true value vs. emotion</span>
+                <span><strong>35 years of Vegas market cycles</strong> - survived 2008 crash, understands true value vs. emotion</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 mr-3 font-bold">✓</span>
@@ -195,7 +195,7 @@ export default function WhyBerkshireHathawayPage() {
             <div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Dr. Jan's Pricing Philosophy</h3>
               <p className="text-gray-700 mb-4">
-                In real estate since 1983, Dr. Jan has seen every market cycle. She understands that most agents overprice to win the listing, knowing they'll have to reduce later. This approach wastes your time and money while your home sits on the market.
+                Licensed since 2008 · 35 years in Las Vegas, Dr. Jan has seen every market cycle. She understands that most agents overprice to win the listing, knowing they'll have to reduce later. This approach wastes your time and money while your home sits on the market.
               </p>
               <p className="text-gray-700 mb-4">
                 Dr. Jan uses proprietary tools combined with her PhD-level analytical approach to determine accurate pricing from day one. She'll have the tough conversation upfront: price your home correctly to sell quickly, or price high and watch it sit.

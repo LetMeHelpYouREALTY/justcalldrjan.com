@@ -84,7 +84,7 @@ export default function LasVegasRealEstateWebsitePage() {
                 All content, strategies, and insights are specifically tailored for Las Vegas real estate market. From Summerlin master-planned communities to Henderson value positioning, every resource addresses Las Vegas market dynamics.
               </p>
               <p className="text-gray-700 mb-3">
-                Dr. Jan Duffy's experience in real estate since 1983 informs all content and strategies. This isn't generic real estate advice - it's Las Vegas-specific expertise based on actual market knowledge and successful transactions.
+                Dr. Jan Duffy's experience licensed since 2008 · 35 years in Las Vegas informs all content and strategies. This isn't generic real estate advice - it's Las Vegas-specific expertise based on actual market knowledge and successful transactions.
               </p>
               <p className="text-gray-700">
                 Whether you're selling in Summerlin, Henderson, North Las Vegas, or any Las Vegas area, this website provides market insights, neighborhood data, and selling strategies specifically relevant to your location.

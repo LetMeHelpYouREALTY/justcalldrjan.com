@@ -159,7 +159,7 @@ export default function RealEstateMarketingToolsLasVegasPage() {
             <div className="bg-cyan-50 p-6 rounded-lg border border-cyan-200">
               <h3 className="text-xl font-bold mb-4 text-gray-900">Las Vegas Market Knowledge</h3>
               <p className="text-gray-700">
-                Her experience in real estate since 1983 informs tool selection and usage. She knows which platforms reach Las Vegas buyers effectively and how to position properties strategically.
+                Her experience licensed since 2008 · 35 years in Las Vegas informs tool selection and usage. She knows which platforms reach Las Vegas buyers effectively and how to position properties strategically.
               </p>
             </div>
             <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
