@@ -73,7 +73,7 @@ export async function POST(request: NextRequest) {
 
     if (!fubResult.ok) {
       return NextResponse.json(
-        { error: 'Unable to submit your request. Please call (702) 222-1964.' },
+        { error: 'Unable to submit your request. Please call (702) 500-1955.' },
         { status: 502 },
       )
     }

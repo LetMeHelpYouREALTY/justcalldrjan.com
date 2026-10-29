@@ -159,7 +159,7 @@ export default function MarketingPowerPage() {
           <h2 className="text-4xl font-bold mb-6">Ready for Institutional Marketing Power?</h2>
           <p className="text-xl mb-8 text-blue-100">If your home didn't sell due to weak marketing, Dr. Jan Duffy delivers the exposure it deserves.</p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
-            <a href="tel:+17022221964" className="bg-white text-blue-900 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition-colors">Call: (702) 222-1964</a>
+            <a href="tel:+17025001955" className="bg-white text-blue-900 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition-colors">Call: (702) 500-1955</a>
             <Link href="/contact" className="bg-blue-800 text-white font-bold py-4 px-8 rounded-lg hover:bg-blue-950 transition-colors">Get Marketing Analysis</Link>
           </div>
         </div>

@@ -214,7 +214,7 @@ export default function SellerConsultationPage() {
 
             {submitStatus === 'error' && (
               <div className="bg-red-50 border border-red-200 text-red-800 p-4 rounded-lg">
-                <p className="font-semibold">Error submitting request. Please call (702) 222-1964.</p>
+                <p className="font-semibold">Error submitting request. Please call (702) 500-1955.</p>
               </div>
             )}
 
@@ -229,7 +229,7 @@ export default function SellerConsultationPage() {
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-xl mb-8 text-blue-100">Or call directly for immediate scheduling</p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
-            <a href="tel:+17022221964" className="bg-white text-blue-800 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition-colors">Call: (702) 222-1964</a>
+            <a href="tel:+17025001955" className="bg-white text-blue-800 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition-colors">Call: (702) 500-1955</a>
             <Link href="/contact" className="bg-blue-800 text-white font-bold py-4 px-8 rounded-lg hover:bg-blue-900 transition-colors">Contact Form</Link>
           </div>
         </div>

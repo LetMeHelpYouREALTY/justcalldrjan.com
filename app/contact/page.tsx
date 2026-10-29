@@ -148,7 +148,7 @@ export default function ContactPage() {
               
               {submitStatus === 'error' && (
                 <div className="bg-red-50 border border-red-200 text-red-800 p-4 rounded-lg">
-                  <p className="font-semibold">There was an error sending your message. Please try again or call (702) 222-1964.</p>
+                  <p className="font-semibold">There was an error sending your message. Please try again or call (702) 500-1955.</p>
                 </div>
               )}
 
@@ -177,8 +177,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-bold text-gray-900 mb-1">Phone</h3>
-                  <a href="tel:+17022221964" className="text-blue-600 hover:text-blue-800">
-                    (702) 222-1964
+                  <a href="tel:+17025001955" className="text-blue-600 hover:text-blue-800">
+                    (702) 500-1955
                   </a>
                 </div>
               </div>
@@ -214,10 +214,10 @@ export default function ContactPage() {
             <div className="bg-blue-50 p-6 rounded-lg">
               <h3 className="text-xl font-bold mb-3 text-gray-900">Prefer to Text?</h3>
               <p className="text-gray-700 mb-4">
-                Send a quick text to (702) 222-1964 and we'll respond right away.
+                Send a quick text to (702) 500-1955 and we'll respond right away.
               </p>
               <a
-                href="sms:+17022221964"
+                href="sms:+17025001955"
                 className="inline-block bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors"
               >
                 Text Now

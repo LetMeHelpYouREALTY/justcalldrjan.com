@@ -99,7 +99,7 @@ export default function CommunicationPage() {
             <div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">24/7 Accessibility</h3>
               <p className="text-gray-700 mb-4">
-                You have direct access to Dr. Jan at 702-222-1964 anytime. Questions about a showing? Call. Concerned about market conditions? Call. Need clarification on strategy? Call.
+                You have direct access to Dr. Jan at 702-500-1955 anytime. Questions about a showing? Call. Concerned about market conditions? Call. Need clarification on strategy? Call.
               </p>
               <p className="text-gray-700 mb-4">
                 Dr. Jan treats your listing like it's her own investment - because her reputation depends on results, not excuses. She's available when you need answers, not just during scheduled appointment times.
@@ -189,7 +189,7 @@ export default function CommunicationPage() {
           <h2 className="text-4xl font-bold mb-6">Ready for Proactive Communication?</h2>
           <p className="text-xl mb-8 text-purple-100">If your home didn't sell due to poor communication, get weekly updates and 24/7 accessibility that keeps your listing moving.</p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
-            <a href="tel:+17022221964" className="bg-white text-purple-700 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition-colors">Call: (702) 222-1964</a>
+            <a href="tel:+17025001955" className="bg-white text-purple-700 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition-colors">Call: (702) 500-1955</a>
             <Link href="/contact" className="bg-purple-900 text-white font-bold py-4 px-8 rounded-lg hover:bg-purple-950 transition-colors">Get Consultation</Link>
           </div>
         </div>

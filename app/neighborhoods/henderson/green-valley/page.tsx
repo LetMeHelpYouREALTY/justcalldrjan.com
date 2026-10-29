@@ -173,7 +173,7 @@ export default function GreenValleyPage() {
           <h2 className="text-4xl font-bold mb-6">Ready to Sell Your Green Valley Home?</h2>
           <p className="text-xl mb-8 text-teal-100">Expert help for Green Valley homes that didn't sell. Get your free analysis today.</p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
-            <a href="tel:+17022221964" className="bg-white text-green-600 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition-colors">Call: (702) 222-1964</a>
+            <a href="tel:+17025001955" className="bg-white text-green-600 font-bold py-4 px-8 rounded-lg hover:bg-gray-100 transition-colors">Call: (702) 500-1955</a>
             <Link href="/contact" className="bg-green-800 text-white font-bold py-4 px-8 rounded-lg hover:bg-green-900 transition-colors">Get Free Green Valley Analysis</Link>
           </div>
         </div>
