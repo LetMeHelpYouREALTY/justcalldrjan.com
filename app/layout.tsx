@@ -13,6 +13,8 @@ import { SITE_URL } from '@/lib/site-url'
 import { createPageMetadata } from '@/lib/create-page-metadata'
 import { resolveRouteSeo } from '@/lib/route-seo'
 import './globals.css'
+import { Analytics as VercelAnalytics } from "@vercel/analytics/next";
+import { SpeedInsights as VercelSpeedInsights } from "@vercel/speed-insights/next";
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -101,6 +103,8 @@ export default function RootLayout({
           window.widgetTracker("create", "WT-XQHVYQWW");
           window.widgetTracker("send", "pageview");
         `}</Script>
+        <VercelAnalytics />
+        <VercelSpeedInsights />
       </body>
     </html>
   )
