@@ -96,7 +96,7 @@ export default function SiteFooter() {
         </p>
         <p className="mt-2">
           <a href="https://calldrduffy.com" className="underline decoration-[#6e6254] underline-offset-4" rel="noopener noreferrer">
-            Selling a Las Vegas rental with tenants
+            Leasing a luxury home in Las Vegas
           </a>
         </p>
       </div>

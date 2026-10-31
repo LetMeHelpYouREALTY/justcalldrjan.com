@@ -54,7 +54,11 @@ export default function LasVegasPropertyTaxPage() {
                 Nevada has one of the lowest property tax rates in the United States, with effective rate typically around 0.6% of assessed value. This low property tax rate makes Las Vegas homes more affordable than higher-tax states and reduces ongoing ownership costs.
               </p>
               <p className="text-gray-700 mb-3">
-                Nevada Constitution caps property tax increases at 3% annually for residential properties, protecting homeowners from dramatic tax increases. This tax cap provides stability and predictability for Las Vegas property owners.
+                Nevada law caps yearly tax-bill increases at 3% for an owner&apos;s primary residence (NRS 361.4722–361.4724). A home you rent out moves to a cap of up to 8% a year. Leasing yours? Read{' '}
+                <a href="https://calldrduffy.com/las-vegas-property-tax" className="underline underline-offset-4">
+                  Las Vegas property tax when you rent out your home
+                </a>
+                .
               </p>
               <p className="text-gray-700">
                 For Las Vegas homebuyers, understanding property tax implications helps calculate true homeownership costs. Low property taxes contribute to affordability and make Las Vegas real estate attractive compared to high-tax states.
