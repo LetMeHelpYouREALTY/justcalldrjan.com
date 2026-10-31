@@ -70,7 +70,11 @@ export default function LasVegasPropertyTaxPage() {
                 Las Vegas property tax is based on assessed value determined by Clark County Assessor's Office. Assessed value considers property improvements, recent sales in area, and market conditions. Property owners receive assessment notices and can appeal if they believe assessment is incorrect.
               </p>
               <p className="text-gray-700 mb-3">
-                New Las Vegas homebuyers should understand that property tax assessment may change after purchase based on purchase price. This reassessment ensures property taxes reflect current market value rather than previous owner's assessment.
+                A sale does not reset taxable value to the purchase price: the Clark County Assessor values every home each year from land value plus building replacement cost, less depreciation. What a sale does change is the tax cap. New owners start on the up-to-8% cap until they claim the 3% primary-residence cap with the{' '}
+                <a href="https://www.clarkcountynv.gov/government/general_information/tax-abatement" className="underline underline-offset-4" rel="noopener">
+                  Clark County Assessor
+                </a>
+                .
               </p>
               <p className="text-gray-700">
                 Dr. Jan helps Las Vegas buyers understand property tax implications during home purchase process. Understanding current taxes, potential reassessment, and exemptions helps buyers make informed decisions about Las Vegas real estate investments.
